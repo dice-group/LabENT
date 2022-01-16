@@ -13,6 +13,11 @@ This project employs a web application (dubb LabENT) for labelling entities in k
 Probably the easiest way to get started is by using the provided Docker image. From the project's root directory, the image can be built like so:
 * `cd wordpress`
 
+### Wordpress Plugins: 
+* Nicepages : https://nicepage.com/download 
+* XYZ PHP Code: https://xyzscripts.com/wordpress-plugins/xyz-wp-insert-code-snippet/details 
+* https://wordpress.org/plugins/wp-phpmyadmin-extension/
+
 Now the docker compose to build the LabENT project. This might takes few minutes to install and configure components: wordpress, PHP, and MySQL.
 * `docker-compose up -d` 
 
