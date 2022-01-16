@@ -4,7 +4,7 @@ This project employs a web application (dubb LabENT) for labelling entities in k
 
 
 <p align="center">
-<img src="data/labENT1.png" width="800" height="400">
+<img src="data/labENT1.png" width="600" height="400">
 </p>
 <p align="center">A Screenshoot of LabENT v.1</p>
 
