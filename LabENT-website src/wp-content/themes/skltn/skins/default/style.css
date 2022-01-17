@@ -1,0 +1,149 @@
+/**
+ * Base styles
+ */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: darkslategray;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, FreeSans, Arial, sans-serif;
+}
+
+p,
+ul,
+ol,
+figure,
+audio,
+video {
+  margin: 0.75rem 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--skltn-primary-color, dodgerblue);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * Major page sections
+ */
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+@media screen and (max-width: 800px) {
+  .page-wrapper {
+    display: block;
+  }
+}
+
+.site-header,
+.site-nav,
+.site-main,
+.sidebar {
+  padding: 0 30px;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.site-header__logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, FreeSans, Arial, sans-serif;
+}
+
+.site-nav {
+  padding: 0.25em;
+  margin-bottom: 2rem;
+  font-family: "Helvetica Neue", Helvetica, FreeSans, Arial, sans-serif;
+  color: white;
+  background-color: var(--skltn-primary-color, dodgerblue);
+}
+.site-nav a {
+  color: inherit;
+}
+
+/**
+ * Articles
+ */
+.article {
+  border-bottom: 1px dotted gray;
+}
+
+.article__tags,
+.article__meta {
+  margin: 0;
+  font-size: smaller;
+  color: gray;
+  font-family: "Helvetica Neue", Helvetica, FreeSans, Arial, sans-serif;
+}
+
+.article__title {
+  font-size: 1.5rem;
+}
+
+.article__body a {
+  text-decoration: underline;
+}
+
+/**
+ * WordPress styles
+ */
+.wp-block-embed,
+.wp-block-audio,
+.wp-block-video {
+  margin: 0.75rem 0;
+}
+
+.alignleft {
+  margin: 0 0.75em 0.75em 0;
+}
+
+.alignright {
+  margin: 0 0 0.75em 0.75em;
+}
+
+.alignmiddle {
+  margin: 0.75em auto;
+}
+
+/**
+ * Archive pagination
+ */
+.page-numbers {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+/**
+ * Widgets
+ */
+.widget a {
+  text-decoration: underline;
+}

@@ -1,0 +1,116 @@
+/*
+Theme Name: LMS Education University
+Description: LMS Education University is a suitable choice for all education related websites. You can create websites such as for online learning, university, college, tuition, primary and secondary schools, coaching center, book selling, library, vocational training, scholarship, workshop, course hub, online acting school, kindergarten, etc. This multipurpose theme is based on bootstrap framework that makes it very handy to use. It is SEO-friendly theme that will assist your website to rank soon on major search engines like Google. You can add shortcodes to it to further improve and add functionality to your website. Clean and secure codes are used while writing the theme. The responsive layout makes it mobile-friendly therefore it fits absolutely perfect with all devices screen sizes. It is translation-ready and supports RTL layout. It is optimized for speed therefore loads quickly without any glitches. It is user-friendly too and offers many options for customization and personalization. With the social media option you can link all social media pages and show your popularity. Its design is modern, luxurious, sophisticated, stunning and retina-ready. The testimonial section let’s your visitors comment and give reviews on your work and institute. Achieve milestones using this stunning theme to create your educational website with ease. <strong> LIVE DEMO: https://www.misbahwp.com/demo/lms-education-university/ </strong>
+Author: misbahwp
+Theme URI: https://www.misbahwp.com/themes/free-university-wordpress-theme/
+Author URI: https://www.misbahwp.com/
+Template: lms-education
+Version: 0.1
+Requires PHP: 5.6
+Tested up to: 5.8
+Tags: blog, education, e-commerce, wide-blocks, one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, editor-style, theme-options, threaded-comments, rtl-language-support
+Text Domain: lms-education-university
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+LMS Education University WordPress Theme has been created by misbahwp(misbahwp.com), 2021.
+LMS Education University WordPress Theme is released under the terms of GNU GPL
+*/
+
+.register-top,#main-menu ul.children li a:hover, #main-menu ul.sub-menu li a:hover,.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.added_to_cart,.searchform input[type=submit],.sidebar-area .tagcloud a:hover,.comment-reply a,.comment-respond input#submit,nav.woocommerce-MyAccount-navigation,.menu-toggle, .dropdown-toggle, button.close-menu,.slider-btn a,.pagination .nav-links a:hover, .pagination .nav-links a:focus, .pagination .nav-links span.current, .lms-education-pagination span.current, .lms-education-pagination span.current:hover, .lms-education-pagination span.current:focus, .lms-education-pagination a span:hover, .lms-education-pagination a span:focus {
+	background: #ffb606;
+}
+
+#main-menu a:hover, #main-menu ul li a:hover, #main-menu li:hover > a, #main-menu a:focus, #main-menu ul li a:focus, #main-menu li.focus > a, #main-menu li:focus > a, #main-menu ul li.current-menu-item > a, #main-menu ul li.current_page_item > a, #main-menu ul li.current-menu-parent > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a,.post-meta i,a:hover, a:focus,.courses-info strong,.courses-box-content h3 a,.social-links a:hover, .top-header p,.slider h3.post-title a{
+	color: #ffb606;
+}
+
+#courses hr,.slider .owl-carousel button.owl-dot.active,.content_inner_box hr{
+	border-color: #ffb606;
+}
+
+.searchform input[type=submit]:hover, .searchform input[type=submit]:focus,.header, footer,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.comment-reply a:hover,nav.woocommerce-MyAccount-navigation ul li:hover,.slider-btn a:hover{
+	background: #222222;
+}
+
+a,h1, h2, h3, h4, h5, h6,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,.blog_inner_box h3.post-title a{
+	color: #222222;
+}
+
+.sidebar-area h4.title{
+	border-color: #222222;
+}
+
+.courses-box-content{
+	background: rgb(34 34 34 / 90%);
+}
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info{
+	background: #222222 !important;
+}
+
+#checkout-payment #checkout-order-action button, .learnpress-page .lp-button, .learnpress-page #lp-button{
+	background: #ffb606 !important;;
+}
+
+.page-template-frontpage .header-box {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.page-template-frontpage .header,.page-template-frontpage .top-header{
+	background: transparent;
+}
+
+.content_inner_box {
+    left: 55%;
+    right: 10%;
+    text-align: right;
+}
+
+.content_inner_box hr {
+    border-top: 3px solid #ffb606;
+    display: inline-block;
+}
+
+.blog_box {
+    background: #000000;
+}
+
+.blog_box img {
+    opacity: 0.6;
+}
+
+.blog_box p{
+	color: #fff;
+}
+
+.slider-btn a {
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-btn {
+    margin: 25px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.menu-toggle, .dropdown-toggle, button.close-menu,.header i.fa.fa-search, .header i.fas.fa-shopping-cart {
+    	background: #ffb606 !important;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 999px){
+	.page-template-frontpage .header-box {
+	    position: static;
+	}
+	.page-template-frontpage .header{
+		background: #222222;
+	}
+	.page-template-frontpage .top-header {
+	    background: #0c0909;
+	}
+}
