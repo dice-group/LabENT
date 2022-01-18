@@ -15,7 +15,7 @@ Probably the easiest way to get started is by using the provided Docker image. F
 * `cd docker-wordpress`
 
 Now the docker compose to build the LabENT project. This might takes few minutes to install and configure components: wordpress, PHP, and MySQL.
-* `docker-compose up -d` 
+* `docker-compose -f 'docker-compose.yml'  -p 'wordpress' start` 
 
 If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web browser
 * `http://localhost:8000` 
