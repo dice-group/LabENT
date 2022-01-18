@@ -12,7 +12,7 @@ This project employs a web application (dubb LabENT) for labelling entities in k
 ## Docker:
 > ### Build from docker-compose
 Probably the easiest way to get started is by using the provided Docker image. From the project's root directory, the image can be built like so:
-* `cd wordpress`
+* `cd docker-wordpress`
 
 Now the docker compose to build the LabENT project. This might takes few minutes to install and configure components: wordpress, PHP, and MySQL.
 * `docker-compose up -d` 
