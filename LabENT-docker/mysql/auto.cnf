@@ -1,2 +1,8 @@
 [auto]
 server-uuid=810ab48b-284c-11ec-81e3-0242ac120002
+
+# Local mariaDB configuration
+[mysqld]
+
+# Allow listening on all IPV4 addresses
+bind-address	= 0.0.0.0

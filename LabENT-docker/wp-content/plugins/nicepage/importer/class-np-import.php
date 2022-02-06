@@ -181,9 +181,9 @@ class NpImport {
         // try to set bigger max_allowed_packet for mysql querries
         global $wpdb;
         $wpdb->query('SET @@global.max_allowed_packet = ' . 32 * 1024 * 1024);
-        NpSettings::setDefaultOption('np_include_jquery', 'default');
-        NpSettings::setDefaultOption('np_template', 'default');
-        NpSettings::setDefaultOption('np_auto_responsive', 'default');
+        NpSettings::setDefaultOption('np_include_jquery', 0);
+        NpSettings::setDefaultOption('np_template', 'html');
+        NpSettings::setDefaultOption('np_auto_responsive', 1);
         NpSettings::setDefaultOption('np_forms_header', '');
         NpSettings::setDefaultOption('np_forms_footer', '');
         NpSettings::setDefaultOption('np_hide_backlink', '');

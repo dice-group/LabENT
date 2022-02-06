@@ -16,7 +16,8 @@ class NpMeta {
         $tableCache = wp_cache_get('np_meta_table');
         if (!$tableCache) {
             $np_meta_table = $wpdb->get_var("SHOW TABLES LIKE '$wpdb->nicepage_meta'");
-            $tableCache = wp_cache_set('np_meta_table', $np_meta_table) ? wp_cache_get('np_meta_table') : $np_meta_table;
+            wp_cache_set('np_meta_table', $np_meta_table);
+            $tableCache = $np_meta_table;
         }
         if ($tableCache !== $wpdb->nicepage_meta) {
             // first load = add table to database
@@ -36,7 +37,8 @@ class NpMeta {
         $wpCache = wp_cache_get('all_np_meta');
         if (!$wpCache) {
             $all_np_meta = $wpdb->get_results("SELECT * FROM $wpdb->nicepage_meta");
-            $wpCache = wp_cache_set('all_np_meta', $all_np_meta) ? wp_cache_get('all_np_meta') : $all_np_meta;
+            wp_cache_set('all_np_meta', $all_np_meta);
+            $wpCache = $all_np_meta;
         }
         if (!isset(self::$_cache[$meta_key])) {
             self::$_cache[$meta_key] = '';

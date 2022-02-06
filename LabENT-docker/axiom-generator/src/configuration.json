@@ -1,0 +1,5 @@
+{
+    "min_unique_val_per_column" : 1,
+    "num_quantile" : 1
+    
+}

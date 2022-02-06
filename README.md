@@ -23,13 +23,18 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
 To login into Wordpress CMS, please go to 
 * `http://localhost:8000/wp-logn.php`
 
-----
+---
 > ### Build from docker-hub
 Get a docker image of wordpress:
 * `docker pull hamadazahera/wordpress-labent:latest` 
 
 Get a docker image of mysql:
 * `docker pull hamadazahera/mysql-latent:5.7`
+
+---
+## DAIKIRI Panel: How it works
+* Annotate Button: 
+* Upload Button: Once a user uploaded an owl file by clicking on Upload button. The file is saved automatically into `LabENT-docker/wp-content/uploads`
 ---
 ## Aknowledgment: 
 This project is configured to work as a part of DAIKIRI project pipeline for ontology learning and structured machine learning from industrial data. If you have any further questions or feedback, please feel free to contact `hamada.zahera@upb.de`

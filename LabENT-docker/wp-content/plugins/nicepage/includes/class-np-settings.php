@@ -98,10 +98,9 @@ class NpSettings {
      * @param string $value
      */
     public static function setDefaultOption($name, $value) {
-        if ($value === 'default') {
-            $value = _arr(self::$defaultOptions, $name);
-        }
-        update_option($name, $value);
+        $setValue = _arr(self::$defaultOptions, $name);
+        $setValue = !$setValue ? $value : $setValue;
+        update_option($name, $setValue);
     }
 
     /**

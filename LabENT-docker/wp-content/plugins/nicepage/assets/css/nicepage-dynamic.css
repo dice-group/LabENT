@@ -74,9 +74,9 @@ li.active > .u-button-style.u-text-active-none {
 /*begin-color color-1-dark-3*/
 .u-color-1-dark-3,
 .u-body.u-color-1-dark-3,
+.u-color-1-dark-3 > .u-container-layout:before,
 .u-container-style.u-color-1-dark-3:before,
-.u-container-style.u-color-1-dark-3 > .u-container-layout:before,
-.u-container-layout.u-color-1-dark-3:before,
+.u-container-layout.u-container-layout.u-color-1-dark-3:before,
 .u-table-alt-color-1-dark-3 tr:nth-child(even) {
   color: var(--color-1-dark-3-text-color);
   background-color: var(--color-1-dark-3);
@@ -129,9 +129,9 @@ a.u-link.u-hover-color-1-dark-3:hover {
 /*begin-color color-1-dark-2*/
 .u-color-1-dark-2,
 .u-body.u-color-1-dark-2,
+.u-color-1-dark-2 > .u-container-layout:before,
 .u-container-style.u-color-1-dark-2:before,
-.u-container-style.u-color-1-dark-2 > .u-container-layout:before,
-.u-container-layout.u-color-1-dark-2:before,
+.u-container-layout.u-container-layout.u-color-1-dark-2:before,
 .u-table-alt-color-1-dark-2 tr:nth-child(even) {
   color: var(--color-1-dark-2-text-color);
   background-color: var(--color-1-dark-2);
@@ -184,9 +184,9 @@ a.u-link.u-hover-color-1-dark-2:hover {
 /*begin-color color-1-dark-1*/
 .u-color-1-dark-1,
 .u-body.u-color-1-dark-1,
+.u-color-1-dark-1 > .u-container-layout:before,
 .u-container-style.u-color-1-dark-1:before,
-.u-container-style.u-color-1-dark-1 > .u-container-layout:before,
-.u-container-layout.u-color-1-dark-1:before,
+.u-container-layout.u-container-layout.u-color-1-dark-1:before,
 .u-table-alt-color-1-dark-1 tr:nth-child(even) {
   color: var(--color-1-dark-1-text-color);
   background-color: var(--color-1-dark-1);
@@ -239,9 +239,9 @@ a.u-link.u-hover-color-1-dark-1:hover {
 /*begin-color color-1*/
 .u-color-1,
 .u-body.u-color-1,
+.u-color-1 > .u-container-layout:before,
 .u-container-style.u-color-1:before,
-.u-container-style.u-color-1 > .u-container-layout:before,
-.u-container-layout.u-color-1:before,
+.u-container-layout.u-container-layout.u-color-1:before,
 .u-table-alt-color-1 tr:nth-child(even) {
   color: var(--color-1-text-color);
   background-color: var(--color-1);
@@ -294,9 +294,9 @@ a.u-link.u-hover-color-1:hover {
 /*begin-color color-1-light-1*/
 .u-color-1-light-1,
 .u-body.u-color-1-light-1,
+.u-color-1-light-1 > .u-container-layout:before,
 .u-container-style.u-color-1-light-1:before,
-.u-container-style.u-color-1-light-1 > .u-container-layout:before,
-.u-container-layout.u-color-1-light-1:before,
+.u-container-layout.u-container-layout.u-color-1-light-1:before,
 .u-table-alt-color-1-light-1 tr:nth-child(even) {
   color: var(--color-1-light-1-text-color);
   background-color: var(--color-1-light-1);
@@ -349,9 +349,9 @@ a.u-link.u-hover-color-1-light-1:hover {
 /*begin-color color-1-light-2*/
 .u-color-1-light-2,
 .u-body.u-color-1-light-2,
+.u-color-1-light-2 > .u-container-layout:before,
 .u-container-style.u-color-1-light-2:before,
-.u-container-style.u-color-1-light-2 > .u-container-layout:before,
-.u-container-layout.u-color-1-light-2:before,
+.u-container-layout.u-container-layout.u-color-1-light-2:before,
 .u-table-alt-color-1-light-2 tr:nth-child(even) {
   color: var(--color-1-light-2-text-color);
   background-color: var(--color-1-light-2);
@@ -404,9 +404,9 @@ a.u-link.u-hover-color-1-light-2:hover {
 /*begin-color color-1-light-3*/
 .u-color-1-light-3,
 .u-body.u-color-1-light-3,
+.u-color-1-light-3 > .u-container-layout:before,
 .u-container-style.u-color-1-light-3:before,
-.u-container-style.u-color-1-light-3 > .u-container-layout:before,
-.u-container-layout.u-color-1-light-3:before,
+.u-container-layout.u-container-layout.u-color-1-light-3:before,
 .u-table-alt-color-1-light-3 tr:nth-child(even) {
   color: var(--color-1-light-3-text-color);
   background-color: var(--color-1-light-3);
@@ -459,9 +459,9 @@ a.u-link.u-hover-color-1-light-3:hover {
 /*begin-color color-1-base*/
 .u-color-1-base,
 .u-body.u-color-1-base,
+.u-color-1-base > .u-container-layout:before,
 .u-container-style.u-color-1-base:before,
-.u-container-style.u-color-1-base > .u-container-layout:before,
-.u-container-layout.u-color-1-base:before,
+.u-container-layout.u-container-layout.u-color-1-base:before,
 .u-table-alt-color-1-base tr:nth-child(even) {
   color: var(--color-1-base-text-color);
   background-color: var(--color-1-base);
@@ -514,9 +514,9 @@ a.u-link.u-hover-color-1-base:hover {
 /*begin-color color-2-dark-3*/
 .u-color-2-dark-3,
 .u-body.u-color-2-dark-3,
+.u-color-2-dark-3 > .u-container-layout:before,
 .u-container-style.u-color-2-dark-3:before,
-.u-container-style.u-color-2-dark-3 > .u-container-layout:before,
-.u-container-layout.u-color-2-dark-3:before,
+.u-container-layout.u-container-layout.u-color-2-dark-3:before,
 .u-table-alt-color-2-dark-3 tr:nth-child(even) {
   color: var(--color-2-dark-3-text-color);
   background-color: var(--color-2-dark-3);
@@ -569,9 +569,9 @@ a.u-link.u-hover-color-2-dark-3:hover {
 /*begin-color color-2-dark-2*/
 .u-color-2-dark-2,
 .u-body.u-color-2-dark-2,
+.u-color-2-dark-2 > .u-container-layout:before,
 .u-container-style.u-color-2-dark-2:before,
-.u-container-style.u-color-2-dark-2 > .u-container-layout:before,
-.u-container-layout.u-color-2-dark-2:before,
+.u-container-layout.u-container-layout.u-color-2-dark-2:before,
 .u-table-alt-color-2-dark-2 tr:nth-child(even) {
   color: var(--color-2-dark-2-text-color);
   background-color: var(--color-2-dark-2);
@@ -624,9 +624,9 @@ a.u-link.u-hover-color-2-dark-2:hover {
 /*begin-color color-2-dark-1*/
 .u-color-2-dark-1,
 .u-body.u-color-2-dark-1,
+.u-color-2-dark-1 > .u-container-layout:before,
 .u-container-style.u-color-2-dark-1:before,
-.u-container-style.u-color-2-dark-1 > .u-container-layout:before,
-.u-container-layout.u-color-2-dark-1:before,
+.u-container-layout.u-container-layout.u-color-2-dark-1:before,
 .u-table-alt-color-2-dark-1 tr:nth-child(even) {
   color: var(--color-2-dark-1-text-color);
   background-color: var(--color-2-dark-1);
@@ -679,9 +679,9 @@ a.u-link.u-hover-color-2-dark-1:hover {
 /*begin-color color-2*/
 .u-color-2,
 .u-body.u-color-2,
+.u-color-2 > .u-container-layout:before,
 .u-container-style.u-color-2:before,
-.u-container-style.u-color-2 > .u-container-layout:before,
-.u-container-layout.u-color-2:before,
+.u-container-layout.u-container-layout.u-color-2:before,
 .u-table-alt-color-2 tr:nth-child(even) {
   color: var(--color-2-text-color);
   background-color: var(--color-2);
@@ -734,9 +734,9 @@ a.u-link.u-hover-color-2:hover {
 /*begin-color color-2-light-1*/
 .u-color-2-light-1,
 .u-body.u-color-2-light-1,
+.u-color-2-light-1 > .u-container-layout:before,
 .u-container-style.u-color-2-light-1:before,
-.u-container-style.u-color-2-light-1 > .u-container-layout:before,
-.u-container-layout.u-color-2-light-1:before,
+.u-container-layout.u-container-layout.u-color-2-light-1:before,
 .u-table-alt-color-2-light-1 tr:nth-child(even) {
   color: var(--color-2-light-1-text-color);
   background-color: var(--color-2-light-1);
@@ -789,9 +789,9 @@ a.u-link.u-hover-color-2-light-1:hover {
 /*begin-color color-2-light-2*/
 .u-color-2-light-2,
 .u-body.u-color-2-light-2,
+.u-color-2-light-2 > .u-container-layout:before,
 .u-container-style.u-color-2-light-2:before,
-.u-container-style.u-color-2-light-2 > .u-container-layout:before,
-.u-container-layout.u-color-2-light-2:before,
+.u-container-layout.u-container-layout.u-color-2-light-2:before,
 .u-table-alt-color-2-light-2 tr:nth-child(even) {
   color: var(--color-2-light-2-text-color);
   background-color: var(--color-2-light-2);
@@ -844,9 +844,9 @@ a.u-link.u-hover-color-2-light-2:hover {
 /*begin-color color-2-light-3*/
 .u-color-2-light-3,
 .u-body.u-color-2-light-3,
+.u-color-2-light-3 > .u-container-layout:before,
 .u-container-style.u-color-2-light-3:before,
-.u-container-style.u-color-2-light-3 > .u-container-layout:before,
-.u-container-layout.u-color-2-light-3:before,
+.u-container-layout.u-container-layout.u-color-2-light-3:before,
 .u-table-alt-color-2-light-3 tr:nth-child(even) {
   color: var(--color-2-light-3-text-color);
   background-color: var(--color-2-light-3);
@@ -899,9 +899,9 @@ a.u-link.u-hover-color-2-light-3:hover {
 /*begin-color color-2-base*/
 .u-color-2-base,
 .u-body.u-color-2-base,
+.u-color-2-base > .u-container-layout:before,
 .u-container-style.u-color-2-base:before,
-.u-container-style.u-color-2-base > .u-container-layout:before,
-.u-container-layout.u-color-2-base:before,
+.u-container-layout.u-container-layout.u-color-2-base:before,
 .u-table-alt-color-2-base tr:nth-child(even) {
   color: var(--color-2-base-text-color);
   background-color: var(--color-2-base);
@@ -954,9 +954,9 @@ a.u-link.u-hover-color-2-base:hover {
 /*begin-color color-3-dark-3*/
 .u-color-3-dark-3,
 .u-body.u-color-3-dark-3,
+.u-color-3-dark-3 > .u-container-layout:before,
 .u-container-style.u-color-3-dark-3:before,
-.u-container-style.u-color-3-dark-3 > .u-container-layout:before,
-.u-container-layout.u-color-3-dark-3:before,
+.u-container-layout.u-container-layout.u-color-3-dark-3:before,
 .u-table-alt-color-3-dark-3 tr:nth-child(even) {
   color: var(--color-3-dark-3-text-color);
   background-color: var(--color-3-dark-3);
@@ -1009,9 +1009,9 @@ a.u-link.u-hover-color-3-dark-3:hover {
 /*begin-color color-3-dark-2*/
 .u-color-3-dark-2,
 .u-body.u-color-3-dark-2,
+.u-color-3-dark-2 > .u-container-layout:before,
 .u-container-style.u-color-3-dark-2:before,
-.u-container-style.u-color-3-dark-2 > .u-container-layout:before,
-.u-container-layout.u-color-3-dark-2:before,
+.u-container-layout.u-container-layout.u-color-3-dark-2:before,
 .u-table-alt-color-3-dark-2 tr:nth-child(even) {
   color: var(--color-3-dark-2-text-color);
   background-color: var(--color-3-dark-2);
@@ -1064,9 +1064,9 @@ a.u-link.u-hover-color-3-dark-2:hover {
 /*begin-color color-3-dark-1*/
 .u-color-3-dark-1,
 .u-body.u-color-3-dark-1,
+.u-color-3-dark-1 > .u-container-layout:before,
 .u-container-style.u-color-3-dark-1:before,
-.u-container-style.u-color-3-dark-1 > .u-container-layout:before,
-.u-container-layout.u-color-3-dark-1:before,
+.u-container-layout.u-container-layout.u-color-3-dark-1:before,
 .u-table-alt-color-3-dark-1 tr:nth-child(even) {
   color: var(--color-3-dark-1-text-color);
   background-color: var(--color-3-dark-1);
@@ -1119,9 +1119,9 @@ a.u-link.u-hover-color-3-dark-1:hover {
 /*begin-color color-3*/
 .u-color-3,
 .u-body.u-color-3,
+.u-color-3 > .u-container-layout:before,
 .u-container-style.u-color-3:before,
-.u-container-style.u-color-3 > .u-container-layout:before,
-.u-container-layout.u-color-3:before,
+.u-container-layout.u-container-layout.u-color-3:before,
 .u-table-alt-color-3 tr:nth-child(even) {
   color: var(--color-3-text-color);
   background-color: var(--color-3);
@@ -1174,9 +1174,9 @@ a.u-link.u-hover-color-3:hover {
 /*begin-color color-3-light-1*/
 .u-color-3-light-1,
 .u-body.u-color-3-light-1,
+.u-color-3-light-1 > .u-container-layout:before,
 .u-container-style.u-color-3-light-1:before,
-.u-container-style.u-color-3-light-1 > .u-container-layout:before,
-.u-container-layout.u-color-3-light-1:before,
+.u-container-layout.u-container-layout.u-color-3-light-1:before,
 .u-table-alt-color-3-light-1 tr:nth-child(even) {
   color: var(--color-3-light-1-text-color);
   background-color: var(--color-3-light-1);
@@ -1229,9 +1229,9 @@ a.u-link.u-hover-color-3-light-1:hover {
 /*begin-color color-3-light-2*/
 .u-color-3-light-2,
 .u-body.u-color-3-light-2,
+.u-color-3-light-2 > .u-container-layout:before,
 .u-container-style.u-color-3-light-2:before,
-.u-container-style.u-color-3-light-2 > .u-container-layout:before,
-.u-container-layout.u-color-3-light-2:before,
+.u-container-layout.u-container-layout.u-color-3-light-2:before,
 .u-table-alt-color-3-light-2 tr:nth-child(even) {
   color: var(--color-3-light-2-text-color);
   background-color: var(--color-3-light-2);
@@ -1284,9 +1284,9 @@ a.u-link.u-hover-color-3-light-2:hover {
 /*begin-color color-3-light-3*/
 .u-color-3-light-3,
 .u-body.u-color-3-light-3,
+.u-color-3-light-3 > .u-container-layout:before,
 .u-container-style.u-color-3-light-3:before,
-.u-container-style.u-color-3-light-3 > .u-container-layout:before,
-.u-container-layout.u-color-3-light-3:before,
+.u-container-layout.u-container-layout.u-color-3-light-3:before,
 .u-table-alt-color-3-light-3 tr:nth-child(even) {
   color: var(--color-3-light-3-text-color);
   background-color: var(--color-3-light-3);
@@ -1339,9 +1339,9 @@ a.u-link.u-hover-color-3-light-3:hover {
 /*begin-color color-3-base*/
 .u-color-3-base,
 .u-body.u-color-3-base,
+.u-color-3-base > .u-container-layout:before,
 .u-container-style.u-color-3-base:before,
-.u-container-style.u-color-3-base > .u-container-layout:before,
-.u-container-layout.u-color-3-base:before,
+.u-container-layout.u-container-layout.u-color-3-base:before,
 .u-table-alt-color-3-base tr:nth-child(even) {
   color: var(--color-3-base-text-color);
   background-color: var(--color-3-base);
@@ -1394,9 +1394,9 @@ a.u-link.u-hover-color-3-base:hover {
 /*begin-color color-4-dark-3*/
 .u-color-4-dark-3,
 .u-body.u-color-4-dark-3,
+.u-color-4-dark-3 > .u-container-layout:before,
 .u-container-style.u-color-4-dark-3:before,
-.u-container-style.u-color-4-dark-3 > .u-container-layout:before,
-.u-container-layout.u-color-4-dark-3:before,
+.u-container-layout.u-container-layout.u-color-4-dark-3:before,
 .u-table-alt-color-4-dark-3 tr:nth-child(even) {
   color: var(--color-4-dark-3-text-color);
   background-color: var(--color-4-dark-3);
@@ -1449,9 +1449,9 @@ a.u-link.u-hover-color-4-dark-3:hover {
 /*begin-color color-4-dark-2*/
 .u-color-4-dark-2,
 .u-body.u-color-4-dark-2,
+.u-color-4-dark-2 > .u-container-layout:before,
 .u-container-style.u-color-4-dark-2:before,
-.u-container-style.u-color-4-dark-2 > .u-container-layout:before,
-.u-container-layout.u-color-4-dark-2:before,
+.u-container-layout.u-container-layout.u-color-4-dark-2:before,
 .u-table-alt-color-4-dark-2 tr:nth-child(even) {
   color: var(--color-4-dark-2-text-color);
   background-color: var(--color-4-dark-2);
@@ -1504,9 +1504,9 @@ a.u-link.u-hover-color-4-dark-2:hover {
 /*begin-color color-4-dark-1*/
 .u-color-4-dark-1,
 .u-body.u-color-4-dark-1,
+.u-color-4-dark-1 > .u-container-layout:before,
 .u-container-style.u-color-4-dark-1:before,
-.u-container-style.u-color-4-dark-1 > .u-container-layout:before,
-.u-container-layout.u-color-4-dark-1:before,
+.u-container-layout.u-container-layout.u-color-4-dark-1:before,
 .u-table-alt-color-4-dark-1 tr:nth-child(even) {
   color: var(--color-4-dark-1-text-color);
   background-color: var(--color-4-dark-1);
@@ -1559,9 +1559,9 @@ a.u-link.u-hover-color-4-dark-1:hover {
 /*begin-color color-4*/
 .u-color-4,
 .u-body.u-color-4,
+.u-color-4 > .u-container-layout:before,
 .u-container-style.u-color-4:before,
-.u-container-style.u-color-4 > .u-container-layout:before,
-.u-container-layout.u-color-4:before,
+.u-container-layout.u-container-layout.u-color-4:before,
 .u-table-alt-color-4 tr:nth-child(even) {
   color: var(--color-4-text-color);
   background-color: var(--color-4);
@@ -1614,9 +1614,9 @@ a.u-link.u-hover-color-4:hover {
 /*begin-color color-4-light-1*/
 .u-color-4-light-1,
 .u-body.u-color-4-light-1,
+.u-color-4-light-1 > .u-container-layout:before,
 .u-container-style.u-color-4-light-1:before,
-.u-container-style.u-color-4-light-1 > .u-container-layout:before,
-.u-container-layout.u-color-4-light-1:before,
+.u-container-layout.u-container-layout.u-color-4-light-1:before,
 .u-table-alt-color-4-light-1 tr:nth-child(even) {
   color: var(--color-4-light-1-text-color);
   background-color: var(--color-4-light-1);
@@ -1669,9 +1669,9 @@ a.u-link.u-hover-color-4-light-1:hover {
 /*begin-color color-4-light-2*/
 .u-color-4-light-2,
 .u-body.u-color-4-light-2,
+.u-color-4-light-2 > .u-container-layout:before,
 .u-container-style.u-color-4-light-2:before,
-.u-container-style.u-color-4-light-2 > .u-container-layout:before,
-.u-container-layout.u-color-4-light-2:before,
+.u-container-layout.u-container-layout.u-color-4-light-2:before,
 .u-table-alt-color-4-light-2 tr:nth-child(even) {
   color: var(--color-4-light-2-text-color);
   background-color: var(--color-4-light-2);
@@ -1724,9 +1724,9 @@ a.u-link.u-hover-color-4-light-2:hover {
 /*begin-color color-4-light-3*/
 .u-color-4-light-3,
 .u-body.u-color-4-light-3,
+.u-color-4-light-3 > .u-container-layout:before,
 .u-container-style.u-color-4-light-3:before,
-.u-container-style.u-color-4-light-3 > .u-container-layout:before,
-.u-container-layout.u-color-4-light-3:before,
+.u-container-layout.u-container-layout.u-color-4-light-3:before,
 .u-table-alt-color-4-light-3 tr:nth-child(even) {
   color: var(--color-4-light-3-text-color);
   background-color: var(--color-4-light-3);
@@ -1779,9 +1779,9 @@ a.u-link.u-hover-color-4-light-3:hover {
 /*begin-color color-4-base*/
 .u-color-4-base,
 .u-body.u-color-4-base,
+.u-color-4-base > .u-container-layout:before,
 .u-container-style.u-color-4-base:before,
-.u-container-style.u-color-4-base > .u-container-layout:before,
-.u-container-layout.u-color-4-base:before,
+.u-container-layout.u-container-layout.u-color-4-base:before,
 .u-table-alt-color-4-base tr:nth-child(even) {
   color: var(--color-4-base-text-color);
   background-color: var(--color-4-base);
@@ -1834,9 +1834,9 @@ a.u-link.u-hover-color-4-base:hover {
 /*begin-color color-5-dark-3*/
 .u-color-5-dark-3,
 .u-body.u-color-5-dark-3,
+.u-color-5-dark-3 > .u-container-layout:before,
 .u-container-style.u-color-5-dark-3:before,
-.u-container-style.u-color-5-dark-3 > .u-container-layout:before,
-.u-container-layout.u-color-5-dark-3:before,
+.u-container-layout.u-container-layout.u-color-5-dark-3:before,
 .u-table-alt-color-5-dark-3 tr:nth-child(even) {
   color: var(--color-5-dark-3-text-color);
   background-color: var(--color-5-dark-3);
@@ -1889,9 +1889,9 @@ a.u-link.u-hover-color-5-dark-3:hover {
 /*begin-color color-5-dark-2*/
 .u-color-5-dark-2,
 .u-body.u-color-5-dark-2,
+.u-color-5-dark-2 > .u-container-layout:before,
 .u-container-style.u-color-5-dark-2:before,
-.u-container-style.u-color-5-dark-2 > .u-container-layout:before,
-.u-container-layout.u-color-5-dark-2:before,
+.u-container-layout.u-container-layout.u-color-5-dark-2:before,
 .u-table-alt-color-5-dark-2 tr:nth-child(even) {
   color: var(--color-5-dark-2-text-color);
   background-color: var(--color-5-dark-2);
@@ -1944,9 +1944,9 @@ a.u-link.u-hover-color-5-dark-2:hover {
 /*begin-color color-5-dark-1*/
 .u-color-5-dark-1,
 .u-body.u-color-5-dark-1,
+.u-color-5-dark-1 > .u-container-layout:before,
 .u-container-style.u-color-5-dark-1:before,
-.u-container-style.u-color-5-dark-1 > .u-container-layout:before,
-.u-container-layout.u-color-5-dark-1:before,
+.u-container-layout.u-container-layout.u-color-5-dark-1:before,
 .u-table-alt-color-5-dark-1 tr:nth-child(even) {
   color: var(--color-5-dark-1-text-color);
   background-color: var(--color-5-dark-1);
@@ -1999,9 +1999,9 @@ a.u-link.u-hover-color-5-dark-1:hover {
 /*begin-color color-5*/
 .u-color-5,
 .u-body.u-color-5,
+.u-color-5 > .u-container-layout:before,
 .u-container-style.u-color-5:before,
-.u-container-style.u-color-5 > .u-container-layout:before,
-.u-container-layout.u-color-5:before,
+.u-container-layout.u-container-layout.u-color-5:before,
 .u-table-alt-color-5 tr:nth-child(even) {
   color: var(--color-5-text-color);
   background-color: var(--color-5);
@@ -2054,9 +2054,9 @@ a.u-link.u-hover-color-5:hover {
 /*begin-color color-5-light-1*/
 .u-color-5-light-1,
 .u-body.u-color-5-light-1,
+.u-color-5-light-1 > .u-container-layout:before,
 .u-container-style.u-color-5-light-1:before,
-.u-container-style.u-color-5-light-1 > .u-container-layout:before,
-.u-container-layout.u-color-5-light-1:before,
+.u-container-layout.u-container-layout.u-color-5-light-1:before,
 .u-table-alt-color-5-light-1 tr:nth-child(even) {
   color: var(--color-5-light-1-text-color);
   background-color: var(--color-5-light-1);
@@ -2109,9 +2109,9 @@ a.u-link.u-hover-color-5-light-1:hover {
 /*begin-color color-5-light-2*/
 .u-color-5-light-2,
 .u-body.u-color-5-light-2,
+.u-color-5-light-2 > .u-container-layout:before,
 .u-container-style.u-color-5-light-2:before,
-.u-container-style.u-color-5-light-2 > .u-container-layout:before,
-.u-container-layout.u-color-5-light-2:before,
+.u-container-layout.u-container-layout.u-color-5-light-2:before,
 .u-table-alt-color-5-light-2 tr:nth-child(even) {
   color: var(--color-5-light-2-text-color);
   background-color: var(--color-5-light-2);
@@ -2164,9 +2164,9 @@ a.u-link.u-hover-color-5-light-2:hover {
 /*begin-color color-5-light-3*/
 .u-color-5-light-3,
 .u-body.u-color-5-light-3,
+.u-color-5-light-3 > .u-container-layout:before,
 .u-container-style.u-color-5-light-3:before,
-.u-container-style.u-color-5-light-3 > .u-container-layout:before,
-.u-container-layout.u-color-5-light-3:before,
+.u-container-layout.u-container-layout.u-color-5-light-3:before,
 .u-table-alt-color-5-light-3 tr:nth-child(even) {
   color: var(--color-5-light-3-text-color);
   background-color: var(--color-5-light-3);
@@ -2219,9 +2219,9 @@ a.u-link.u-hover-color-5-light-3:hover {
 /*begin-color color-5-base*/
 .u-color-5-base,
 .u-body.u-color-5-base,
+.u-color-5-base > .u-container-layout:before,
 .u-container-style.u-color-5-base:before,
-.u-container-style.u-color-5-base > .u-container-layout:before,
-.u-container-layout.u-color-5-base:before,
+.u-container-layout.u-container-layout.u-color-5-base:before,
 .u-table-alt-color-5-base tr:nth-child(even) {
   color: var(--color-5-base-text-color);
   background-color: var(--color-5-base);
@@ -2274,9 +2274,9 @@ a.u-link.u-hover-color-5-base:hover {
 /*begin-color palette-1-dark-3*/
 .u-palette-1-dark-3,
 .u-body.u-palette-1-dark-3,
+.u-palette-1-dark-3 > .u-container-layout:before,
 .u-container-style.u-palette-1-dark-3:before,
-.u-container-style.u-palette-1-dark-3 > .u-container-layout:before,
-.u-container-layout.u-palette-1-dark-3:before,
+.u-container-layout.u-container-layout.u-palette-1-dark-3:before,
 .u-table-alt-palette-1-dark-3 tr:nth-child(even) {
   color: var(--palette-1-dark-3-text-color);
   background-color: var(--palette-1-dark-3);
@@ -2329,9 +2329,9 @@ a.u-link.u-hover-palette-1-dark-3:hover {
 /*begin-color palette-1-dark-2*/
 .u-palette-1-dark-2,
 .u-body.u-palette-1-dark-2,
+.u-palette-1-dark-2 > .u-container-layout:before,
 .u-container-style.u-palette-1-dark-2:before,
-.u-container-style.u-palette-1-dark-2 > .u-container-layout:before,
-.u-container-layout.u-palette-1-dark-2:before,
+.u-container-layout.u-container-layout.u-palette-1-dark-2:before,
 .u-table-alt-palette-1-dark-2 tr:nth-child(even) {
   color: var(--palette-1-dark-2-text-color);
   background-color: var(--palette-1-dark-2);
@@ -2384,9 +2384,9 @@ a.u-link.u-hover-palette-1-dark-2:hover {
 /*begin-color palette-1-dark-1*/
 .u-palette-1-dark-1,
 .u-body.u-palette-1-dark-1,
+.u-palette-1-dark-1 > .u-container-layout:before,
 .u-container-style.u-palette-1-dark-1:before,
-.u-container-style.u-palette-1-dark-1 > .u-container-layout:before,
-.u-container-layout.u-palette-1-dark-1:before,
+.u-container-layout.u-container-layout.u-palette-1-dark-1:before,
 .u-table-alt-palette-1-dark-1 tr:nth-child(even) {
   color: var(--palette-1-dark-1-text-color);
   background-color: var(--palette-1-dark-1);
@@ -2439,9 +2439,9 @@ a.u-link.u-hover-palette-1-dark-1:hover {
 /*begin-color palette-1*/
 .u-palette-1,
 .u-body.u-palette-1,
+.u-palette-1 > .u-container-layout:before,
 .u-container-style.u-palette-1:before,
-.u-container-style.u-palette-1 > .u-container-layout:before,
-.u-container-layout.u-palette-1:before,
+.u-container-layout.u-container-layout.u-palette-1:before,
 .u-table-alt-palette-1 tr:nth-child(even) {
   color: var(--palette-1-text-color);
   background-color: var(--palette-1);
@@ -2494,9 +2494,9 @@ a.u-link.u-hover-palette-1:hover {
 /*begin-color palette-1-light-1*/
 .u-palette-1-light-1,
 .u-body.u-palette-1-light-1,
+.u-palette-1-light-1 > .u-container-layout:before,
 .u-container-style.u-palette-1-light-1:before,
-.u-container-style.u-palette-1-light-1 > .u-container-layout:before,
-.u-container-layout.u-palette-1-light-1:before,
+.u-container-layout.u-container-layout.u-palette-1-light-1:before,
 .u-table-alt-palette-1-light-1 tr:nth-child(even) {
   color: var(--palette-1-light-1-text-color);
   background-color: var(--palette-1-light-1);
@@ -2549,9 +2549,9 @@ a.u-link.u-hover-palette-1-light-1:hover {
 /*begin-color palette-1-light-2*/
 .u-palette-1-light-2,
 .u-body.u-palette-1-light-2,
+.u-palette-1-light-2 > .u-container-layout:before,
 .u-container-style.u-palette-1-light-2:before,
-.u-container-style.u-palette-1-light-2 > .u-container-layout:before,
-.u-container-layout.u-palette-1-light-2:before,
+.u-container-layout.u-container-layout.u-palette-1-light-2:before,
 .u-table-alt-palette-1-light-2 tr:nth-child(even) {
   color: var(--palette-1-light-2-text-color);
   background-color: var(--palette-1-light-2);
@@ -2604,9 +2604,9 @@ a.u-link.u-hover-palette-1-light-2:hover {
 /*begin-color palette-1-light-3*/
 .u-palette-1-light-3,
 .u-body.u-palette-1-light-3,
+.u-palette-1-light-3 > .u-container-layout:before,
 .u-container-style.u-palette-1-light-3:before,
-.u-container-style.u-palette-1-light-3 > .u-container-layout:before,
-.u-container-layout.u-palette-1-light-3:before,
+.u-container-layout.u-container-layout.u-palette-1-light-3:before,
 .u-table-alt-palette-1-light-3 tr:nth-child(even) {
   color: var(--palette-1-light-3-text-color);
   background-color: var(--palette-1-light-3);
@@ -2659,9 +2659,9 @@ a.u-link.u-hover-palette-1-light-3:hover {
 /*begin-color palette-1-base*/
 .u-palette-1-base,
 .u-body.u-palette-1-base,
+.u-palette-1-base > .u-container-layout:before,
 .u-container-style.u-palette-1-base:before,
-.u-container-style.u-palette-1-base > .u-container-layout:before,
-.u-container-layout.u-palette-1-base:before,
+.u-container-layout.u-container-layout.u-palette-1-base:before,
 .u-table-alt-palette-1-base tr:nth-child(even) {
   color: var(--palette-1-base-text-color);
   background-color: var(--palette-1-base);
@@ -2714,9 +2714,9 @@ a.u-link.u-hover-palette-1-base:hover {
 /*begin-color palette-2-dark-3*/
 .u-palette-2-dark-3,
 .u-body.u-palette-2-dark-3,
+.u-palette-2-dark-3 > .u-container-layout:before,
 .u-container-style.u-palette-2-dark-3:before,
-.u-container-style.u-palette-2-dark-3 > .u-container-layout:before,
-.u-container-layout.u-palette-2-dark-3:before,
+.u-container-layout.u-container-layout.u-palette-2-dark-3:before,
 .u-table-alt-palette-2-dark-3 tr:nth-child(even) {
   color: var(--palette-2-dark-3-text-color);
   background-color: var(--palette-2-dark-3);
@@ -2769,9 +2769,9 @@ a.u-link.u-hover-palette-2-dark-3:hover {
 /*begin-color palette-2-dark-2*/
 .u-palette-2-dark-2,
 .u-body.u-palette-2-dark-2,
+.u-palette-2-dark-2 > .u-container-layout:before,
 .u-container-style.u-palette-2-dark-2:before,
-.u-container-style.u-palette-2-dark-2 > .u-container-layout:before,
-.u-container-layout.u-palette-2-dark-2:before,
+.u-container-layout.u-container-layout.u-palette-2-dark-2:before,
 .u-table-alt-palette-2-dark-2 tr:nth-child(even) {
   color: var(--palette-2-dark-2-text-color);
   background-color: var(--palette-2-dark-2);
@@ -2824,9 +2824,9 @@ a.u-link.u-hover-palette-2-dark-2:hover {
 /*begin-color palette-2-dark-1*/
 .u-palette-2-dark-1,
 .u-body.u-palette-2-dark-1,
+.u-palette-2-dark-1 > .u-container-layout:before,
 .u-container-style.u-palette-2-dark-1:before,
-.u-container-style.u-palette-2-dark-1 > .u-container-layout:before,
-.u-container-layout.u-palette-2-dark-1:before,
+.u-container-layout.u-container-layout.u-palette-2-dark-1:before,
 .u-table-alt-palette-2-dark-1 tr:nth-child(even) {
   color: var(--palette-2-dark-1-text-color);
   background-color: var(--palette-2-dark-1);
@@ -2879,9 +2879,9 @@ a.u-link.u-hover-palette-2-dark-1:hover {
 /*begin-color palette-2*/
 .u-palette-2,
 .u-body.u-palette-2,
+.u-palette-2 > .u-container-layout:before,
 .u-container-style.u-palette-2:before,
-.u-container-style.u-palette-2 > .u-container-layout:before,
-.u-container-layout.u-palette-2:before,
+.u-container-layout.u-container-layout.u-palette-2:before,
 .u-table-alt-palette-2 tr:nth-child(even) {
   color: var(--palette-2-text-color);
   background-color: var(--palette-2);
@@ -2934,9 +2934,9 @@ a.u-link.u-hover-palette-2:hover {
 /*begin-color palette-2-light-1*/
 .u-palette-2-light-1,
 .u-body.u-palette-2-light-1,
+.u-palette-2-light-1 > .u-container-layout:before,
 .u-container-style.u-palette-2-light-1:before,
-.u-container-style.u-palette-2-light-1 > .u-container-layout:before,
-.u-container-layout.u-palette-2-light-1:before,
+.u-container-layout.u-container-layout.u-palette-2-light-1:before,
 .u-table-alt-palette-2-light-1 tr:nth-child(even) {
   color: var(--palette-2-light-1-text-color);
   background-color: var(--palette-2-light-1);
@@ -2989,9 +2989,9 @@ a.u-link.u-hover-palette-2-light-1:hover {
 /*begin-color palette-2-light-2*/
 .u-palette-2-light-2,
 .u-body.u-palette-2-light-2,
+.u-palette-2-light-2 > .u-container-layout:before,
 .u-container-style.u-palette-2-light-2:before,
-.u-container-style.u-palette-2-light-2 > .u-container-layout:before,
-.u-container-layout.u-palette-2-light-2:before,
+.u-container-layout.u-container-layout.u-palette-2-light-2:before,
 .u-table-alt-palette-2-light-2 tr:nth-child(even) {
   color: var(--palette-2-light-2-text-color);
   background-color: var(--palette-2-light-2);
@@ -3044,9 +3044,9 @@ a.u-link.u-hover-palette-2-light-2:hover {
 /*begin-color palette-2-light-3*/
 .u-palette-2-light-3,
 .u-body.u-palette-2-light-3,
+.u-palette-2-light-3 > .u-container-layout:before,
 .u-container-style.u-palette-2-light-3:before,
-.u-container-style.u-palette-2-light-3 > .u-container-layout:before,
-.u-container-layout.u-palette-2-light-3:before,
+.u-container-layout.u-container-layout.u-palette-2-light-3:before,
 .u-table-alt-palette-2-light-3 tr:nth-child(even) {
   color: var(--palette-2-light-3-text-color);
   background-color: var(--palette-2-light-3);
@@ -3099,9 +3099,9 @@ a.u-link.u-hover-palette-2-light-3:hover {
 /*begin-color palette-2-base*/
 .u-palette-2-base,
 .u-body.u-palette-2-base,
+.u-palette-2-base > .u-container-layout:before,
 .u-container-style.u-palette-2-base:before,
-.u-container-style.u-palette-2-base > .u-container-layout:before,
-.u-container-layout.u-palette-2-base:before,
+.u-container-layout.u-container-layout.u-palette-2-base:before,
 .u-table-alt-palette-2-base tr:nth-child(even) {
   color: var(--palette-2-base-text-color);
   background-color: var(--palette-2-base);
@@ -3154,9 +3154,9 @@ a.u-link.u-hover-palette-2-base:hover {
 /*begin-color palette-3-dark-3*/
 .u-palette-3-dark-3,
 .u-body.u-palette-3-dark-3,
+.u-palette-3-dark-3 > .u-container-layout:before,
 .u-container-style.u-palette-3-dark-3:before,
-.u-container-style.u-palette-3-dark-3 > .u-container-layout:before,
-.u-container-layout.u-palette-3-dark-3:before,
+.u-container-layout.u-container-layout.u-palette-3-dark-3:before,
 .u-table-alt-palette-3-dark-3 tr:nth-child(even) {
   color: var(--palette-3-dark-3-text-color);
   background-color: var(--palette-3-dark-3);
@@ -3209,9 +3209,9 @@ a.u-link.u-hover-palette-3-dark-3:hover {
 /*begin-color palette-3-dark-2*/
 .u-palette-3-dark-2,
 .u-body.u-palette-3-dark-2,
+.u-palette-3-dark-2 > .u-container-layout:before,
 .u-container-style.u-palette-3-dark-2:before,
-.u-container-style.u-palette-3-dark-2 > .u-container-layout:before,
-.u-container-layout.u-palette-3-dark-2:before,
+.u-container-layout.u-container-layout.u-palette-3-dark-2:before,
 .u-table-alt-palette-3-dark-2 tr:nth-child(even) {
   color: var(--palette-3-dark-2-text-color);
   background-color: var(--palette-3-dark-2);
@@ -3264,9 +3264,9 @@ a.u-link.u-hover-palette-3-dark-2:hover {
 /*begin-color palette-3-dark-1*/
 .u-palette-3-dark-1,
 .u-body.u-palette-3-dark-1,
+.u-palette-3-dark-1 > .u-container-layout:before,
 .u-container-style.u-palette-3-dark-1:before,
-.u-container-style.u-palette-3-dark-1 > .u-container-layout:before,
-.u-container-layout.u-palette-3-dark-1:before,
+.u-container-layout.u-container-layout.u-palette-3-dark-1:before,
 .u-table-alt-palette-3-dark-1 tr:nth-child(even) {
   color: var(--palette-3-dark-1-text-color);
   background-color: var(--palette-3-dark-1);
@@ -3319,9 +3319,9 @@ a.u-link.u-hover-palette-3-dark-1:hover {
 /*begin-color palette-3*/
 .u-palette-3,
 .u-body.u-palette-3,
+.u-palette-3 > .u-container-layout:before,
 .u-container-style.u-palette-3:before,
-.u-container-style.u-palette-3 > .u-container-layout:before,
-.u-container-layout.u-palette-3:before,
+.u-container-layout.u-container-layout.u-palette-3:before,
 .u-table-alt-palette-3 tr:nth-child(even) {
   color: var(--palette-3-text-color);
   background-color: var(--palette-3);
@@ -3374,9 +3374,9 @@ a.u-link.u-hover-palette-3:hover {
 /*begin-color palette-3-light-1*/
 .u-palette-3-light-1,
 .u-body.u-palette-3-light-1,
+.u-palette-3-light-1 > .u-container-layout:before,
 .u-container-style.u-palette-3-light-1:before,
-.u-container-style.u-palette-3-light-1 > .u-container-layout:before,
-.u-container-layout.u-palette-3-light-1:before,
+.u-container-layout.u-container-layout.u-palette-3-light-1:before,
 .u-table-alt-palette-3-light-1 tr:nth-child(even) {
   color: var(--palette-3-light-1-text-color);
   background-color: var(--palette-3-light-1);
@@ -3429,9 +3429,9 @@ a.u-link.u-hover-palette-3-light-1:hover {
 /*begin-color palette-3-light-2*/
 .u-palette-3-light-2,
 .u-body.u-palette-3-light-2,
+.u-palette-3-light-2 > .u-container-layout:before,
 .u-container-style.u-palette-3-light-2:before,
-.u-container-style.u-palette-3-light-2 > .u-container-layout:before,
-.u-container-layout.u-palette-3-light-2:before,
+.u-container-layout.u-container-layout.u-palette-3-light-2:before,
 .u-table-alt-palette-3-light-2 tr:nth-child(even) {
   color: var(--palette-3-light-2-text-color);
   background-color: var(--palette-3-light-2);
@@ -3484,9 +3484,9 @@ a.u-link.u-hover-palette-3-light-2:hover {
 /*begin-color palette-3-light-3*/
 .u-palette-3-light-3,
 .u-body.u-palette-3-light-3,
+.u-palette-3-light-3 > .u-container-layout:before,
 .u-container-style.u-palette-3-light-3:before,
-.u-container-style.u-palette-3-light-3 > .u-container-layout:before,
-.u-container-layout.u-palette-3-light-3:before,
+.u-container-layout.u-container-layout.u-palette-3-light-3:before,
 .u-table-alt-palette-3-light-3 tr:nth-child(even) {
   color: var(--palette-3-light-3-text-color);
   background-color: var(--palette-3-light-3);
@@ -3539,9 +3539,9 @@ a.u-link.u-hover-palette-3-light-3:hover {
 /*begin-color palette-3-base*/
 .u-palette-3-base,
 .u-body.u-palette-3-base,
+.u-palette-3-base > .u-container-layout:before,
 .u-container-style.u-palette-3-base:before,
-.u-container-style.u-palette-3-base > .u-container-layout:before,
-.u-container-layout.u-palette-3-base:before,
+.u-container-layout.u-container-layout.u-palette-3-base:before,
 .u-table-alt-palette-3-base tr:nth-child(even) {
   color: var(--palette-3-base-text-color);
   background-color: var(--palette-3-base);
@@ -3594,9 +3594,9 @@ a.u-link.u-hover-palette-3-base:hover {
 /*begin-color palette-4-dark-3*/
 .u-palette-4-dark-3,
 .u-body.u-palette-4-dark-3,
+.u-palette-4-dark-3 > .u-container-layout:before,
 .u-container-style.u-palette-4-dark-3:before,
-.u-container-style.u-palette-4-dark-3 > .u-container-layout:before,
-.u-container-layout.u-palette-4-dark-3:before,
+.u-container-layout.u-container-layout.u-palette-4-dark-3:before,
 .u-table-alt-palette-4-dark-3 tr:nth-child(even) {
   color: var(--palette-4-dark-3-text-color);
   background-color: var(--palette-4-dark-3);
@@ -3649,9 +3649,9 @@ a.u-link.u-hover-palette-4-dark-3:hover {
 /*begin-color palette-4-dark-2*/
 .u-palette-4-dark-2,
 .u-body.u-palette-4-dark-2,
+.u-palette-4-dark-2 > .u-container-layout:before,
 .u-container-style.u-palette-4-dark-2:before,
-.u-container-style.u-palette-4-dark-2 > .u-container-layout:before,
-.u-container-layout.u-palette-4-dark-2:before,
+.u-container-layout.u-container-layout.u-palette-4-dark-2:before,
 .u-table-alt-palette-4-dark-2 tr:nth-child(even) {
   color: var(--palette-4-dark-2-text-color);
   background-color: var(--palette-4-dark-2);
@@ -3704,9 +3704,9 @@ a.u-link.u-hover-palette-4-dark-2:hover {
 /*begin-color palette-4-dark-1*/
 .u-palette-4-dark-1,
 .u-body.u-palette-4-dark-1,
+.u-palette-4-dark-1 > .u-container-layout:before,
 .u-container-style.u-palette-4-dark-1:before,
-.u-container-style.u-palette-4-dark-1 > .u-container-layout:before,
-.u-container-layout.u-palette-4-dark-1:before,
+.u-container-layout.u-container-layout.u-palette-4-dark-1:before,
 .u-table-alt-palette-4-dark-1 tr:nth-child(even) {
   color: var(--palette-4-dark-1-text-color);
   background-color: var(--palette-4-dark-1);
@@ -3759,9 +3759,9 @@ a.u-link.u-hover-palette-4-dark-1:hover {
 /*begin-color palette-4*/
 .u-palette-4,
 .u-body.u-palette-4,
+.u-palette-4 > .u-container-layout:before,
 .u-container-style.u-palette-4:before,
-.u-container-style.u-palette-4 > .u-container-layout:before,
-.u-container-layout.u-palette-4:before,
+.u-container-layout.u-container-layout.u-palette-4:before,
 .u-table-alt-palette-4 tr:nth-child(even) {
   color: var(--palette-4-text-color);
   background-color: var(--palette-4);
@@ -3814,9 +3814,9 @@ a.u-link.u-hover-palette-4:hover {
 /*begin-color palette-4-light-1*/
 .u-palette-4-light-1,
 .u-body.u-palette-4-light-1,
+.u-palette-4-light-1 > .u-container-layout:before,
 .u-container-style.u-palette-4-light-1:before,
-.u-container-style.u-palette-4-light-1 > .u-container-layout:before,
-.u-container-layout.u-palette-4-light-1:before,
+.u-container-layout.u-container-layout.u-palette-4-light-1:before,
 .u-table-alt-palette-4-light-1 tr:nth-child(even) {
   color: var(--palette-4-light-1-text-color);
   background-color: var(--palette-4-light-1);
@@ -3869,9 +3869,9 @@ a.u-link.u-hover-palette-4-light-1:hover {
 /*begin-color palette-4-light-2*/
 .u-palette-4-light-2,
 .u-body.u-palette-4-light-2,
+.u-palette-4-light-2 > .u-container-layout:before,
 .u-container-style.u-palette-4-light-2:before,
-.u-container-style.u-palette-4-light-2 > .u-container-layout:before,
-.u-container-layout.u-palette-4-light-2:before,
+.u-container-layout.u-container-layout.u-palette-4-light-2:before,
 .u-table-alt-palette-4-light-2 tr:nth-child(even) {
   color: var(--palette-4-light-2-text-color);
   background-color: var(--palette-4-light-2);
@@ -3924,9 +3924,9 @@ a.u-link.u-hover-palette-4-light-2:hover {
 /*begin-color palette-4-light-3*/
 .u-palette-4-light-3,
 .u-body.u-palette-4-light-3,
+.u-palette-4-light-3 > .u-container-layout:before,
 .u-container-style.u-palette-4-light-3:before,
-.u-container-style.u-palette-4-light-3 > .u-container-layout:before,
-.u-container-layout.u-palette-4-light-3:before,
+.u-container-layout.u-container-layout.u-palette-4-light-3:before,
 .u-table-alt-palette-4-light-3 tr:nth-child(even) {
   color: var(--palette-4-light-3-text-color);
   background-color: var(--palette-4-light-3);
@@ -3979,9 +3979,9 @@ a.u-link.u-hover-palette-4-light-3:hover {
 /*begin-color palette-4-base*/
 .u-palette-4-base,
 .u-body.u-palette-4-base,
+.u-palette-4-base > .u-container-layout:before,
 .u-container-style.u-palette-4-base:before,
-.u-container-style.u-palette-4-base > .u-container-layout:before,
-.u-container-layout.u-palette-4-base:before,
+.u-container-layout.u-container-layout.u-palette-4-base:before,
 .u-table-alt-palette-4-base tr:nth-child(even) {
   color: var(--palette-4-base-text-color);
   background-color: var(--palette-4-base);
@@ -4034,9 +4034,9 @@ a.u-link.u-hover-palette-4-base:hover {
 /*begin-color palette-5-dark-3*/
 .u-palette-5-dark-3,
 .u-body.u-palette-5-dark-3,
+.u-palette-5-dark-3 > .u-container-layout:before,
 .u-container-style.u-palette-5-dark-3:before,
-.u-container-style.u-palette-5-dark-3 > .u-container-layout:before,
-.u-container-layout.u-palette-5-dark-3:before,
+.u-container-layout.u-container-layout.u-palette-5-dark-3:before,
 .u-table-alt-palette-5-dark-3 tr:nth-child(even) {
   color: var(--palette-5-dark-3-text-color);
   background-color: var(--palette-5-dark-3);
@@ -4089,9 +4089,9 @@ a.u-link.u-hover-palette-5-dark-3:hover {
 /*begin-color palette-5-dark-2*/
 .u-palette-5-dark-2,
 .u-body.u-palette-5-dark-2,
+.u-palette-5-dark-2 > .u-container-layout:before,
 .u-container-style.u-palette-5-dark-2:before,
-.u-container-style.u-palette-5-dark-2 > .u-container-layout:before,
-.u-container-layout.u-palette-5-dark-2:before,
+.u-container-layout.u-container-layout.u-palette-5-dark-2:before,
 .u-table-alt-palette-5-dark-2 tr:nth-child(even) {
   color: var(--palette-5-dark-2-text-color);
   background-color: var(--palette-5-dark-2);
@@ -4144,9 +4144,9 @@ a.u-link.u-hover-palette-5-dark-2:hover {
 /*begin-color palette-5-dark-1*/
 .u-palette-5-dark-1,
 .u-body.u-palette-5-dark-1,
+.u-palette-5-dark-1 > .u-container-layout:before,
 .u-container-style.u-palette-5-dark-1:before,
-.u-container-style.u-palette-5-dark-1 > .u-container-layout:before,
-.u-container-layout.u-palette-5-dark-1:before,
+.u-container-layout.u-container-layout.u-palette-5-dark-1:before,
 .u-table-alt-palette-5-dark-1 tr:nth-child(even) {
   color: var(--palette-5-dark-1-text-color);
   background-color: var(--palette-5-dark-1);
@@ -4199,9 +4199,9 @@ a.u-link.u-hover-palette-5-dark-1:hover {
 /*begin-color palette-5*/
 .u-palette-5,
 .u-body.u-palette-5,
+.u-palette-5 > .u-container-layout:before,
 .u-container-style.u-palette-5:before,
-.u-container-style.u-palette-5 > .u-container-layout:before,
-.u-container-layout.u-palette-5:before,
+.u-container-layout.u-container-layout.u-palette-5:before,
 .u-table-alt-palette-5 tr:nth-child(even) {
   color: var(--palette-5-text-color);
   background-color: var(--palette-5);
@@ -4254,9 +4254,9 @@ a.u-link.u-hover-palette-5:hover {
 /*begin-color palette-5-light-1*/
 .u-palette-5-light-1,
 .u-body.u-palette-5-light-1,
+.u-palette-5-light-1 > .u-container-layout:before,
 .u-container-style.u-palette-5-light-1:before,
-.u-container-style.u-palette-5-light-1 > .u-container-layout:before,
-.u-container-layout.u-palette-5-light-1:before,
+.u-container-layout.u-container-layout.u-palette-5-light-1:before,
 .u-table-alt-palette-5-light-1 tr:nth-child(even) {
   color: var(--palette-5-light-1-text-color);
   background-color: var(--palette-5-light-1);
@@ -4309,9 +4309,9 @@ a.u-link.u-hover-palette-5-light-1:hover {
 /*begin-color palette-5-light-2*/
 .u-palette-5-light-2,
 .u-body.u-palette-5-light-2,
+.u-palette-5-light-2 > .u-container-layout:before,
 .u-container-style.u-palette-5-light-2:before,
-.u-container-style.u-palette-5-light-2 > .u-container-layout:before,
-.u-container-layout.u-palette-5-light-2:before,
+.u-container-layout.u-container-layout.u-palette-5-light-2:before,
 .u-table-alt-palette-5-light-2 tr:nth-child(even) {
   color: var(--palette-5-light-2-text-color);
   background-color: var(--palette-5-light-2);
@@ -4364,9 +4364,9 @@ a.u-link.u-hover-palette-5-light-2:hover {
 /*begin-color palette-5-light-3*/
 .u-palette-5-light-3,
 .u-body.u-palette-5-light-3,
+.u-palette-5-light-3 > .u-container-layout:before,
 .u-container-style.u-palette-5-light-3:before,
-.u-container-style.u-palette-5-light-3 > .u-container-layout:before,
-.u-container-layout.u-palette-5-light-3:before,
+.u-container-layout.u-container-layout.u-palette-5-light-3:before,
 .u-table-alt-palette-5-light-3 tr:nth-child(even) {
   color: var(--palette-5-light-3-text-color);
   background-color: var(--palette-5-light-3);
@@ -4419,9 +4419,9 @@ a.u-link.u-hover-palette-5-light-3:hover {
 /*begin-color palette-5-base*/
 .u-palette-5-base,
 .u-body.u-palette-5-base,
+.u-palette-5-base > .u-container-layout:before,
 .u-container-style.u-palette-5-base:before,
-.u-container-style.u-palette-5-base > .u-container-layout:before,
-.u-container-layout.u-palette-5-base:before,
+.u-container-layout.u-container-layout.u-palette-5-base:before,
 .u-table-alt-palette-5-base tr:nth-child(even) {
   color: var(--palette-5-base-text-color);
   background-color: var(--palette-5-base);
@@ -4474,9 +4474,9 @@ a.u-link.u-hover-palette-5-base:hover {
 /*begin-color grey-dark-3*/
 .u-grey-dark-3,
 .u-body.u-grey-dark-3,
+.u-grey-dark-3 > .u-container-layout:before,
 .u-container-style.u-grey-dark-3:before,
-.u-container-style.u-grey-dark-3 > .u-container-layout:before,
-.u-container-layout.u-grey-dark-3:before,
+.u-container-layout.u-container-layout.u-grey-dark-3:before,
 .u-table-alt-grey-dark-3 tr:nth-child(even) {
   color: var(--grey-dark-3-text-color);
   background-color: var(--grey-dark-3);
@@ -4529,9 +4529,9 @@ a.u-link.u-hover-grey-dark-3:hover {
 /*begin-color grey-dark-2*/
 .u-grey-dark-2,
 .u-body.u-grey-dark-2,
+.u-grey-dark-2 > .u-container-layout:before,
 .u-container-style.u-grey-dark-2:before,
-.u-container-style.u-grey-dark-2 > .u-container-layout:before,
-.u-container-layout.u-grey-dark-2:before,
+.u-container-layout.u-container-layout.u-grey-dark-2:before,
 .u-table-alt-grey-dark-2 tr:nth-child(even) {
   color: var(--grey-dark-2-text-color);
   background-color: var(--grey-dark-2);
@@ -4584,9 +4584,9 @@ a.u-link.u-hover-grey-dark-2:hover {
 /*begin-color grey-dark-1*/
 .u-grey-dark-1,
 .u-body.u-grey-dark-1,
+.u-grey-dark-1 > .u-container-layout:before,
 .u-container-style.u-grey-dark-1:before,
-.u-container-style.u-grey-dark-1 > .u-container-layout:before,
-.u-container-layout.u-grey-dark-1:before,
+.u-container-layout.u-container-layout.u-grey-dark-1:before,
 .u-table-alt-grey-dark-1 tr:nth-child(even) {
   color: var(--grey-dark-1-text-color);
   background-color: var(--grey-dark-1);
@@ -4639,9 +4639,9 @@ a.u-link.u-hover-grey-dark-1:hover {
 /*begin-color grey*/
 .u-grey,
 .u-body.u-grey,
+.u-grey > .u-container-layout:before,
 .u-container-style.u-grey:before,
-.u-container-style.u-grey > .u-container-layout:before,
-.u-container-layout.u-grey:before,
+.u-container-layout.u-container-layout.u-grey:before,
 .u-table-alt-grey tr:nth-child(even) {
   color: var(--grey-text-color);
   background-color: var(--grey);
@@ -4694,9 +4694,9 @@ a.u-link.u-hover-grey:hover {
 /*begin-color grey-light-1*/
 .u-grey-light-1,
 .u-body.u-grey-light-1,
+.u-grey-light-1 > .u-container-layout:before,
 .u-container-style.u-grey-light-1:before,
-.u-container-style.u-grey-light-1 > .u-container-layout:before,
-.u-container-layout.u-grey-light-1:before,
+.u-container-layout.u-container-layout.u-grey-light-1:before,
 .u-table-alt-grey-light-1 tr:nth-child(even) {
   color: var(--grey-light-1-text-color);
   background-color: var(--grey-light-1);
@@ -4749,9 +4749,9 @@ a.u-link.u-hover-grey-light-1:hover {
 /*begin-color grey-light-2*/
 .u-grey-light-2,
 .u-body.u-grey-light-2,
+.u-grey-light-2 > .u-container-layout:before,
 .u-container-style.u-grey-light-2:before,
-.u-container-style.u-grey-light-2 > .u-container-layout:before,
-.u-container-layout.u-grey-light-2:before,
+.u-container-layout.u-container-layout.u-grey-light-2:before,
 .u-table-alt-grey-light-2 tr:nth-child(even) {
   color: var(--grey-light-2-text-color);
   background-color: var(--grey-light-2);
@@ -4804,9 +4804,9 @@ a.u-link.u-hover-grey-light-2:hover {
 /*begin-color grey-light-3*/
 .u-grey-light-3,
 .u-body.u-grey-light-3,
+.u-grey-light-3 > .u-container-layout:before,
 .u-container-style.u-grey-light-3:before,
-.u-container-style.u-grey-light-3 > .u-container-layout:before,
-.u-container-layout.u-grey-light-3:before,
+.u-container-layout.u-container-layout.u-grey-light-3:before,
 .u-table-alt-grey-light-3 tr:nth-child(even) {
   color: var(--grey-light-3-text-color);
   background-color: var(--grey-light-3);
@@ -4859,9 +4859,9 @@ a.u-link.u-hover-grey-light-3:hover {
 /*begin-color white*/
 .u-white,
 .u-body.u-white,
+.u-white > .u-container-layout:before,
 .u-container-style.u-white:before,
-.u-container-style.u-white > .u-container-layout:before,
-.u-container-layout.u-white:before,
+.u-container-layout.u-container-layout.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
   color: var(--white-text-color);
   background-color: var(--white);
@@ -4914,9 +4914,9 @@ a.u-link.u-hover-white:hover {
 /*begin-color black*/
 .u-black,
 .u-body.u-black,
+.u-black > .u-container-layout:before,
 .u-container-style.u-black:before,
-.u-container-style.u-black > .u-container-layout:before,
-.u-container-layout.u-black:before,
+.u-container-layout.u-container-layout.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
   color: var(--black-text-color);
   background-color: var(--black);
@@ -4969,9 +4969,9 @@ a.u-link.u-hover-black:hover {
 /*begin-color body-color*/
 .u-body-color,
 .u-body.u-body-color,
+.u-body-color > .u-container-layout:before,
 .u-container-style.u-body-color:before,
-.u-container-style.u-body-color > .u-container-layout:before,
-.u-container-layout.u-body-color:before,
+.u-container-layout.u-container-layout.u-body-color:before,
 .u-table-alt-body-color tr:nth-child(even) {
   color: var(--body-color-text-color);
   background-color: var(--body-color);
@@ -5024,9 +5024,9 @@ a.u-link.u-hover-body-color:hover {
 /*begin-color body-alt-color*/
 .u-body-alt-color,
 .u-body.u-body-alt-color,
+.u-body-alt-color > .u-container-layout:before,
 .u-container-style.u-body-alt-color:before,
-.u-container-style.u-body-alt-color > .u-container-layout:before,
-.u-container-layout.u-body-alt-color:before,
+.u-container-layout.u-container-layout.u-body-alt-color:before,
 .u-table-alt-body-alt-color tr:nth-child(even) {
   color: var(--body-alt-color-text-color);
   background-color: var(--body-alt-color);
@@ -5079,9 +5079,9 @@ a.u-link.u-hover-body-alt-color:hover {
 /*begin-color grey-25*/
 .u-grey-25,
 .u-body.u-grey-25,
+.u-grey-25 > .u-container-layout:before,
 .u-container-style.u-grey-25:before,
-.u-container-style.u-grey-25 > .u-container-layout:before,
-.u-container-layout.u-grey-25:before,
+.u-container-layout.u-container-layout.u-grey-25:before,
 .u-table-alt-grey-25 tr:nth-child(even) {
   color: var(--grey-25-text-color);
   background-color: var(--grey-25);
@@ -5134,9 +5134,9 @@ a.u-link.u-hover-grey-25:hover {
 /*begin-color grey-5*/
 .u-grey-5,
 .u-body.u-grey-5,
+.u-grey-5 > .u-container-layout:before,
 .u-container-style.u-grey-5:before,
-.u-container-style.u-grey-5 > .u-container-layout:before,
-.u-container-layout.u-grey-5:before,
+.u-container-layout.u-container-layout.u-grey-5:before,
 .u-table-alt-grey-5 tr:nth-child(even) {
   color: var(--grey-5-text-color);
   background-color: var(--grey-5);
@@ -5189,9 +5189,9 @@ a.u-link.u-hover-grey-5:hover {
 /*begin-color grey-10*/
 .u-grey-10,
 .u-body.u-grey-10,
+.u-grey-10 > .u-container-layout:before,
 .u-container-style.u-grey-10:before,
-.u-container-style.u-grey-10 > .u-container-layout:before,
-.u-container-layout.u-grey-10:before,
+.u-container-layout.u-container-layout.u-grey-10:before,
 .u-table-alt-grey-10 tr:nth-child(even) {
   color: var(--grey-10-text-color);
   background-color: var(--grey-10);
@@ -5244,9 +5244,9 @@ a.u-link.u-hover-grey-10:hover {
 /*begin-color grey-15*/
 .u-grey-15,
 .u-body.u-grey-15,
+.u-grey-15 > .u-container-layout:before,
 .u-container-style.u-grey-15:before,
-.u-container-style.u-grey-15 > .u-container-layout:before,
-.u-container-layout.u-grey-15:before,
+.u-container-layout.u-container-layout.u-grey-15:before,
 .u-table-alt-grey-15 tr:nth-child(even) {
   color: var(--grey-15-text-color);
   background-color: var(--grey-15);
@@ -5299,9 +5299,9 @@ a.u-link.u-hover-grey-15:hover {
 /*begin-color grey-25*/
 .u-grey-25,
 .u-body.u-grey-25,
+.u-grey-25 > .u-container-layout:before,
 .u-container-style.u-grey-25:before,
-.u-container-style.u-grey-25 > .u-container-layout:before,
-.u-container-layout.u-grey-25:before,
+.u-container-layout.u-container-layout.u-grey-25:before,
 .u-table-alt-grey-25 tr:nth-child(even) {
   color: var(--grey-25-text-color);
   background-color: var(--grey-25);
@@ -5354,9 +5354,9 @@ a.u-link.u-hover-grey-25:hover {
 /*begin-color grey-30*/
 .u-grey-30,
 .u-body.u-grey-30,
+.u-grey-30 > .u-container-layout:before,
 .u-container-style.u-grey-30:before,
-.u-container-style.u-grey-30 > .u-container-layout:before,
-.u-container-layout.u-grey-30:before,
+.u-container-layout.u-container-layout.u-grey-30:before,
 .u-table-alt-grey-30 tr:nth-child(even) {
   color: var(--grey-30-text-color);
   background-color: var(--grey-30);
@@ -5409,9 +5409,9 @@ a.u-link.u-hover-grey-30:hover {
 /*begin-color grey-40*/
 .u-grey-40,
 .u-body.u-grey-40,
+.u-grey-40 > .u-container-layout:before,
 .u-container-style.u-grey-40:before,
-.u-container-style.u-grey-40 > .u-container-layout:before,
-.u-container-layout.u-grey-40:before,
+.u-container-layout.u-container-layout.u-grey-40:before,
 .u-table-alt-grey-40 tr:nth-child(even) {
   color: var(--grey-40-text-color);
   background-color: var(--grey-40);
@@ -5464,9 +5464,9 @@ a.u-link.u-hover-grey-40:hover {
 /*begin-color grey-50*/
 .u-grey-50,
 .u-body.u-grey-50,
+.u-grey-50 > .u-container-layout:before,
 .u-container-style.u-grey-50:before,
-.u-container-style.u-grey-50 > .u-container-layout:before,
-.u-container-layout.u-grey-50:before,
+.u-container-layout.u-container-layout.u-grey-50:before,
 .u-table-alt-grey-50 tr:nth-child(even) {
   color: var(--grey-50-text-color);
   background-color: var(--grey-50);
@@ -5519,9 +5519,9 @@ a.u-link.u-hover-grey-50:hover {
 /*begin-color grey-60*/
 .u-grey-60,
 .u-body.u-grey-60,
+.u-grey-60 > .u-container-layout:before,
 .u-container-style.u-grey-60:before,
-.u-container-style.u-grey-60 > .u-container-layout:before,
-.u-container-layout.u-grey-60:before,
+.u-container-layout.u-container-layout.u-grey-60:before,
 .u-table-alt-grey-60 tr:nth-child(even) {
   color: var(--grey-60-text-color);
   background-color: var(--grey-60);
@@ -5574,9 +5574,9 @@ a.u-link.u-hover-grey-60:hover {
 /*begin-color grey-70*/
 .u-grey-70,
 .u-body.u-grey-70,
+.u-grey-70 > .u-container-layout:before,
 .u-container-style.u-grey-70:before,
-.u-container-style.u-grey-70 > .u-container-layout:before,
-.u-container-layout.u-grey-70:before,
+.u-container-layout.u-container-layout.u-grey-70:before,
 .u-table-alt-grey-70 tr:nth-child(even) {
   color: var(--grey-70-text-color);
   background-color: var(--grey-70);
@@ -5629,9 +5629,9 @@ a.u-link.u-hover-grey-70:hover {
 /*begin-color grey-75*/
 .u-grey-75,
 .u-body.u-grey-75,
+.u-grey-75 > .u-container-layout:before,
 .u-container-style.u-grey-75:before,
-.u-container-style.u-grey-75 > .u-container-layout:before,
-.u-container-layout.u-grey-75:before,
+.u-container-layout.u-container-layout.u-grey-75:before,
 .u-table-alt-grey-75 tr:nth-child(even) {
   color: var(--grey-75-text-color);
   background-color: var(--grey-75);
@@ -5684,9 +5684,9 @@ a.u-link.u-hover-grey-75:hover {
 /*begin-color grey-80*/
 .u-grey-80,
 .u-body.u-grey-80,
+.u-grey-80 > .u-container-layout:before,
 .u-container-style.u-grey-80:before,
-.u-container-style.u-grey-80 > .u-container-layout:before,
-.u-container-layout.u-grey-80:before,
+.u-container-layout.u-container-layout.u-grey-80:before,
 .u-table-alt-grey-80 tr:nth-child(even) {
   color: var(--grey-80-text-color);
   background-color: var(--grey-80);
@@ -5739,9 +5739,9 @@ a.u-link.u-hover-grey-80:hover {
 /*begin-color grey-90*/
 .u-grey-90,
 .u-body.u-grey-90,
+.u-grey-90 > .u-container-layout:before,
 .u-container-style.u-grey-90:before,
-.u-container-style.u-grey-90 > .u-container-layout:before,
-.u-container-layout.u-grey-90:before,
+.u-container-layout.u-container-layout.u-grey-90:before,
 .u-table-alt-grey-90 tr:nth-child(even) {
   color: var(--grey-90-text-color);
   background-color: var(--grey-90);
@@ -9641,6 +9641,8 @@ li.active > a.u-button-style.u-button-style.u-border-active-grey-90 {
 /*end-color grey-90*/
 /*begin-color color-1-dark-3*/
 .u-text-color-1-dark-3,
+li.active > a.u-button-style.u-text-color-1-dark-3,
+li.active > a.u-button-style.u-text-color-1-dark-3[class*="u-border-"],
 a.u-button-style.u-text-color-1-dark-3,
 a.u-button-style.u-text-color-1-dark-3[class*="u-border-"] {
   color: var(--color-1-dark-3) !important;
@@ -9693,6 +9695,8 @@ a.u-link.u-text-hover-color-1-dark-3:hover {
 /*end-color color-1-dark-3*/
 /*begin-color color-1-dark-2*/
 .u-text-color-1-dark-2,
+li.active > a.u-button-style.u-text-color-1-dark-2,
+li.active > a.u-button-style.u-text-color-1-dark-2[class*="u-border-"],
 a.u-button-style.u-text-color-1-dark-2,
 a.u-button-style.u-text-color-1-dark-2[class*="u-border-"] {
   color: var(--color-1-dark-2) !important;
@@ -9745,6 +9749,8 @@ a.u-link.u-text-hover-color-1-dark-2:hover {
 /*end-color color-1-dark-2*/
 /*begin-color color-1-dark-1*/
 .u-text-color-1-dark-1,
+li.active > a.u-button-style.u-text-color-1-dark-1,
+li.active > a.u-button-style.u-text-color-1-dark-1[class*="u-border-"],
 a.u-button-style.u-text-color-1-dark-1,
 a.u-button-style.u-text-color-1-dark-1[class*="u-border-"] {
   color: var(--color-1-dark-1) !important;
@@ -9797,6 +9803,8 @@ a.u-link.u-text-hover-color-1-dark-1:hover {
 /*end-color color-1-dark-1*/
 /*begin-color color-1*/
 .u-text-color-1,
+li.active > a.u-button-style.u-text-color-1,
+li.active > a.u-button-style.u-text-color-1[class*="u-border-"],
 a.u-button-style.u-text-color-1,
 a.u-button-style.u-text-color-1[class*="u-border-"] {
   color: var(--color-1) !important;
@@ -9849,6 +9857,8 @@ a.u-link.u-text-hover-color-1:hover {
 /*end-color color-1*/
 /*begin-color color-1-light-1*/
 .u-text-color-1-light-1,
+li.active > a.u-button-style.u-text-color-1-light-1,
+li.active > a.u-button-style.u-text-color-1-light-1[class*="u-border-"],
 a.u-button-style.u-text-color-1-light-1,
 a.u-button-style.u-text-color-1-light-1[class*="u-border-"] {
   color: var(--color-1-light-1) !important;
@@ -9901,6 +9911,8 @@ a.u-link.u-text-hover-color-1-light-1:hover {
 /*end-color color-1-light-1*/
 /*begin-color color-1-light-2*/
 .u-text-color-1-light-2,
+li.active > a.u-button-style.u-text-color-1-light-2,
+li.active > a.u-button-style.u-text-color-1-light-2[class*="u-border-"],
 a.u-button-style.u-text-color-1-light-2,
 a.u-button-style.u-text-color-1-light-2[class*="u-border-"] {
   color: var(--color-1-light-2) !important;
@@ -9953,6 +9965,8 @@ a.u-link.u-text-hover-color-1-light-2:hover {
 /*end-color color-1-light-2*/
 /*begin-color color-1-light-3*/
 .u-text-color-1-light-3,
+li.active > a.u-button-style.u-text-color-1-light-3,
+li.active > a.u-button-style.u-text-color-1-light-3[class*="u-border-"],
 a.u-button-style.u-text-color-1-light-3,
 a.u-button-style.u-text-color-1-light-3[class*="u-border-"] {
   color: var(--color-1-light-3) !important;
@@ -10005,6 +10019,8 @@ a.u-link.u-text-hover-color-1-light-3:hover {
 /*end-color color-1-light-3*/
 /*begin-color color-1-base*/
 .u-text-color-1-base,
+li.active > a.u-button-style.u-text-color-1-base,
+li.active > a.u-button-style.u-text-color-1-base[class*="u-border-"],
 a.u-button-style.u-text-color-1-base,
 a.u-button-style.u-text-color-1-base[class*="u-border-"] {
   color: var(--color-1-base) !important;
@@ -10057,6 +10073,8 @@ a.u-link.u-text-hover-color-1-base:hover {
 /*end-color color-1-base*/
 /*begin-color color-2-dark-3*/
 .u-text-color-2-dark-3,
+li.active > a.u-button-style.u-text-color-2-dark-3,
+li.active > a.u-button-style.u-text-color-2-dark-3[class*="u-border-"],
 a.u-button-style.u-text-color-2-dark-3,
 a.u-button-style.u-text-color-2-dark-3[class*="u-border-"] {
   color: var(--color-2-dark-3) !important;
@@ -10109,6 +10127,8 @@ a.u-link.u-text-hover-color-2-dark-3:hover {
 /*end-color color-2-dark-3*/
 /*begin-color color-2-dark-2*/
 .u-text-color-2-dark-2,
+li.active > a.u-button-style.u-text-color-2-dark-2,
+li.active > a.u-button-style.u-text-color-2-dark-2[class*="u-border-"],
 a.u-button-style.u-text-color-2-dark-2,
 a.u-button-style.u-text-color-2-dark-2[class*="u-border-"] {
   color: var(--color-2-dark-2) !important;
@@ -10161,6 +10181,8 @@ a.u-link.u-text-hover-color-2-dark-2:hover {
 /*end-color color-2-dark-2*/
 /*begin-color color-2-dark-1*/
 .u-text-color-2-dark-1,
+li.active > a.u-button-style.u-text-color-2-dark-1,
+li.active > a.u-button-style.u-text-color-2-dark-1[class*="u-border-"],
 a.u-button-style.u-text-color-2-dark-1,
 a.u-button-style.u-text-color-2-dark-1[class*="u-border-"] {
   color: var(--color-2-dark-1) !important;
@@ -10213,6 +10235,8 @@ a.u-link.u-text-hover-color-2-dark-1:hover {
 /*end-color color-2-dark-1*/
 /*begin-color color-2*/
 .u-text-color-2,
+li.active > a.u-button-style.u-text-color-2,
+li.active > a.u-button-style.u-text-color-2[class*="u-border-"],
 a.u-button-style.u-text-color-2,
 a.u-button-style.u-text-color-2[class*="u-border-"] {
   color: var(--color-2) !important;
@@ -10265,6 +10289,8 @@ a.u-link.u-text-hover-color-2:hover {
 /*end-color color-2*/
 /*begin-color color-2-light-1*/
 .u-text-color-2-light-1,
+li.active > a.u-button-style.u-text-color-2-light-1,
+li.active > a.u-button-style.u-text-color-2-light-1[class*="u-border-"],
 a.u-button-style.u-text-color-2-light-1,
 a.u-button-style.u-text-color-2-light-1[class*="u-border-"] {
   color: var(--color-2-light-1) !important;
@@ -10317,6 +10343,8 @@ a.u-link.u-text-hover-color-2-light-1:hover {
 /*end-color color-2-light-1*/
 /*begin-color color-2-light-2*/
 .u-text-color-2-light-2,
+li.active > a.u-button-style.u-text-color-2-light-2,
+li.active > a.u-button-style.u-text-color-2-light-2[class*="u-border-"],
 a.u-button-style.u-text-color-2-light-2,
 a.u-button-style.u-text-color-2-light-2[class*="u-border-"] {
   color: var(--color-2-light-2) !important;
@@ -10369,6 +10397,8 @@ a.u-link.u-text-hover-color-2-light-2:hover {
 /*end-color color-2-light-2*/
 /*begin-color color-2-light-3*/
 .u-text-color-2-light-3,
+li.active > a.u-button-style.u-text-color-2-light-3,
+li.active > a.u-button-style.u-text-color-2-light-3[class*="u-border-"],
 a.u-button-style.u-text-color-2-light-3,
 a.u-button-style.u-text-color-2-light-3[class*="u-border-"] {
   color: var(--color-2-light-3) !important;
@@ -10421,6 +10451,8 @@ a.u-link.u-text-hover-color-2-light-3:hover {
 /*end-color color-2-light-3*/
 /*begin-color color-2-base*/
 .u-text-color-2-base,
+li.active > a.u-button-style.u-text-color-2-base,
+li.active > a.u-button-style.u-text-color-2-base[class*="u-border-"],
 a.u-button-style.u-text-color-2-base,
 a.u-button-style.u-text-color-2-base[class*="u-border-"] {
   color: var(--color-2-base) !important;
@@ -10473,6 +10505,8 @@ a.u-link.u-text-hover-color-2-base:hover {
 /*end-color color-2-base*/
 /*begin-color color-3-dark-3*/
 .u-text-color-3-dark-3,
+li.active > a.u-button-style.u-text-color-3-dark-3,
+li.active > a.u-button-style.u-text-color-3-dark-3[class*="u-border-"],
 a.u-button-style.u-text-color-3-dark-3,
 a.u-button-style.u-text-color-3-dark-3[class*="u-border-"] {
   color: var(--color-3-dark-3) !important;
@@ -10525,6 +10559,8 @@ a.u-link.u-text-hover-color-3-dark-3:hover {
 /*end-color color-3-dark-3*/
 /*begin-color color-3-dark-2*/
 .u-text-color-3-dark-2,
+li.active > a.u-button-style.u-text-color-3-dark-2,
+li.active > a.u-button-style.u-text-color-3-dark-2[class*="u-border-"],
 a.u-button-style.u-text-color-3-dark-2,
 a.u-button-style.u-text-color-3-dark-2[class*="u-border-"] {
   color: var(--color-3-dark-2) !important;
@@ -10577,6 +10613,8 @@ a.u-link.u-text-hover-color-3-dark-2:hover {
 /*end-color color-3-dark-2*/
 /*begin-color color-3-dark-1*/
 .u-text-color-3-dark-1,
+li.active > a.u-button-style.u-text-color-3-dark-1,
+li.active > a.u-button-style.u-text-color-3-dark-1[class*="u-border-"],
 a.u-button-style.u-text-color-3-dark-1,
 a.u-button-style.u-text-color-3-dark-1[class*="u-border-"] {
   color: var(--color-3-dark-1) !important;
@@ -10629,6 +10667,8 @@ a.u-link.u-text-hover-color-3-dark-1:hover {
 /*end-color color-3-dark-1*/
 /*begin-color color-3*/
 .u-text-color-3,
+li.active > a.u-button-style.u-text-color-3,
+li.active > a.u-button-style.u-text-color-3[class*="u-border-"],
 a.u-button-style.u-text-color-3,
 a.u-button-style.u-text-color-3[class*="u-border-"] {
   color: var(--color-3) !important;
@@ -10681,6 +10721,8 @@ a.u-link.u-text-hover-color-3:hover {
 /*end-color color-3*/
 /*begin-color color-3-light-1*/
 .u-text-color-3-light-1,
+li.active > a.u-button-style.u-text-color-3-light-1,
+li.active > a.u-button-style.u-text-color-3-light-1[class*="u-border-"],
 a.u-button-style.u-text-color-3-light-1,
 a.u-button-style.u-text-color-3-light-1[class*="u-border-"] {
   color: var(--color-3-light-1) !important;
@@ -10733,6 +10775,8 @@ a.u-link.u-text-hover-color-3-light-1:hover {
 /*end-color color-3-light-1*/
 /*begin-color color-3-light-2*/
 .u-text-color-3-light-2,
+li.active > a.u-button-style.u-text-color-3-light-2,
+li.active > a.u-button-style.u-text-color-3-light-2[class*="u-border-"],
 a.u-button-style.u-text-color-3-light-2,
 a.u-button-style.u-text-color-3-light-2[class*="u-border-"] {
   color: var(--color-3-light-2) !important;
@@ -10785,6 +10829,8 @@ a.u-link.u-text-hover-color-3-light-2:hover {
 /*end-color color-3-light-2*/
 /*begin-color color-3-light-3*/
 .u-text-color-3-light-3,
+li.active > a.u-button-style.u-text-color-3-light-3,
+li.active > a.u-button-style.u-text-color-3-light-3[class*="u-border-"],
 a.u-button-style.u-text-color-3-light-3,
 a.u-button-style.u-text-color-3-light-3[class*="u-border-"] {
   color: var(--color-3-light-3) !important;
@@ -10837,6 +10883,8 @@ a.u-link.u-text-hover-color-3-light-3:hover {
 /*end-color color-3-light-3*/
 /*begin-color color-3-base*/
 .u-text-color-3-base,
+li.active > a.u-button-style.u-text-color-3-base,
+li.active > a.u-button-style.u-text-color-3-base[class*="u-border-"],
 a.u-button-style.u-text-color-3-base,
 a.u-button-style.u-text-color-3-base[class*="u-border-"] {
   color: var(--color-3-base) !important;
@@ -10889,6 +10937,8 @@ a.u-link.u-text-hover-color-3-base:hover {
 /*end-color color-3-base*/
 /*begin-color color-4-dark-3*/
 .u-text-color-4-dark-3,
+li.active > a.u-button-style.u-text-color-4-dark-3,
+li.active > a.u-button-style.u-text-color-4-dark-3[class*="u-border-"],
 a.u-button-style.u-text-color-4-dark-3,
 a.u-button-style.u-text-color-4-dark-3[class*="u-border-"] {
   color: var(--color-4-dark-3) !important;
@@ -10941,6 +10991,8 @@ a.u-link.u-text-hover-color-4-dark-3:hover {
 /*end-color color-4-dark-3*/
 /*begin-color color-4-dark-2*/
 .u-text-color-4-dark-2,
+li.active > a.u-button-style.u-text-color-4-dark-2,
+li.active > a.u-button-style.u-text-color-4-dark-2[class*="u-border-"],
 a.u-button-style.u-text-color-4-dark-2,
 a.u-button-style.u-text-color-4-dark-2[class*="u-border-"] {
   color: var(--color-4-dark-2) !important;
@@ -10993,6 +11045,8 @@ a.u-link.u-text-hover-color-4-dark-2:hover {
 /*end-color color-4-dark-2*/
 /*begin-color color-4-dark-1*/
 .u-text-color-4-dark-1,
+li.active > a.u-button-style.u-text-color-4-dark-1,
+li.active > a.u-button-style.u-text-color-4-dark-1[class*="u-border-"],
 a.u-button-style.u-text-color-4-dark-1,
 a.u-button-style.u-text-color-4-dark-1[class*="u-border-"] {
   color: var(--color-4-dark-1) !important;
@@ -11045,6 +11099,8 @@ a.u-link.u-text-hover-color-4-dark-1:hover {
 /*end-color color-4-dark-1*/
 /*begin-color color-4*/
 .u-text-color-4,
+li.active > a.u-button-style.u-text-color-4,
+li.active > a.u-button-style.u-text-color-4[class*="u-border-"],
 a.u-button-style.u-text-color-4,
 a.u-button-style.u-text-color-4[class*="u-border-"] {
   color: var(--color-4) !important;
@@ -11097,6 +11153,8 @@ a.u-link.u-text-hover-color-4:hover {
 /*end-color color-4*/
 /*begin-color color-4-light-1*/
 .u-text-color-4-light-1,
+li.active > a.u-button-style.u-text-color-4-light-1,
+li.active > a.u-button-style.u-text-color-4-light-1[class*="u-border-"],
 a.u-button-style.u-text-color-4-light-1,
 a.u-button-style.u-text-color-4-light-1[class*="u-border-"] {
   color: var(--color-4-light-1) !important;
@@ -11149,6 +11207,8 @@ a.u-link.u-text-hover-color-4-light-1:hover {
 /*end-color color-4-light-1*/
 /*begin-color color-4-light-2*/
 .u-text-color-4-light-2,
+li.active > a.u-button-style.u-text-color-4-light-2,
+li.active > a.u-button-style.u-text-color-4-light-2[class*="u-border-"],
 a.u-button-style.u-text-color-4-light-2,
 a.u-button-style.u-text-color-4-light-2[class*="u-border-"] {
   color: var(--color-4-light-2) !important;
@@ -11201,6 +11261,8 @@ a.u-link.u-text-hover-color-4-light-2:hover {
 /*end-color color-4-light-2*/
 /*begin-color color-4-light-3*/
 .u-text-color-4-light-3,
+li.active > a.u-button-style.u-text-color-4-light-3,
+li.active > a.u-button-style.u-text-color-4-light-3[class*="u-border-"],
 a.u-button-style.u-text-color-4-light-3,
 a.u-button-style.u-text-color-4-light-3[class*="u-border-"] {
   color: var(--color-4-light-3) !important;
@@ -11253,6 +11315,8 @@ a.u-link.u-text-hover-color-4-light-3:hover {
 /*end-color color-4-light-3*/
 /*begin-color color-4-base*/
 .u-text-color-4-base,
+li.active > a.u-button-style.u-text-color-4-base,
+li.active > a.u-button-style.u-text-color-4-base[class*="u-border-"],
 a.u-button-style.u-text-color-4-base,
 a.u-button-style.u-text-color-4-base[class*="u-border-"] {
   color: var(--color-4-base) !important;
@@ -11305,6 +11369,8 @@ a.u-link.u-text-hover-color-4-base:hover {
 /*end-color color-4-base*/
 /*begin-color color-5-dark-3*/
 .u-text-color-5-dark-3,
+li.active > a.u-button-style.u-text-color-5-dark-3,
+li.active > a.u-button-style.u-text-color-5-dark-3[class*="u-border-"],
 a.u-button-style.u-text-color-5-dark-3,
 a.u-button-style.u-text-color-5-dark-3[class*="u-border-"] {
   color: var(--color-5-dark-3) !important;
@@ -11357,6 +11423,8 @@ a.u-link.u-text-hover-color-5-dark-3:hover {
 /*end-color color-5-dark-3*/
 /*begin-color color-5-dark-2*/
 .u-text-color-5-dark-2,
+li.active > a.u-button-style.u-text-color-5-dark-2,
+li.active > a.u-button-style.u-text-color-5-dark-2[class*="u-border-"],
 a.u-button-style.u-text-color-5-dark-2,
 a.u-button-style.u-text-color-5-dark-2[class*="u-border-"] {
   color: var(--color-5-dark-2) !important;
@@ -11409,6 +11477,8 @@ a.u-link.u-text-hover-color-5-dark-2:hover {
 /*end-color color-5-dark-2*/
 /*begin-color color-5-dark-1*/
 .u-text-color-5-dark-1,
+li.active > a.u-button-style.u-text-color-5-dark-1,
+li.active > a.u-button-style.u-text-color-5-dark-1[class*="u-border-"],
 a.u-button-style.u-text-color-5-dark-1,
 a.u-button-style.u-text-color-5-dark-1[class*="u-border-"] {
   color: var(--color-5-dark-1) !important;
@@ -11461,6 +11531,8 @@ a.u-link.u-text-hover-color-5-dark-1:hover {
 /*end-color color-5-dark-1*/
 /*begin-color color-5*/
 .u-text-color-5,
+li.active > a.u-button-style.u-text-color-5,
+li.active > a.u-button-style.u-text-color-5[class*="u-border-"],
 a.u-button-style.u-text-color-5,
 a.u-button-style.u-text-color-5[class*="u-border-"] {
   color: var(--color-5) !important;
@@ -11513,6 +11585,8 @@ a.u-link.u-text-hover-color-5:hover {
 /*end-color color-5*/
 /*begin-color color-5-light-1*/
 .u-text-color-5-light-1,
+li.active > a.u-button-style.u-text-color-5-light-1,
+li.active > a.u-button-style.u-text-color-5-light-1[class*="u-border-"],
 a.u-button-style.u-text-color-5-light-1,
 a.u-button-style.u-text-color-5-light-1[class*="u-border-"] {
   color: var(--color-5-light-1) !important;
@@ -11565,6 +11639,8 @@ a.u-link.u-text-hover-color-5-light-1:hover {
 /*end-color color-5-light-1*/
 /*begin-color color-5-light-2*/
 .u-text-color-5-light-2,
+li.active > a.u-button-style.u-text-color-5-light-2,
+li.active > a.u-button-style.u-text-color-5-light-2[class*="u-border-"],
 a.u-button-style.u-text-color-5-light-2,
 a.u-button-style.u-text-color-5-light-2[class*="u-border-"] {
   color: var(--color-5-light-2) !important;
@@ -11617,6 +11693,8 @@ a.u-link.u-text-hover-color-5-light-2:hover {
 /*end-color color-5-light-2*/
 /*begin-color color-5-light-3*/
 .u-text-color-5-light-3,
+li.active > a.u-button-style.u-text-color-5-light-3,
+li.active > a.u-button-style.u-text-color-5-light-3[class*="u-border-"],
 a.u-button-style.u-text-color-5-light-3,
 a.u-button-style.u-text-color-5-light-3[class*="u-border-"] {
   color: var(--color-5-light-3) !important;
@@ -11669,6 +11747,8 @@ a.u-link.u-text-hover-color-5-light-3:hover {
 /*end-color color-5-light-3*/
 /*begin-color color-5-base*/
 .u-text-color-5-base,
+li.active > a.u-button-style.u-text-color-5-base,
+li.active > a.u-button-style.u-text-color-5-base[class*="u-border-"],
 a.u-button-style.u-text-color-5-base,
 a.u-button-style.u-text-color-5-base[class*="u-border-"] {
   color: var(--color-5-base) !important;
@@ -11721,6 +11801,8 @@ a.u-link.u-text-hover-color-5-base:hover {
 /*end-color color-5-base*/
 /*begin-color palette-1-dark-3*/
 .u-text-palette-1-dark-3,
+li.active > a.u-button-style.u-text-palette-1-dark-3,
+li.active > a.u-button-style.u-text-palette-1-dark-3[class*="u-border-"],
 a.u-button-style.u-text-palette-1-dark-3,
 a.u-button-style.u-text-palette-1-dark-3[class*="u-border-"] {
   color: var(--palette-1-dark-3) !important;
@@ -11773,6 +11855,8 @@ a.u-link.u-text-hover-palette-1-dark-3:hover {
 /*end-color palette-1-dark-3*/
 /*begin-color palette-1-dark-2*/
 .u-text-palette-1-dark-2,
+li.active > a.u-button-style.u-text-palette-1-dark-2,
+li.active > a.u-button-style.u-text-palette-1-dark-2[class*="u-border-"],
 a.u-button-style.u-text-palette-1-dark-2,
 a.u-button-style.u-text-palette-1-dark-2[class*="u-border-"] {
   color: var(--palette-1-dark-2) !important;
@@ -11825,6 +11909,8 @@ a.u-link.u-text-hover-palette-1-dark-2:hover {
 /*end-color palette-1-dark-2*/
 /*begin-color palette-1-dark-1*/
 .u-text-palette-1-dark-1,
+li.active > a.u-button-style.u-text-palette-1-dark-1,
+li.active > a.u-button-style.u-text-palette-1-dark-1[class*="u-border-"],
 a.u-button-style.u-text-palette-1-dark-1,
 a.u-button-style.u-text-palette-1-dark-1[class*="u-border-"] {
   color: var(--palette-1-dark-1) !important;
@@ -11877,6 +11963,8 @@ a.u-link.u-text-hover-palette-1-dark-1:hover {
 /*end-color palette-1-dark-1*/
 /*begin-color palette-1*/
 .u-text-palette-1,
+li.active > a.u-button-style.u-text-palette-1,
+li.active > a.u-button-style.u-text-palette-1[class*="u-border-"],
 a.u-button-style.u-text-palette-1,
 a.u-button-style.u-text-palette-1[class*="u-border-"] {
   color: var(--palette-1) !important;
@@ -11929,6 +12017,8 @@ a.u-link.u-text-hover-palette-1:hover {
 /*end-color palette-1*/
 /*begin-color palette-1-light-1*/
 .u-text-palette-1-light-1,
+li.active > a.u-button-style.u-text-palette-1-light-1,
+li.active > a.u-button-style.u-text-palette-1-light-1[class*="u-border-"],
 a.u-button-style.u-text-palette-1-light-1,
 a.u-button-style.u-text-palette-1-light-1[class*="u-border-"] {
   color: var(--palette-1-light-1) !important;
@@ -11981,6 +12071,8 @@ a.u-link.u-text-hover-palette-1-light-1:hover {
 /*end-color palette-1-light-1*/
 /*begin-color palette-1-light-2*/
 .u-text-palette-1-light-2,
+li.active > a.u-button-style.u-text-palette-1-light-2,
+li.active > a.u-button-style.u-text-palette-1-light-2[class*="u-border-"],
 a.u-button-style.u-text-palette-1-light-2,
 a.u-button-style.u-text-palette-1-light-2[class*="u-border-"] {
   color: var(--palette-1-light-2) !important;
@@ -12033,6 +12125,8 @@ a.u-link.u-text-hover-palette-1-light-2:hover {
 /*end-color palette-1-light-2*/
 /*begin-color palette-1-light-3*/
 .u-text-palette-1-light-3,
+li.active > a.u-button-style.u-text-palette-1-light-3,
+li.active > a.u-button-style.u-text-palette-1-light-3[class*="u-border-"],
 a.u-button-style.u-text-palette-1-light-3,
 a.u-button-style.u-text-palette-1-light-3[class*="u-border-"] {
   color: var(--palette-1-light-3) !important;
@@ -12085,6 +12179,8 @@ a.u-link.u-text-hover-palette-1-light-3:hover {
 /*end-color palette-1-light-3*/
 /*begin-color palette-1-base*/
 .u-text-palette-1-base,
+li.active > a.u-button-style.u-text-palette-1-base,
+li.active > a.u-button-style.u-text-palette-1-base[class*="u-border-"],
 a.u-button-style.u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"] {
   color: var(--palette-1-base) !important;
@@ -12137,6 +12233,8 @@ a.u-link.u-text-hover-palette-1-base:hover {
 /*end-color palette-1-base*/
 /*begin-color palette-2-dark-3*/
 .u-text-palette-2-dark-3,
+li.active > a.u-button-style.u-text-palette-2-dark-3,
+li.active > a.u-button-style.u-text-palette-2-dark-3[class*="u-border-"],
 a.u-button-style.u-text-palette-2-dark-3,
 a.u-button-style.u-text-palette-2-dark-3[class*="u-border-"] {
   color: var(--palette-2-dark-3) !important;
@@ -12189,6 +12287,8 @@ a.u-link.u-text-hover-palette-2-dark-3:hover {
 /*end-color palette-2-dark-3*/
 /*begin-color palette-2-dark-2*/
 .u-text-palette-2-dark-2,
+li.active > a.u-button-style.u-text-palette-2-dark-2,
+li.active > a.u-button-style.u-text-palette-2-dark-2[class*="u-border-"],
 a.u-button-style.u-text-palette-2-dark-2,
 a.u-button-style.u-text-palette-2-dark-2[class*="u-border-"] {
   color: var(--palette-2-dark-2) !important;
@@ -12241,6 +12341,8 @@ a.u-link.u-text-hover-palette-2-dark-2:hover {
 /*end-color palette-2-dark-2*/
 /*begin-color palette-2-dark-1*/
 .u-text-palette-2-dark-1,
+li.active > a.u-button-style.u-text-palette-2-dark-1,
+li.active > a.u-button-style.u-text-palette-2-dark-1[class*="u-border-"],
 a.u-button-style.u-text-palette-2-dark-1,
 a.u-button-style.u-text-palette-2-dark-1[class*="u-border-"] {
   color: var(--palette-2-dark-1) !important;
@@ -12293,6 +12395,8 @@ a.u-link.u-text-hover-palette-2-dark-1:hover {
 /*end-color palette-2-dark-1*/
 /*begin-color palette-2*/
 .u-text-palette-2,
+li.active > a.u-button-style.u-text-palette-2,
+li.active > a.u-button-style.u-text-palette-2[class*="u-border-"],
 a.u-button-style.u-text-palette-2,
 a.u-button-style.u-text-palette-2[class*="u-border-"] {
   color: var(--palette-2) !important;
@@ -12345,6 +12449,8 @@ a.u-link.u-text-hover-palette-2:hover {
 /*end-color palette-2*/
 /*begin-color palette-2-light-1*/
 .u-text-palette-2-light-1,
+li.active > a.u-button-style.u-text-palette-2-light-1,
+li.active > a.u-button-style.u-text-palette-2-light-1[class*="u-border-"],
 a.u-button-style.u-text-palette-2-light-1,
 a.u-button-style.u-text-palette-2-light-1[class*="u-border-"] {
   color: var(--palette-2-light-1) !important;
@@ -12397,6 +12503,8 @@ a.u-link.u-text-hover-palette-2-light-1:hover {
 /*end-color palette-2-light-1*/
 /*begin-color palette-2-light-2*/
 .u-text-palette-2-light-2,
+li.active > a.u-button-style.u-text-palette-2-light-2,
+li.active > a.u-button-style.u-text-palette-2-light-2[class*="u-border-"],
 a.u-button-style.u-text-palette-2-light-2,
 a.u-button-style.u-text-palette-2-light-2[class*="u-border-"] {
   color: var(--palette-2-light-2) !important;
@@ -12449,6 +12557,8 @@ a.u-link.u-text-hover-palette-2-light-2:hover {
 /*end-color palette-2-light-2*/
 /*begin-color palette-2-light-3*/
 .u-text-palette-2-light-3,
+li.active > a.u-button-style.u-text-palette-2-light-3,
+li.active > a.u-button-style.u-text-palette-2-light-3[class*="u-border-"],
 a.u-button-style.u-text-palette-2-light-3,
 a.u-button-style.u-text-palette-2-light-3[class*="u-border-"] {
   color: var(--palette-2-light-3) !important;
@@ -12501,6 +12611,8 @@ a.u-link.u-text-hover-palette-2-light-3:hover {
 /*end-color palette-2-light-3*/
 /*begin-color palette-2-base*/
 .u-text-palette-2-base,
+li.active > a.u-button-style.u-text-palette-2-base,
+li.active > a.u-button-style.u-text-palette-2-base[class*="u-border-"],
 a.u-button-style.u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
   color: var(--palette-2-base) !important;
@@ -12553,6 +12665,8 @@ a.u-link.u-text-hover-palette-2-base:hover {
 /*end-color palette-2-base*/
 /*begin-color palette-3-dark-3*/
 .u-text-palette-3-dark-3,
+li.active > a.u-button-style.u-text-palette-3-dark-3,
+li.active > a.u-button-style.u-text-palette-3-dark-3[class*="u-border-"],
 a.u-button-style.u-text-palette-3-dark-3,
 a.u-button-style.u-text-palette-3-dark-3[class*="u-border-"] {
   color: var(--palette-3-dark-3) !important;
@@ -12605,6 +12719,8 @@ a.u-link.u-text-hover-palette-3-dark-3:hover {
 /*end-color palette-3-dark-3*/
 /*begin-color palette-3-dark-2*/
 .u-text-palette-3-dark-2,
+li.active > a.u-button-style.u-text-palette-3-dark-2,
+li.active > a.u-button-style.u-text-palette-3-dark-2[class*="u-border-"],
 a.u-button-style.u-text-palette-3-dark-2,
 a.u-button-style.u-text-palette-3-dark-2[class*="u-border-"] {
   color: var(--palette-3-dark-2) !important;
@@ -12657,6 +12773,8 @@ a.u-link.u-text-hover-palette-3-dark-2:hover {
 /*end-color palette-3-dark-2*/
 /*begin-color palette-3-dark-1*/
 .u-text-palette-3-dark-1,
+li.active > a.u-button-style.u-text-palette-3-dark-1,
+li.active > a.u-button-style.u-text-palette-3-dark-1[class*="u-border-"],
 a.u-button-style.u-text-palette-3-dark-1,
 a.u-button-style.u-text-palette-3-dark-1[class*="u-border-"] {
   color: var(--palette-3-dark-1) !important;
@@ -12709,6 +12827,8 @@ a.u-link.u-text-hover-palette-3-dark-1:hover {
 /*end-color palette-3-dark-1*/
 /*begin-color palette-3*/
 .u-text-palette-3,
+li.active > a.u-button-style.u-text-palette-3,
+li.active > a.u-button-style.u-text-palette-3[class*="u-border-"],
 a.u-button-style.u-text-palette-3,
 a.u-button-style.u-text-palette-3[class*="u-border-"] {
   color: var(--palette-3) !important;
@@ -12761,6 +12881,8 @@ a.u-link.u-text-hover-palette-3:hover {
 /*end-color palette-3*/
 /*begin-color palette-3-light-1*/
 .u-text-palette-3-light-1,
+li.active > a.u-button-style.u-text-palette-3-light-1,
+li.active > a.u-button-style.u-text-palette-3-light-1[class*="u-border-"],
 a.u-button-style.u-text-palette-3-light-1,
 a.u-button-style.u-text-palette-3-light-1[class*="u-border-"] {
   color: var(--palette-3-light-1) !important;
@@ -12813,6 +12935,8 @@ a.u-link.u-text-hover-palette-3-light-1:hover {
 /*end-color palette-3-light-1*/
 /*begin-color palette-3-light-2*/
 .u-text-palette-3-light-2,
+li.active > a.u-button-style.u-text-palette-3-light-2,
+li.active > a.u-button-style.u-text-palette-3-light-2[class*="u-border-"],
 a.u-button-style.u-text-palette-3-light-2,
 a.u-button-style.u-text-palette-3-light-2[class*="u-border-"] {
   color: var(--palette-3-light-2) !important;
@@ -12865,6 +12989,8 @@ a.u-link.u-text-hover-palette-3-light-2:hover {
 /*end-color palette-3-light-2*/
 /*begin-color palette-3-light-3*/
 .u-text-palette-3-light-3,
+li.active > a.u-button-style.u-text-palette-3-light-3,
+li.active > a.u-button-style.u-text-palette-3-light-3[class*="u-border-"],
 a.u-button-style.u-text-palette-3-light-3,
 a.u-button-style.u-text-palette-3-light-3[class*="u-border-"] {
   color: var(--palette-3-light-3) !important;
@@ -12917,6 +13043,8 @@ a.u-link.u-text-hover-palette-3-light-3:hover {
 /*end-color palette-3-light-3*/
 /*begin-color palette-3-base*/
 .u-text-palette-3-base,
+li.active > a.u-button-style.u-text-palette-3-base,
+li.active > a.u-button-style.u-text-palette-3-base[class*="u-border-"],
 a.u-button-style.u-text-palette-3-base,
 a.u-button-style.u-text-palette-3-base[class*="u-border-"] {
   color: var(--palette-3-base) !important;
@@ -12969,6 +13097,8 @@ a.u-link.u-text-hover-palette-3-base:hover {
 /*end-color palette-3-base*/
 /*begin-color palette-4-dark-3*/
 .u-text-palette-4-dark-3,
+li.active > a.u-button-style.u-text-palette-4-dark-3,
+li.active > a.u-button-style.u-text-palette-4-dark-3[class*="u-border-"],
 a.u-button-style.u-text-palette-4-dark-3,
 a.u-button-style.u-text-palette-4-dark-3[class*="u-border-"] {
   color: var(--palette-4-dark-3) !important;
@@ -13021,6 +13151,8 @@ a.u-link.u-text-hover-palette-4-dark-3:hover {
 /*end-color palette-4-dark-3*/
 /*begin-color palette-4-dark-2*/
 .u-text-palette-4-dark-2,
+li.active > a.u-button-style.u-text-palette-4-dark-2,
+li.active > a.u-button-style.u-text-palette-4-dark-2[class*="u-border-"],
 a.u-button-style.u-text-palette-4-dark-2,
 a.u-button-style.u-text-palette-4-dark-2[class*="u-border-"] {
   color: var(--palette-4-dark-2) !important;
@@ -13073,6 +13205,8 @@ a.u-link.u-text-hover-palette-4-dark-2:hover {
 /*end-color palette-4-dark-2*/
 /*begin-color palette-4-dark-1*/
 .u-text-palette-4-dark-1,
+li.active > a.u-button-style.u-text-palette-4-dark-1,
+li.active > a.u-button-style.u-text-palette-4-dark-1[class*="u-border-"],
 a.u-button-style.u-text-palette-4-dark-1,
 a.u-button-style.u-text-palette-4-dark-1[class*="u-border-"] {
   color: var(--palette-4-dark-1) !important;
@@ -13125,6 +13259,8 @@ a.u-link.u-text-hover-palette-4-dark-1:hover {
 /*end-color palette-4-dark-1*/
 /*begin-color palette-4*/
 .u-text-palette-4,
+li.active > a.u-button-style.u-text-palette-4,
+li.active > a.u-button-style.u-text-palette-4[class*="u-border-"],
 a.u-button-style.u-text-palette-4,
 a.u-button-style.u-text-palette-4[class*="u-border-"] {
   color: var(--palette-4) !important;
@@ -13177,6 +13313,8 @@ a.u-link.u-text-hover-palette-4:hover {
 /*end-color palette-4*/
 /*begin-color palette-4-light-1*/
 .u-text-palette-4-light-1,
+li.active > a.u-button-style.u-text-palette-4-light-1,
+li.active > a.u-button-style.u-text-palette-4-light-1[class*="u-border-"],
 a.u-button-style.u-text-palette-4-light-1,
 a.u-button-style.u-text-palette-4-light-1[class*="u-border-"] {
   color: var(--palette-4-light-1) !important;
@@ -13229,6 +13367,8 @@ a.u-link.u-text-hover-palette-4-light-1:hover {
 /*end-color palette-4-light-1*/
 /*begin-color palette-4-light-2*/
 .u-text-palette-4-light-2,
+li.active > a.u-button-style.u-text-palette-4-light-2,
+li.active > a.u-button-style.u-text-palette-4-light-2[class*="u-border-"],
 a.u-button-style.u-text-palette-4-light-2,
 a.u-button-style.u-text-palette-4-light-2[class*="u-border-"] {
   color: var(--palette-4-light-2) !important;
@@ -13281,6 +13421,8 @@ a.u-link.u-text-hover-palette-4-light-2:hover {
 /*end-color palette-4-light-2*/
 /*begin-color palette-4-light-3*/
 .u-text-palette-4-light-3,
+li.active > a.u-button-style.u-text-palette-4-light-3,
+li.active > a.u-button-style.u-text-palette-4-light-3[class*="u-border-"],
 a.u-button-style.u-text-palette-4-light-3,
 a.u-button-style.u-text-palette-4-light-3[class*="u-border-"] {
   color: var(--palette-4-light-3) !important;
@@ -13333,6 +13475,8 @@ a.u-link.u-text-hover-palette-4-light-3:hover {
 /*end-color palette-4-light-3*/
 /*begin-color palette-4-base*/
 .u-text-palette-4-base,
+li.active > a.u-button-style.u-text-palette-4-base,
+li.active > a.u-button-style.u-text-palette-4-base[class*="u-border-"],
 a.u-button-style.u-text-palette-4-base,
 a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
   color: var(--palette-4-base) !important;
@@ -13385,6 +13529,8 @@ a.u-link.u-text-hover-palette-4-base:hover {
 /*end-color palette-4-base*/
 /*begin-color palette-5-dark-3*/
 .u-text-palette-5-dark-3,
+li.active > a.u-button-style.u-text-palette-5-dark-3,
+li.active > a.u-button-style.u-text-palette-5-dark-3[class*="u-border-"],
 a.u-button-style.u-text-palette-5-dark-3,
 a.u-button-style.u-text-palette-5-dark-3[class*="u-border-"] {
   color: var(--palette-5-dark-3) !important;
@@ -13437,6 +13583,8 @@ a.u-link.u-text-hover-palette-5-dark-3:hover {
 /*end-color palette-5-dark-3*/
 /*begin-color palette-5-dark-2*/
 .u-text-palette-5-dark-2,
+li.active > a.u-button-style.u-text-palette-5-dark-2,
+li.active > a.u-button-style.u-text-palette-5-dark-2[class*="u-border-"],
 a.u-button-style.u-text-palette-5-dark-2,
 a.u-button-style.u-text-palette-5-dark-2[class*="u-border-"] {
   color: var(--palette-5-dark-2) !important;
@@ -13489,6 +13637,8 @@ a.u-link.u-text-hover-palette-5-dark-2:hover {
 /*end-color palette-5-dark-2*/
 /*begin-color palette-5-dark-1*/
 .u-text-palette-5-dark-1,
+li.active > a.u-button-style.u-text-palette-5-dark-1,
+li.active > a.u-button-style.u-text-palette-5-dark-1[class*="u-border-"],
 a.u-button-style.u-text-palette-5-dark-1,
 a.u-button-style.u-text-palette-5-dark-1[class*="u-border-"] {
   color: var(--palette-5-dark-1) !important;
@@ -13541,6 +13691,8 @@ a.u-link.u-text-hover-palette-5-dark-1:hover {
 /*end-color palette-5-dark-1*/
 /*begin-color palette-5*/
 .u-text-palette-5,
+li.active > a.u-button-style.u-text-palette-5,
+li.active > a.u-button-style.u-text-palette-5[class*="u-border-"],
 a.u-button-style.u-text-palette-5,
 a.u-button-style.u-text-palette-5[class*="u-border-"] {
   color: var(--palette-5) !important;
@@ -13593,6 +13745,8 @@ a.u-link.u-text-hover-palette-5:hover {
 /*end-color palette-5*/
 /*begin-color palette-5-light-1*/
 .u-text-palette-5-light-1,
+li.active > a.u-button-style.u-text-palette-5-light-1,
+li.active > a.u-button-style.u-text-palette-5-light-1[class*="u-border-"],
 a.u-button-style.u-text-palette-5-light-1,
 a.u-button-style.u-text-palette-5-light-1[class*="u-border-"] {
   color: var(--palette-5-light-1) !important;
@@ -13645,6 +13799,8 @@ a.u-link.u-text-hover-palette-5-light-1:hover {
 /*end-color palette-5-light-1*/
 /*begin-color palette-5-light-2*/
 .u-text-palette-5-light-2,
+li.active > a.u-button-style.u-text-palette-5-light-2,
+li.active > a.u-button-style.u-text-palette-5-light-2[class*="u-border-"],
 a.u-button-style.u-text-palette-5-light-2,
 a.u-button-style.u-text-palette-5-light-2[class*="u-border-"] {
   color: var(--palette-5-light-2) !important;
@@ -13697,6 +13853,8 @@ a.u-link.u-text-hover-palette-5-light-2:hover {
 /*end-color palette-5-light-2*/
 /*begin-color palette-5-light-3*/
 .u-text-palette-5-light-3,
+li.active > a.u-button-style.u-text-palette-5-light-3,
+li.active > a.u-button-style.u-text-palette-5-light-3[class*="u-border-"],
 a.u-button-style.u-text-palette-5-light-3,
 a.u-button-style.u-text-palette-5-light-3[class*="u-border-"] {
   color: var(--palette-5-light-3) !important;
@@ -13749,6 +13907,8 @@ a.u-link.u-text-hover-palette-5-light-3:hover {
 /*end-color palette-5-light-3*/
 /*begin-color palette-5-base*/
 .u-text-palette-5-base,
+li.active > a.u-button-style.u-text-palette-5-base,
+li.active > a.u-button-style.u-text-palette-5-base[class*="u-border-"],
 a.u-button-style.u-text-palette-5-base,
 a.u-button-style.u-text-palette-5-base[class*="u-border-"] {
   color: var(--palette-5-base) !important;
@@ -13801,6 +13961,8 @@ a.u-link.u-text-hover-palette-5-base:hover {
 /*end-color palette-5-base*/
 /*begin-color grey-dark-3*/
 .u-text-grey-dark-3,
+li.active > a.u-button-style.u-text-grey-dark-3,
+li.active > a.u-button-style.u-text-grey-dark-3[class*="u-border-"],
 a.u-button-style.u-text-grey-dark-3,
 a.u-button-style.u-text-grey-dark-3[class*="u-border-"] {
   color: var(--grey-dark-3) !important;
@@ -13853,6 +14015,8 @@ a.u-link.u-text-hover-grey-dark-3:hover {
 /*end-color grey-dark-3*/
 /*begin-color grey-dark-2*/
 .u-text-grey-dark-2,
+li.active > a.u-button-style.u-text-grey-dark-2,
+li.active > a.u-button-style.u-text-grey-dark-2[class*="u-border-"],
 a.u-button-style.u-text-grey-dark-2,
 a.u-button-style.u-text-grey-dark-2[class*="u-border-"] {
   color: var(--grey-dark-2) !important;
@@ -13905,6 +14069,8 @@ a.u-link.u-text-hover-grey-dark-2:hover {
 /*end-color grey-dark-2*/
 /*begin-color grey-dark-1*/
 .u-text-grey-dark-1,
+li.active > a.u-button-style.u-text-grey-dark-1,
+li.active > a.u-button-style.u-text-grey-dark-1[class*="u-border-"],
 a.u-button-style.u-text-grey-dark-1,
 a.u-button-style.u-text-grey-dark-1[class*="u-border-"] {
   color: var(--grey-dark-1) !important;
@@ -13957,6 +14123,8 @@ a.u-link.u-text-hover-grey-dark-1:hover {
 /*end-color grey-dark-1*/
 /*begin-color grey*/
 .u-text-grey,
+li.active > a.u-button-style.u-text-grey,
+li.active > a.u-button-style.u-text-grey[class*="u-border-"],
 a.u-button-style.u-text-grey,
 a.u-button-style.u-text-grey[class*="u-border-"] {
   color: var(--grey) !important;
@@ -14009,6 +14177,8 @@ a.u-link.u-text-hover-grey:hover {
 /*end-color grey*/
 /*begin-color grey-light-1*/
 .u-text-grey-light-1,
+li.active > a.u-button-style.u-text-grey-light-1,
+li.active > a.u-button-style.u-text-grey-light-1[class*="u-border-"],
 a.u-button-style.u-text-grey-light-1,
 a.u-button-style.u-text-grey-light-1[class*="u-border-"] {
   color: var(--grey-light-1) !important;
@@ -14061,6 +14231,8 @@ a.u-link.u-text-hover-grey-light-1:hover {
 /*end-color grey-light-1*/
 /*begin-color grey-light-2*/
 .u-text-grey-light-2,
+li.active > a.u-button-style.u-text-grey-light-2,
+li.active > a.u-button-style.u-text-grey-light-2[class*="u-border-"],
 a.u-button-style.u-text-grey-light-2,
 a.u-button-style.u-text-grey-light-2[class*="u-border-"] {
   color: var(--grey-light-2) !important;
@@ -14113,6 +14285,8 @@ a.u-link.u-text-hover-grey-light-2:hover {
 /*end-color grey-light-2*/
 /*begin-color grey-light-3*/
 .u-text-grey-light-3,
+li.active > a.u-button-style.u-text-grey-light-3,
+li.active > a.u-button-style.u-text-grey-light-3[class*="u-border-"],
 a.u-button-style.u-text-grey-light-3,
 a.u-button-style.u-text-grey-light-3[class*="u-border-"] {
   color: var(--grey-light-3) !important;
@@ -14165,6 +14339,8 @@ a.u-link.u-text-hover-grey-light-3:hover {
 /*end-color grey-light-3*/
 /*begin-color white*/
 .u-text-white,
+li.active > a.u-button-style.u-text-white,
+li.active > a.u-button-style.u-text-white[class*="u-border-"],
 a.u-button-style.u-text-white,
 a.u-button-style.u-text-white[class*="u-border-"] {
   color: var(--white) !important;
@@ -14217,6 +14393,8 @@ a.u-link.u-text-hover-white:hover {
 /*end-color white*/
 /*begin-color black*/
 .u-text-black,
+li.active > a.u-button-style.u-text-black,
+li.active > a.u-button-style.u-text-black[class*="u-border-"],
 a.u-button-style.u-text-black,
 a.u-button-style.u-text-black[class*="u-border-"] {
   color: var(--black) !important;
@@ -14269,6 +14447,8 @@ a.u-link.u-text-hover-black:hover {
 /*end-color black*/
 /*begin-color body-color*/
 .u-text-body-color,
+li.active > a.u-button-style.u-text-body-color,
+li.active > a.u-button-style.u-text-body-color[class*="u-border-"],
 a.u-button-style.u-text-body-color,
 a.u-button-style.u-text-body-color[class*="u-border-"] {
   color: var(--body-color) !important;
@@ -14321,6 +14501,8 @@ a.u-link.u-text-hover-body-color:hover {
 /*end-color body-color*/
 /*begin-color body-alt-color*/
 .u-text-body-alt-color,
+li.active > a.u-button-style.u-text-body-alt-color,
+li.active > a.u-button-style.u-text-body-alt-color[class*="u-border-"],
 a.u-button-style.u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
   color: var(--body-alt-color) !important;
@@ -14373,6 +14555,8 @@ a.u-link.u-text-hover-body-alt-color:hover {
 /*end-color body-alt-color*/
 /*begin-color grey-25*/
 .u-text-grey-25,
+li.active > a.u-button-style.u-text-grey-25,
+li.active > a.u-button-style.u-text-grey-25[class*="u-border-"],
 a.u-button-style.u-text-grey-25,
 a.u-button-style.u-text-grey-25[class*="u-border-"] {
   color: var(--grey-25) !important;
@@ -14425,6 +14609,8 @@ a.u-link.u-text-hover-grey-25:hover {
 /*end-color grey-25*/
 /*begin-color grey-5*/
 .u-text-grey-5,
+li.active > a.u-button-style.u-text-grey-5,
+li.active > a.u-button-style.u-text-grey-5[class*="u-border-"],
 a.u-button-style.u-text-grey-5,
 a.u-button-style.u-text-grey-5[class*="u-border-"] {
   color: var(--grey-5) !important;
@@ -14477,6 +14663,8 @@ a.u-link.u-text-hover-grey-5:hover {
 /*end-color grey-5*/
 /*begin-color grey-10*/
 .u-text-grey-10,
+li.active > a.u-button-style.u-text-grey-10,
+li.active > a.u-button-style.u-text-grey-10[class*="u-border-"],
 a.u-button-style.u-text-grey-10,
 a.u-button-style.u-text-grey-10[class*="u-border-"] {
   color: var(--grey-10) !important;
@@ -14529,6 +14717,8 @@ a.u-link.u-text-hover-grey-10:hover {
 /*end-color grey-10*/
 /*begin-color grey-15*/
 .u-text-grey-15,
+li.active > a.u-button-style.u-text-grey-15,
+li.active > a.u-button-style.u-text-grey-15[class*="u-border-"],
 a.u-button-style.u-text-grey-15,
 a.u-button-style.u-text-grey-15[class*="u-border-"] {
   color: var(--grey-15) !important;
@@ -14581,6 +14771,8 @@ a.u-link.u-text-hover-grey-15:hover {
 /*end-color grey-15*/
 /*begin-color grey-25*/
 .u-text-grey-25,
+li.active > a.u-button-style.u-text-grey-25,
+li.active > a.u-button-style.u-text-grey-25[class*="u-border-"],
 a.u-button-style.u-text-grey-25,
 a.u-button-style.u-text-grey-25[class*="u-border-"] {
   color: var(--grey-25) !important;
@@ -14633,6 +14825,8 @@ a.u-link.u-text-hover-grey-25:hover {
 /*end-color grey-25*/
 /*begin-color grey-30*/
 .u-text-grey-30,
+li.active > a.u-button-style.u-text-grey-30,
+li.active > a.u-button-style.u-text-grey-30[class*="u-border-"],
 a.u-button-style.u-text-grey-30,
 a.u-button-style.u-text-grey-30[class*="u-border-"] {
   color: var(--grey-30) !important;
@@ -14685,6 +14879,8 @@ a.u-link.u-text-hover-grey-30:hover {
 /*end-color grey-30*/
 /*begin-color grey-40*/
 .u-text-grey-40,
+li.active > a.u-button-style.u-text-grey-40,
+li.active > a.u-button-style.u-text-grey-40[class*="u-border-"],
 a.u-button-style.u-text-grey-40,
 a.u-button-style.u-text-grey-40[class*="u-border-"] {
   color: var(--grey-40) !important;
@@ -14737,6 +14933,8 @@ a.u-link.u-text-hover-grey-40:hover {
 /*end-color grey-40*/
 /*begin-color grey-50*/
 .u-text-grey-50,
+li.active > a.u-button-style.u-text-grey-50,
+li.active > a.u-button-style.u-text-grey-50[class*="u-border-"],
 a.u-button-style.u-text-grey-50,
 a.u-button-style.u-text-grey-50[class*="u-border-"] {
   color: var(--grey-50) !important;
@@ -14789,6 +14987,8 @@ a.u-link.u-text-hover-grey-50:hover {
 /*end-color grey-50*/
 /*begin-color grey-60*/
 .u-text-grey-60,
+li.active > a.u-button-style.u-text-grey-60,
+li.active > a.u-button-style.u-text-grey-60[class*="u-border-"],
 a.u-button-style.u-text-grey-60,
 a.u-button-style.u-text-grey-60[class*="u-border-"] {
   color: var(--grey-60) !important;
@@ -14841,6 +15041,8 @@ a.u-link.u-text-hover-grey-60:hover {
 /*end-color grey-60*/
 /*begin-color grey-70*/
 .u-text-grey-70,
+li.active > a.u-button-style.u-text-grey-70,
+li.active > a.u-button-style.u-text-grey-70[class*="u-border-"],
 a.u-button-style.u-text-grey-70,
 a.u-button-style.u-text-grey-70[class*="u-border-"] {
   color: var(--grey-70) !important;
@@ -14893,6 +15095,8 @@ a.u-link.u-text-hover-grey-70:hover {
 /*end-color grey-70*/
 /*begin-color grey-75*/
 .u-text-grey-75,
+li.active > a.u-button-style.u-text-grey-75,
+li.active > a.u-button-style.u-text-grey-75[class*="u-border-"],
 a.u-button-style.u-text-grey-75,
 a.u-button-style.u-text-grey-75[class*="u-border-"] {
   color: var(--grey-75) !important;
@@ -14945,6 +15149,8 @@ a.u-link.u-text-hover-grey-75:hover {
 /*end-color grey-75*/
 /*begin-color grey-80*/
 .u-text-grey-80,
+li.active > a.u-button-style.u-text-grey-80,
+li.active > a.u-button-style.u-text-grey-80[class*="u-border-"],
 a.u-button-style.u-text-grey-80,
 a.u-button-style.u-text-grey-80[class*="u-border-"] {
   color: var(--grey-80) !important;
@@ -14997,6 +15203,8 @@ a.u-link.u-text-hover-grey-80:hover {
 /*end-color grey-80*/
 /*begin-color grey-90*/
 .u-text-grey-90,
+li.active > a.u-button-style.u-text-grey-90,
+li.active > a.u-button-style.u-text-grey-90[class*="u-border-"],
 a.u-button-style.u-text-grey-90,
 a.u-button-style.u-text-grey-90[class*="u-border-"] {
   color: var(--grey-90) !important;
