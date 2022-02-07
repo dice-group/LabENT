@@ -1,0 +1,338 @@
+2022-02-07T16:50:25.894877Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:50:26.236862Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:50:26.697566Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:50:26.723007Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 613 ...
+2022-02-07T16:50:26.747403Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:50:26.774655Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:50:26.776979Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:50:26.777632Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:50:26.778357Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:50:26.779120Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:50:26.779599Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:50:26.784865Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:50:26.787334Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:50:26.790483Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:50:26.791237Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:50:26.792059Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:50:26.796596Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:50:26.852577Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:50:26.879750Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:50:26.988083Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:50:27.013821Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005910
+2022-02-07T16:50:27.014480Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205005919
+2022-02-07T16:50:27.015366Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:50:27.015856Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:50:27.871648Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:50:27.872394Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:50:27.876162Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:50:28.087296Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:50:28.097272Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:50:28.098044Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:50:28.108285Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:50:28.161368Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205005919
+2022-02-07T16:50:28.165265Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:50:28.171180Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:50:28.305139Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:50:28.310055Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:50:28.317163Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:28.319111Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:28.325692Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:50:28
+2022-02-07T16:50:28.356234Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:50:28.358187Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:50:28.369975Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:50:28.371205Z 0 [Note] IPv6 is available.
+2022-02-07T16:50:28.372253Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:50:28.373429Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:50:28.399711Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-02-07T16:50:30.904448Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:50:31.289859Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:50:31.725380Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:50:31.744377Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 630 ...
+2022-02-07T16:50:31.766492Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:50:31.796869Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:50:31.798968Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:50:31.799688Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:50:31.800407Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:50:31.801160Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:50:31.801982Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:50:31.807346Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:50:31.809873Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:50:31.812602Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:50:31.813454Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:50:31.814374Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:50:31.819191Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:50:31.879714Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:50:31.904781Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:50:32.020639Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:50:32.046502Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005910
+2022-02-07T16:50:32.047561Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205005938
+2022-02-07T16:50:32.048652Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:50:32.049402Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:50:32.905075Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:50:32.906092Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:50:32.910293Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:50:33.144822Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:50:33.155949Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:50:33.156618Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:50:33.166226Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:50:33.219850Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205005938
+2022-02-07T16:50:33.225586Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:50:33.231503Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:50:33.329814Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:50:33.330889Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:50:33.333158Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:33.334804Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:33.399555Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:50:33
+2022-02-07T16:50:33.417028Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:50:33.419330Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:50:33.432872Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:50:33.434246Z 0 [Note] IPv6 is available.
+2022-02-07T16:50:33.435197Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:50:33.436293Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:50:33.448793Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-02-07T16:50:36.028722Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:50:36.396772Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:50:36.825209Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:50:36.842831Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 630 ...
+2022-02-07T16:50:36.865772Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:50:36.892898Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:50:36.894944Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:50:36.895660Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:50:36.896560Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:50:36.897422Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:50:36.898176Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:50:36.903835Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:50:36.906482Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:50:36.909612Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:50:36.910475Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:50:36.911237Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:50:36.916023Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:50:36.971281Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:50:36.995654Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:50:37.096866Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:50:37.122128Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005910
+2022-02-07T16:50:37.123290Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205005957
+2022-02-07T16:50:37.124470Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:50:37.125098Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:50:38.081598Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:50:38.083327Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:50:38.087898Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:50:38.309891Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:50:38.319739Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:50:38.320471Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:50:38.332644Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:50:38.385969Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205005957
+2022-02-07T16:50:38.390741Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:50:38.397812Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:50:38.498725Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:50:38.500058Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:50:38.513606Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:38.514625Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:38.595225Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:50:38.603731Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:50:38.606714Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:50:38
+2022-02-07T16:50:38.621577Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:50:38.622948Z 0 [Note] IPv6 is available.
+2022-02-07T16:50:38.623852Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:50:38.625400Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:50:38.629232Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-02-07T16:50:39.304194Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-02-07T16:50:39.308315Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.35'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2022-02-07T16:50:55.978122Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:50:56.344252Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:50:56.749376Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:50:56.765130Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 630 ...
+2022-02-07T16:50:56.787965Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:50:56.814286Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:50:56.816213Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:50:56.816980Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:50:56.817653Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:50:56.818576Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:50:56.819173Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:50:56.824611Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:50:56.827106Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:50:56.829781Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:50:56.830583Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:50:56.831452Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:50:56.835716Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:50:56.897957Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:50:56.919688Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:50:57.020535Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:50:57.045349Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005976
+2022-02-07T16:50:57.047167Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205005985
+2022-02-07T16:50:57.048320Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:50:57.048922Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:50:57.841633Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:50:57.842678Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:50:57.848497Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:50:58.070246Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:50:58.083159Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:50:58.083995Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:50:58.092874Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:50:58.146727Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205005985
+2022-02-07T16:50:58.150740Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:50:58.164666Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:50:58.296257Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:50:58.301756Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:50:58.308418Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:58.311669Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:50:58.364194Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:50:58
+2022-02-07T16:50:58.368266Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:50:58.370693Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:50:58.383928Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:50:58.385229Z 0 [Note] IPv6 is available.
+2022-02-07T16:50:58.386034Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:50:58.387780Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:50:58.391805Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-02-07T16:51:01.124561Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:51:01.498680Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:51:01.920385Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:51:01.938863Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 637 ...
+2022-02-07T16:51:01.963604Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:51:01.991398Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:51:01.993567Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:51:01.994154Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:51:01.995256Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:51:01.995953Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:51:01.996981Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:51:02.002847Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:51:02.005386Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:51:02.008271Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:51:02.008973Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:51:02.009727Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:51:02.014525Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:51:02.074215Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:51:02.100091Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:51:02.199692Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:51:02.228440Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005976
+2022-02-07T16:51:02.229542Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205006004
+2022-02-07T16:51:02.230786Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:51:02.231463Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:51:03.061998Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:51:03.063082Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:51:03.066577Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:51:03.306184Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:51:03.315497Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:51:03.316434Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:51:03.325130Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:51:03.379190Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205006004
+2022-02-07T16:51:03.383885Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:51:03.389955Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:51:03.527686Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:51:03.532419Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:51:03.534958Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:51:03.539779Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:51:03.576130Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:51:03
+2022-02-07T16:51:03.576829Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:51:03.579929Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:51:03.591519Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:51:03.592708Z 0 [Note] IPv6 is available.
+2022-02-07T16:51:03.593655Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:51:03.594657Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:51:03.599560Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2022-02-07T16:51:04.065213Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-02-07T16:51:04.068866Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.35'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2022-02-07T16:51:06.338647Z mysqld_safe Logging to '/var/lib/mysql/37a193a09604.err'.
+2022-02-07T16:51:06.710904Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2022-02-07T16:51:07.124301Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-07T16:51:07.141131Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.35) starting as process 629 ...
+2022-02-07T16:51:07.163570Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2022-02-07T16:51:07.188357Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-02-07T16:51:07.190498Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-02-07T16:51:07.191665Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-07T16:51:07.192694Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-02-07T16:51:07.195117Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-07T16:51:07.196060Z 0 [Note] InnoDB: Using Linux native AIO
+2022-02-07T16:51:07.201936Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-07T16:51:07.205180Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-02-07T16:51:07.207933Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2022-02-07T16:51:07.208629Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2022-02-07T16:51:07.209818Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2022-02-07T16:51:07.214762Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-07T16:51:07.274263Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-07T16:51:07.298066Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-02-07T16:51:07.399434Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-07T16:51:07.427374Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1205005976
+2022-02-07T16:51:07.428134Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1205006023
+2022-02-07T16:51:07.429122Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-02-07T16:51:07.429631Z 0 [Note] InnoDB: Starting crash recovery.
+2022-02-07T16:51:08.263326Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:51:08.264124Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-07T16:51:08.268814Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-07T16:51:08.469214Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-07T16:51:08.481401Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-07T16:51:08.482406Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-07T16:51:08.491663Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-07T16:51:08.544684Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 1205006023
+2022-02-07T16:51:08.548885Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:51:08.558095Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-07T16:51:08.746704Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220207 16:51:08
+2022-02-07T16:51:08.755455Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-07T16:51:08.756152Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-07T16:51:08.756955Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:51:08.757645Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-02-07T16:51:08.784539Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-07T16:51:08.786677Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-07T16:51:08.799515Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-07T16:51:08.800832Z 0 [Note] IPv6 is available.
+2022-02-07T16:51:08.801788Z 0 [Note]   - '::' resolves to '::';
+2022-02-07T16:51:08.802863Z 0 [Note] Server socket created on IP: '::'.
+2022-02-07T16:51:08.804489Z 0 [ERROR] Another process with pid 637 is using unix socket file.
+2022-02-07T16:51:08.805189Z 0 [ERROR] Unable to setup unix socket lock file.
+2022-02-07T16:51:08.805953Z 0 [ERROR] Aborting
+
+2022-02-07T16:51:08.806928Z 0 [Note] Binlog end
+2022-02-07T16:51:08.809360Z 0 [Note] Shutting down plugin 'ngram'
+2022-02-07T16:51:08.810054Z 0 [Note] Shutting down plugin 'partition'
+2022-02-07T16:51:08.810589Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-02-07T16:51:08.811152Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-02-07T16:51:08.812187Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-02-07T16:51:08.813600Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-02-07T16:51:08.814218Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-02-07T16:51:08.815145Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-02-07T16:51:08.815783Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-02-07T16:51:08.816294Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-02-07T16:51:08.817067Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-02-07T16:51:08.817436Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-02-07T16:51:08.818054Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-02-07T16:51:08.818611Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-02-07T16:51:08.819098Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-02-07T16:51:08.819716Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-02-07T16:51:08.820329Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-02-07T16:51:08.821135Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-02-07T16:51:08.821954Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-02-07T16:51:08.822611Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-02-07T16:51:08.823113Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-02-07T16:51:08.823855Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-02-07T16:51:08.824637Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-02-07T16:51:08.825300Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-02-07T16:51:08.826042Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-02-07T16:51:08.826607Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-02-07T16:51:08.827149Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-02-07T16:51:08.827787Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-02-07T16:51:08.828455Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-02-07T16:51:08.828947Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-02-07T16:51:08.829698Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-02-07T16:51:08.830225Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-02-07T16:51:08.830716Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-02-07T16:51:08.831223Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-02-07T16:51:08.831991Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-02-07T16:51:08.832508Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-02-07T16:51:08.833039Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-02-07T16:51:08.833662Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-02-07T16:51:08.835877Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-02-07T16:51:08.837232Z 0 [Note] InnoDB: Starting shutdown...
+2022-02-07T16:51:08.939785Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-02-07T16:51:08.947127Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220207 16:51:08
+2022-02-07T16:51:09.913310Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1205006042
+2022-02-07T16:51:09.917746Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-02-07T16:51:09.918646Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-02-07T16:51:09.919945Z 0 [Note] Shutting down plugin 'CSV'
+2022-02-07T16:51:09.921389Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-02-07T16:51:09.922518Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-02-07T16:51:09.924375Z 0 [Note] Shutting down plugin 'binlog'
+2022-02-07T16:51:09.928213Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-02-07T16:51:10.024577Z mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended

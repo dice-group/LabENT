@@ -1,23 +1,19 @@
 version: '3.3'
 services:
-  web:
-    build:
-      context: .
-      dockerfile: ./Dockerfile.py
-    ports:
-      - '7007:7007'
-    volumes:
-      - './axiom-uploads:/axiom-generator/uploads'
   db:
     image: 'mysql:5.7'
     volumes:
       - './mysql:/var/lib/mysql'
+      - './mysql-dump:/docker-entrypoint-initdb.d/'
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+
+    command: mysqld --user=root
+
   wordpress:
     depends_on:
       - db
