@@ -412,7 +412,7 @@ final class Forminator_Addon_Googlesheet extends Forminator_Addon_Abstract {
 
 		if ( $token ) {
 			$buttons['close'] = array(
-				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close' ),
+				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close forminator-integration-popup__close' ),
 			);
 			$is_poll          = false;
 

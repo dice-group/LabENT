@@ -175,8 +175,8 @@ class Forminator_Select extends Forminator_Field {
 			$default     = '';
 			foreach ( $options as $key => $option ) {
 
-				$value             = $option['value'] ? esc_html( strip_tags( $option['value'] ) ) : esc_html( strip_tags( $option['label'] ) );
-				$label             = $option['label'] ? esc_html( strip_tags( $option['label'] ) ) : '';
+				$value             = $option['value'] ? esc_html( strip_tags( $option['value'] ) ) : wp_kses_post( strip_tags( $option['label'] ) );
+				$label             = $option['label'] ? wp_kses_post( strip_tags( $option['label'] ) ) : '';
 				$limit             = ( isset( $option['limit'] ) && $option['limit'] ) ? esc_html( $option['limit'] ) : '';
 				$input_id          = $id . '-' . $i . '-' . $uniq_id;
 				$option_default    = isset( $option['default'] ) ? filter_var( $option['default'], FILTER_VALIDATE_BOOLEAN ) : false;
@@ -240,7 +240,7 @@ class Forminator_Select extends Forminator_Field {
 					$selected
 				);
 
-				$html .= esc_html( strip_tags( $option['label'] ) );
+				$html .= wp_kses_post( strip_tags( $option['label'] ) );
 
 				$html .= '</label>';
 
@@ -275,7 +275,7 @@ class Forminator_Select extends Forminator_Field {
 
 			foreach ( $options as $key => $option ) {
 				$value             = ( $option['value'] || is_numeric( $option['value'] ) ? esc_html( strip_tags( $option['value'] ) ) : '' );
-				$label             = $option['label'] ? esc_html( strip_tags( $option['label'] ) ) : '';
+				$label             = $option['label'] ? wp_kses_post( strip_tags( $option['label'] ) ) : '';
 				$limit             = ( isset( $option['limit'] ) && $option['limit'] ) ? esc_html( $option['limit'] ) : '';
 				$option_default    = isset( $option['default'] ) ? filter_var( $option['default'], FILTER_VALIDATE_BOOLEAN ) : false;
 				$calculation_value = $calc_enabled && isset( $option['calculation'] ) ? esc_html( $option['calculation'] ) : 0.0;
@@ -316,7 +316,7 @@ class Forminator_Select extends Forminator_Field {
 					esc_html( $value ),
 					$selected,
 					esc_html( $calculation_value ),
-					esc_html( strip_tags( $option['label'] ) )
+					wp_kses_post( strip_tags( $option['label'] ) )
 				);
 			}
 

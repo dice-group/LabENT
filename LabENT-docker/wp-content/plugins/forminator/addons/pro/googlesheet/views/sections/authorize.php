@@ -18,22 +18,75 @@ foreach ( $template_vars as $key => $val ) {
 		</div>
 		<div class="sui-box-body">
 			<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-				<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $vars['error_message'] ); ?></p></span>
+				<div
+					role="alert"
+					class="sui-notice sui-notice-red sui-active"
+					style="display: block; text-align: left;"
+					aria-live="assertive"
+				>
+
+					<div class="sui-notice-content">
+
+						<div class="sui-notice-message">
+
+							<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+							<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+						</div>
+
+					</div>
+
+				</div>
 			<?php elseif ( $vars['is_close'] ) : ?>
-				<span class="sui-notice sui-notice-success">
-					<p>
-						<?php
-						esc_html_e(
-							'Successfully authorized Google SpreadSheets, you can go back to integration settings.',
-							'forminator'
-						);
-						?>
-					</p>
-				</span>
+				<div
+					role="alert"
+					class="sui-notice sui-notice-green sui-active"
+					style="display: block; text-align: left;"
+					aria-live="assertive"
+				>
+
+					<div class="sui-notice-content">
+
+						<div class="sui-notice-message">
+
+							<span class="sui-notice-icon sui-icon-check-tick" aria-hidden="true"></span>
+
+							<p>
+								<?php
+								esc_html_e(
+									'Successfully authorized Google SpreadSheets, you can go back to integration settings.',
+									'forminator'
+								);
+								?>
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
 			<?php else : ?>
-				<span class="sui-notice sui-notice-loading">
-					<p><?php esc_html_e( 'Please Wait...', 'forminator' ); ?></p>
-				</span>
+				<div
+					role="alert"
+					class="sui-notice sui-active"
+					style="display: block; text-align: left;"
+					aria-live="assertive"
+				>
+
+					<div class="sui-notice-content">
+
+						<div class="sui-notice-message">
+
+							<span class="sui-notice-icon sui-icon-loader sui-loading" aria-hidden="true"></span>
+
+							<p><?php esc_html_e( 'Please wait...', 'forminator' ); ?></p>
+
+						</div>
+
+					</div>
+
+				</div>
 			<?php endif; ?>
 		</div>
 	</div>

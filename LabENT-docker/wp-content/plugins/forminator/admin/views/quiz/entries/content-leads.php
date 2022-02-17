@@ -244,8 +244,25 @@ foreach ( $this->entries_iterator() as $entries ) {
 
 						<?php } else { ?>
 
-							<div class="sui-notice">
-								<p><?php esc_html_e( 'Lead details are not available for this submission. Looks like the participant opted to skip the lead generation form while submitting the quiz.', 'forminator' ); ?></p>
+							<div
+								role="alert"
+								class="sui-notice sui-active"
+								style="display: block; text-align: left;"
+								aria-live="assertive"
+							>
+
+								<div class="sui-notice-content">
+
+									<div class="sui-notice-message">
+
+										<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+										<p><?php esc_html_e( 'Lead details are not available for this submission. Looks like the participant opted to skip the lead generation form while submitting the quiz.', 'forminator' ); ?></p>
+
+									</div>
+
+								</div>
+
 							</div>
 
 						<?php } ?>
@@ -379,8 +396,25 @@ foreach ( $this->entries_iterator() as $entries ) {
 							<?php } ?>
 
 						<?php } else { ?>
-							<div class="sui-notice">
-								<p><?php esc_html_e( 'Quiz results are not available for this submission. The participant either couldn\'t finish the quiz or had some errors while submitting the quiz.', 'forminator' ); ?></p>
+							<div
+								role="alert"
+								class="sui-notice sui-active"
+								style="display: block; text-align: left;"
+								aria-live="assertive"
+							>
+
+								<div class="sui-notice-content">
+
+									<div class="sui-notice-message">
+
+										<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+										<p><?php esc_html_e( 'Quiz results are not available for this submission. The participant either couldn\'t finish the quiz or had some errors while submitting the quiz.', 'forminator' ); ?></p>
+
+									</div>
+
+								</div>
+
 							</div>
 						<?php } ?>
 

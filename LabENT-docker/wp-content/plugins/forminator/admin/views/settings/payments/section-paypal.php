@@ -29,9 +29,24 @@ try {
 
 	<?php if ( version_compare( PHP_VERSION, $paypal_min_php_version, 'lt' ) ) : ?>
 
-		<div class="sui-notice sui-notice-warning">
+		<div
+			role="alert"
+			class="sui-notice sui-notice-yellow sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
 
-			<p><?php /* translators: ... */ printf( esc_html__( 'To be able to use PayPal Payments feature please upgrade your PHP to %1$sversion %2$s%3$s or above.', 'forminator' ), '<strong>', esc_html( $paypal_min_php_version ), '</strong>' ); ?></p>
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php /* translators: ... */ printf( esc_html__( 'To be able to use PayPal Payments feature please upgrade your PHP to %1$sversion %2$s%3$s or above.', 'forminator' ), '<strong>', esc_html( $paypal_min_php_version ), '</strong>' ); ?></p>
+
+				</div>
+
+			</div>
 
 		</div>
 

@@ -58,6 +58,10 @@ class Forminator_Shortcode_Generator {
 			'hustle_page_hustle_slidein',
 			'hustle_page_hustle_embedded',
 			'hustle_page_hustle_sshare',
+			'hustle-pro_page_hustle_popup',
+			'hustle_pro_page_hustle_slidein',
+			'hustle_pro_page_hustle_embedded',
+			'hustle_pro_page_hustle_sshare',
 		);
 
 		// Check if current page is hustle wizard page.
@@ -206,6 +210,7 @@ class Forminator_Shortcode_Generator {
 	public function print_markup() {
 		?>
 		<div id="forminator-scgen-modal" class="sui-wrap" style="display:none;">
+
 			<div class="sui-modal sui-modal-md">
 
 				<div
@@ -217,7 +222,7 @@ class Forminator_Shortcode_Generator {
 					aria-describedby="scgenDialogDescription"
 				>
 
-					<div class="sui-box" role="document">
+					<div class="sui-box" style="margin-bottom: 0;">
 
 						<div class="sui-box-header sui-flatten sui-content-center sui-spacing-top--60">
 
@@ -290,7 +295,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_forms() ); ?>
+												<?php echo $this->get_forms(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -321,7 +326,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_polls() ); ?>
+												<?php echo $this->get_polls(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -352,7 +357,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_quizzes() ); ?>
+												<?php echo $this->get_quizzes(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -390,7 +395,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_forms() ); ?>
+												<?php echo $this->get_forms(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -414,7 +419,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_polls() ); ?>
+												<?php echo $this->get_polls(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -438,7 +443,7 @@ class Forminator_Shortcode_Generator {
 
 												<label for="forminator-select-forms" class="sui-label"><?php esc_html_e( 'Choose an option', 'forminator' ); ?></label>
 
-												<?php echo wp_kses_post( $this->get_quizzes() ); ?>
+												<?php echo $this->get_quizzes(); ?>
 
 												<span class="sui-error-message" style="display: none;"><?php esc_html_e( 'Please, select an option before you proceed.', 'forminator' ); ?></span>
 
@@ -481,26 +486,28 @@ class Forminator_Shortcode_Generator {
 	 */
 	public function get_forms() {
 
-		$html = '';
+		$html        = '';
+		$modules     = Forminator_API::get_forms( null, 1, 999 );
+		$search      = ( count( $modules ) > 4 ) ? 'true' : 'false';
+		$placeholder = __( 'Select Custom Form', 'forminator' );
 
-		$html .= '<select id="forminator-select-forms" name="forms" class="sui-select forminator-custom-form-list">';
+		$html .= '<select id="forminator-select-forms" name="forms" class="sui-select forminator-custom-form-list" data-placeholder="' . $placeholder . '" data-search="' . $search . '">';
 
-			$html .= '<option value="">' . __( 'Select Custom Form', 'forminator' ) . '</option>';
+			$html .= '<option></option>';
 
-			$modules = Forminator_API::get_forms( null, 1, 999 );
+			foreach ( $modules as $module ) {
+				$module = (array) $module;
 
-		foreach ( $modules as $module ) {
-			$module = (array) $module;
+				$title = forminator_get_form_name( $module['id'] );
 
-			$title = forminator_get_form_name( $module['id'] );
+				if ( mb_strlen( $title ) > 25 ) {
+					$title = mb_substr( $title, 0, 25 ) . '...';
+				}
 
-			if ( mb_strlen( $title ) > 25 ) {
-				$title = mb_substr( $title, 0, 25 ) . '...';
+				$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
+
 			}
 
-			$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
-
-		}
 		$html .= '</select>';
 
 		return $html;
@@ -515,26 +522,27 @@ class Forminator_Shortcode_Generator {
 	 */
 	public function get_polls() {
 
-		$html = '';
+		$html        = '';
+		$modules     = Forminator_API::get_polls( null, 1, 999 );
+		$search      = ( count( $modules ) > 4 ) ? 'true' : 'false';
+		$placeholder = __( 'Select Poll', 'forminator' );
 
-		$html .= '<select id="forminator-select-polls" name="forms" class="sui-select forminator-insert-poll">';
+		$html .= '<select id="forminator-select-polls" name="forms" class="sui-select forminator-insert-poll" data-placeholder="' . $placeholder . '" data-search="' . $search . '">';
 
-			$html .= '<option value="">' . __( 'Select Poll', 'forminator' ) . '</option>';
+			$html .= '<option></option>';
 
-			$modules = Forminator_API::get_polls( null, 1, 999 );
+			foreach ( $modules as $module ) {
+				$module = (array) $module;
 
-		foreach ( $modules as $module ) {
-			$module = (array) $module;
+				$title = forminator_get_form_name( $module['id'] );
 
-			$title = forminator_get_form_name( $module['id'] );
+				if ( mb_strlen( $title ) > 25 ) {
+					$title = mb_substr( $title, 0, 25 ) . '...';
+				}
 
-			if ( mb_strlen( $title ) > 25 ) {
-				$title = mb_substr( $title, 0, 25 ) . '...';
+				$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
+
 			}
-
-			$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
-
-		}
 
 		$html .= '</select>';
 
@@ -549,26 +557,27 @@ class Forminator_Shortcode_Generator {
 	 */
 	public function get_quizzes() {
 
-		$html = '';
+		$html        = '';
+		$modules     = Forminator_API::get_quizzes( null, 1, 999 );
+		$search      = ( count( $modules ) > 4 ) ? 'true' : 'false';
+		$placeholder = __( 'Select Quiz', 'forminator' );
 
-		$html .= '<select id="forminator-select-quizzes" name="forms" class="sui-select forminator-quiz-list">';
+		$html .= '<select id="forminator-select-quizzes" name="forms" class="sui-select forminator-quiz-list" data-placeholder="' . $placeholder . '" data-search="' . $search . '">';
 
 			$html .= '<option value="">' . __( 'Select Quiz', 'forminator' ) . '</option>';
 
-			$modules = Forminator_API::get_quizzes( null, 1, 999 );
+			foreach ( $modules as $module ) {
+				$module = (array) $module;
 
-		foreach ( $modules as $module ) {
-			$module = (array) $module;
+				$title = forminator_get_form_name( $module['id'] );
 
-			$title = forminator_get_form_name( $module['id'] );
+				if ( mb_strlen( $title ) > 25 ) {
+					$title = mb_substr( $title, 0, 25 ) . '...';
+				}
 
-			if ( mb_strlen( $title ) > 25 ) {
-				$title = mb_substr( $title, 0, 25 ) . '...';
+				$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
+
 			}
-
-			$html .= '<option value="' . $module['id'] . '">' . $title . ' - ID: ' . $module['id'] . '</option>';
-
-		}
 
 		$html .= '</select>';
 

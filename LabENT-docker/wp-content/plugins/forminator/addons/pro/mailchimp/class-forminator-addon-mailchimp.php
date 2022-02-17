@@ -449,7 +449,7 @@ class Forminator_Addon_Mailchimp extends Forminator_Addon_Abstract {
 
 			// Show currently connected mailchimp account if its already connected.
 			/* translators:  placeholder is Name and Email of Connected MailChimp Account */
-			$description .= '<span class="sui-description">' . esc_html__( 'Please take a note that changing API Key or disconnect will affect to ALL of your connected forms.', 'forminator' ) . '</span>';
+			$description .= '<span class="sui-description">' . esc_html__( 'Please note that changing your API Key or disconnecting this integration will affect ALL of your connected forms.', 'forminator' ) . '</span>';
 
 		}
 
@@ -481,8 +481,13 @@ class Forminator_Addon_Mailchimp extends Forminator_Addon_Abstract {
 				$connected_account['email']
 			);
 
-			$myaccount = '<div class="sui-notice sui-notice-info">
-				<p>' . $myaccount . '</p>
+			$myaccount = '<div role="alert" class="sui-notice sui-notice-red sui-active" style="display: block; text-align: left;" aria-live="assertive">
+				<div class="sui-notice-content">
+					<div class="sui-notice-message">
+						<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+						<p>' . $myaccount . '</p>
+					</div>
+				</div>
 			</div>';
 
 		}
@@ -617,17 +622,17 @@ class Forminator_Addon_Mailchimp extends Forminator_Addon_Abstract {
 						return $this->get_form_settings_wizard( array(), $form_id, 0, 0 );
 					}
 
+					$html  = '<div class="forminator-integration-popup__header">';
+						/* translators: ... */
+						$html .= '<h3 id="dialogTitle2" class="sui-box-title sui-lg" style="overflow: initial; text-overflow: none; white-space: normal;">' . sprintf( __( '%1$s Added', 'forminator' ), 'Mailchimp' ) . '</h3>';
+					$html .= '</div>';
+					$html .= '<p class="sui-description" style="text-align: center;">' . __( 'You can now go to your forms and assign them to this integration.' ) . '</p>';
+
 					return array(
-						'html'         => '<div class="integration-header"><h3 class="sui-box-title" id="dialogTitle2">' .
-										/* translators: ... */
-										sprintf( __( '%1$s Added', 'forminator' ), 'Mailchimp' ) .
-										'</h3></div>
-						<div class="sui-block-content-center">
-							<p><small style="color: #666;">' . __( 'You can now go to your forms and assign them to this integration.' ) . '</small></p>
-						</div>',
+						'html'         => $html,
 						'buttons'      => array(
 							'close' => array(
-								'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'forminator-addon-close' ),
+								'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'forminator-addon-close forminator-integration-popup__close' ),
 							),
 						),
 						'redirect'     => false,
@@ -644,6 +649,7 @@ class Forminator_Addon_Mailchimp extends Forminator_Addon_Abstract {
 		$buttons = array();
 
 		$is_edit = false;
+
 		if ( $this->is_connected() ) {
 			$is_edit = true;
 		}
@@ -664,45 +670,35 @@ class Forminator_Addon_Mailchimp extends Forminator_Addon_Abstract {
 			);
 		}
 
+		$html  = '<div class="forminator-integration-popup__header">';
+			/* translators: ... */
+			$html .= '<h3 id="dialogTitle2" class="sui-box-title sui-lg" style="overflow: initial; text-overflow: none; white-space: normal;">' . sprintf( __( 'Configure %1$s', 'forminator' ), 'Mailchimp' ) . '</h3>';
+			$html .= $this->settings_help();
+			$html .= $error_message;
+		$html .= '</div>';
+		$html .= '<form>';
+			// FIELD: API Key
+			$html .= '<div class="sui-form-field ' . ( ! empty( $api_key_error_message ) ? 'sui-form-field-error' : '' ) . '">';
+				$html .= '<label class="sui-label">' . __( 'API Key', 'forminator' ) . '</label>';
+				$html .= '<div class="sui-control-with-icon">';
+					/* translators: ... */
+					$html .= '<input name="api_key" value="' . esc_attr( $api_key ) . '" placeholder="' . sprintf( __( 'Enter %1$s API Key', 'forminator' ), 'Mailchimp' ) . '" class="sui-form-control" />';
+					$html .= '<i class="sui-icon-key" aria-hidden="true"></i>';
+				$html .= '</div>';
+				$html .= ( ! empty( $api_key_error_message ) ? '<span class="sui-error-message">' . esc_html( $api_key_error_message ) . '</span>' : '' );
+				$html .= $this->settings_description();
+			$html .= '</div>';
+			// FIELD: Identifier
+			$html .= '<div class="sui-form-field">';
+				$html .= '<label class="sui-label">' . esc_html__( 'Identifier', 'forminator' ) . '</label>';
+				$html .= '<input name="identifier" value="' . esc_attr( $identifier ) . '" placeholder="' . esc_attr__( 'E.g., Business Account', 'forminator' ) . '" class="sui-form-control" />';
+				$html .= '<span class="sui-description">' . esc_html__( 'Helps distinguish between integrations if connecting to the same third-party app with multiple accounts.', 'forminator' ) . '</span>';
+			$html .= '</div>';
+		$html .= '</form>';
+		$html .= $this->settings_account();
+
 		return array(
-			'html'       => '<div class="integration-header">
-					<h3 class="sui-box-title" id="dialogTitle2">' .
-							/* translators: ... */
-							sprintf( __( 'Configure %1$s', 'forminator' ), 'Mailchimp' ) .
-							'</h3>
-					' . $this->settings_help() . '
-					' . $error_message . '
-				</div>
-				<form>
-					<div class="sui-form-field ' . ( ! empty( $api_key_error_message ) ? 'sui-form-field-error' : '' ) . '">
-						<label class="sui-label">' . __( 'API Key', 'forminator' ) . '</label>
-						<div class="sui-control-with-icon">
-							<input name="api_key"
-								placeholder="' .
-							/* translators: ... */
-							sprintf( __( 'Enter %1$s API Key', 'forminator' ), 'Mailchimp' ) .
-							'"
-								value="' . esc_attr( $api_key ) . '"
-								class="sui-form-control" />
-							<i class="sui-icon-key" aria-hidden="true"></i>
-						</div>
-						' . ( ! empty( $api_key_error_message ) ? '<span class="sui-error-message">' . esc_html( $api_key_error_message ) . '</span>' : '' ) . '
-						' . $this->settings_description() . '
-					</div>
-
-					<div class="sui-form-field">
-						<label class="sui-label">' . esc_html__( 'Identifier', 'forminator' ) . '</label>
-
-						<input name="identifier"
-							placeholder="' . esc_attr__( 'E.g., Business Account', 'forminator' ) . '"
-							value="' . esc_attr( $identifier ) . '"
-							class="sui-form-control" />
-
-						<span class="sui-description">' . esc_html__( 'Helps distinguish between integrations if connecting to the same third-party app with multiple accounts.', 'forminator' ) . '</span>
-					</div>
-
-				</form>
-				' . $this->settings_account(),
+			'html'       => $html,
 			'buttons'    => $buttons,
 			'redirect'   => false,
 			'has_errors' => ! empty( $error_message ) || ! empty( $api_key_error_message ),

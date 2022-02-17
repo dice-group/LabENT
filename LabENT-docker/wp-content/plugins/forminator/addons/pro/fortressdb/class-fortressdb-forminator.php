@@ -112,18 +112,20 @@ final class FortressDB_Forminator_Addon extends Forminator_Addon_Abstract {
 		ob_start();
 		?>
 
-		<div class="integration-header">
+		<div class="forminator-integration-popup__header">
 
-			<h3 id="dialogTitle2" class="sui-box-title">
+			<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
 				<?php
 				/* translators: ... */
 				echo esc_html( sprintf( __( 'Connect %1$s', 'forminator' ), 'FortressDB' ) );
 				?>
 			</h3>
 
-			<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Install the FortressDB plugin and sign-in to your FortressDB account to automatically connect it to Forminator. If you do not have an account, you can create a new free account within the FortressDB plugin.', 'forminator' ); ?></span>
-
 		</div>
+
+		<p id="forminator-integration-popup__description" class="sui-description" style="text-align: center;">
+			<?php esc_html_e( 'Install the FortressDB plugin and sign-in to your FortressDB account to automatically connect it to Forminator. If you do not have an account, you can create a new free account within the FortressDB plugin.', 'forminator' ); ?>
+		</p>
 
 		<?php
 		$html = ob_get_clean();
@@ -135,7 +137,7 @@ final class FortressDB_Forminator_Addon extends Forminator_Addon_Abstract {
                                 admin_url( 'plugin-install.php?s=fortressdb&tab=search&type=term' );
 
 		$buttons['close'] = array(
-			'markup' => self::get_link_markup( $fortress_install_url, esc_html__( 'Install FortressDB', 'forminator' ), '_self', 'forminator-addon-close' ),
+			'markup' => self::get_link_markup( $fortress_install_url, esc_html__( 'Install FortressDB', 'forminator' ), '_self', 'forminator-addon-close forminator-integration-popup__close' ),
 		);
 
 		$has_errors = false;

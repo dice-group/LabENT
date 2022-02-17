@@ -61,7 +61,7 @@
 					   element_id = $element.attr( 'id' );
                     }
 				}
-				element_id = $.trim( element_id );
+				element_id = element_id.trim();
 				//lookup condition of fields
 				if (!self.has_relations(element_id) && !self.has_siblings(element_id)) return false;
 
@@ -94,7 +94,7 @@
                 });
             }
 
-			this.$el.find('.forminator-button.forminator-button-back, .forminator-button.forminator-button-next').click(function (e) {
+			this.$el.find('.forminator-button.forminator-button-back, .forminator-button.forminator-button-next').on("click", function () {
 				form.find('.forminator-field input:not([type="file"]), .forminator-row input[type=hidden], .forminator-field select, .forminator-field textarea').trigger( 'change', 'forminator_emulate_trigger' );
 			});
 			// Simulate change

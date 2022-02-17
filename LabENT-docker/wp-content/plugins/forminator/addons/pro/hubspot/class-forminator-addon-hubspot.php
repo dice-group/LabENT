@@ -268,7 +268,7 @@ final class Forminator_Addon_Hubspot extends Forminator_Addon_Abstract {
 		$buttons = array();
 		if ( $this->is_connected() ) {
 			$buttons['disconnect'] = array(
-				'markup' => self::get_button_markup( esc_html__( 'DISCONNECT', 'forminator' ), 'sui-button-ghost forminator-addon-disconnect' ),
+				'markup' => self::get_button_markup( esc_html__( 'DISCONNECT', 'forminator' ), 'sui-button-ghost forminator-addon-disconnect forminator-integration-popup__close' ),
 			);
 
 			$setting_values  = $this->get_settings_values();
@@ -325,7 +325,7 @@ final class Forminator_Addon_Hubspot extends Forminator_Addon_Abstract {
 
 		if ( $this->_token ) {
 			$buttons['close'] = array(
-				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'forminator-addon-connect forminator-addon-close' ),
+				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'forminator-addon-connect forminator-addon-close forminator-integration-popup__close' ),
 			);
 			$is_poll          = false;
 
@@ -447,7 +447,7 @@ final class Forminator_Addon_Hubspot extends Forminator_Addon_Abstract {
 		$auth_url = add_query_arg(
 			array(
 				'client_id'    => $client_id,
-				'scope'        => $scopes,
+				'scope'        => rawurlencode( $scopes ),
 				'redirect_uri' => $redirect_url,
 			),
 			$base_authorize_url

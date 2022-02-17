@@ -22,6 +22,9 @@ admin/popup/disconnect-stripe.js
 admin/popup/disconnect-paypal.js
 admin/popup/approve-user.js
 admin/popup/delete-unconfirmed-user.js
+admin/popup/create-appearance-preset.js
+admin/popup/apply-appearance-preset.js
+admin/popup/confirm.js
 admin/popup/addons-actions.js
 admin/popups.js
 text!tpl/popups.html

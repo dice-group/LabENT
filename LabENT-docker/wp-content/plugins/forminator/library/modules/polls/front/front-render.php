@@ -164,23 +164,26 @@ class Forminator_Poll_Front extends Forminator_Render_Form {
 	 */
 	public function render_form_header() {
 
-		$html        = '';
-		$label_class = '';
+		$html         = '';
+		$label_class  = '';
+		$message_wrap = '';
 		$status_info = $this->model->opening_status();
 		if ( 'open' !== $status_info['status'] ) {
-			$html .= '<div class="forminator-response-message  forminator-error forminator-show">';
+			$html .= '<div class="forminator-response-message forminator-error forminator-show">';
 			$html .= '<p>' . esc_html( $status_info['msg'] ) . '</p>';
 			$html .= '</div>';
 		}
 
 		$is_ajax_submit = $this->is_ajax_submit();
 		$is_preview     = $this->is_preview;
-		$hidden_wrap    = '<div class="forminator-response-message" aria-hidden="true">';
-		if ( ! $is_preview && ! $is_ajax_submit ) {
-			$label_class  = filter_input( INPUT_GET, 'saved' ) ? 'forminator-success' : 'forminator-error';
-			$message_wrap = '<div class="forminator-response-message forminator-show ' . esc_attr( $label_class ) . '" >';
-		} else {
-			$message_wrap = $hidden_wrap;
+		if ( 'open' === $status_info['status'] ) {
+			$hidden_wrap = '<div class="forminator-response-message" aria-hidden="true">';
+			if ( ! $is_preview && ! $is_ajax_submit ) {
+				$label_class  = filter_input( INPUT_GET, 'saved' ) ? 'forminator-success' : 'forminator-error';
+				$message_wrap = '<div class="forminator-response-message forminator-show ' . esc_attr( $label_class ) . '" >';
+			} else {
+				$message_wrap = $hidden_wrap;
+			}
 		}
 
 		ob_start();
@@ -225,7 +228,7 @@ class Forminator_Poll_Front extends Forminator_Render_Form {
 
 		if ( $message ) {
 			$html .= $message_wrap . $message . '</div>';
-		} elseif ( ! $custom_message ) {
+		} elseif ( ! $custom_message && 'open' === $status_info['status'] ) {
 			$html .= $hidden_wrap . '</div>';
 		}
 
@@ -861,7 +864,7 @@ class Forminator_Poll_Front extends Forminator_Render_Form {
 			ob_start();
 			?>
 
-			<form
+			<form id="forminator-module-<?php echo esc_attr( $this->model->id ); ?>"
 				class="forminator-ui forminator-poll forminator-poll-<?php echo esc_attr( $this->model->id ); ?> <?php echo esc_attr( $this->get_form_design_class() ); ?> <?php echo esc_attr( $this->get_fields_type_class() ); ?> <?php echo esc_attr( $this->form_extra_classes() ); ?>"
 				method="GET"
 				action="<?php echo esc_url( $return_url ); ?>"

@@ -2565,7 +2565,7 @@ class Forminator_CForm_Front extends Forminator_Render_Form {
 						return true;
 					} elseif ( isset( $field[ $setting_name ] ) ) {
 						$field_settings_value = $field[ $setting_name ];
-						if ( is_bool( $setting_value ) ) {
+						if ( is_bool( $field_settings_value ) ) {
 							// cast to bool.
 							$field_settings_value = filter_var( $field[ $setting_name ], FILTER_VALIDATE_BOOLEAN );
 						}

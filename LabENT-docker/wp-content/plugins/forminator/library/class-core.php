@@ -387,6 +387,9 @@ class Forminator_Core {
 			'description',
             'consent_description',
             'hc_invisible_notice',
+            'options_bulk_editor',
+            'label',
+            'value',
 		);
 		if ( in_array( $current_key, $allow_html, true ) || 0 === strpos( $current_key, 'html-' ) ) {
 			return wp_kses_post( $data );

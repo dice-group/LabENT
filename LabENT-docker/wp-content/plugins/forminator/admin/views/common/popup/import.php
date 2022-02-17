@@ -5,7 +5,14 @@ $nonce = wp_create_nonce( 'forminator_save_import_' . $slug );
 
 <div class="sui-box-body wpmudev-popup-form">
 
-	<div class="sui-notice sui-notice-error wpmudev-ajax-error-placeholder sui-hidden"><p></p></div>
+	<div
+		role="alert"
+		id="wpmudev-ajax-error-placeholder"
+		class="sui-notice sui-notice-error"
+		aria-live="assertive"
+	>
+		<!-- Nothing should be placed here -->
+	</div>
 
 	<div class="sui-form-field">
 

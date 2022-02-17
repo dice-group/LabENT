@@ -11,9 +11,9 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2">
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
 		<?php
 			/* translators: ... */
 			echo esc_html( sprintf( __( 'Connect %1$s', 'forminator' ), 'AWeber' ) );
@@ -21,23 +21,40 @@ foreach ( $template_vars as $key => $val ) {
 	</h3>
 
 	<?php if ( ! empty( $vars['account_id'] ) ) : ?>
-		<div class="sui-notice sui-notice-success">
-			<p>
-				<?php
-					/* translators: ... */
-					echo esc_html( sprintf( __( 'Your %1$s account is already authorized.', 'forminator' ), 'AWeber' ) );
-				?>
-			</p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-green sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-check-tick" aria-hidden="true"></span>
+
+					<p>
+						<?php
+							/* translators: ... */
+							echo esc_html( sprintf( __( 'Your %1$s account is already authorized.', 'forminator' ), 'AWeber' ) );
+						?>
+					</p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php else : ?>
-		<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Authorize Forminator to connect with your AWeber account in order to send data from your forms.', 'forminator' ); ?></span>
+		<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Authorize Forminator to connect with your AWeber account in order to send data from your forms.', 'forminator' ); ?></p>
 	<?php endif; ?>
 
 </div>
 
 <?php if ( empty( $vars['account_id'] ) ) : ?>
 
-	<div class="sui-form-field">
+	<div class="sui-form-field" style="margin: 0;">
 
 		<label class="sui-label"><?php esc_html_e( 'Identifier', 'forminator' ); ?></label>
 
@@ -50,15 +67,18 @@ foreach ( $template_vars as $key => $val ) {
 
 	</div>
 
-	<div class="sui-block-content-center">
+	<div class="forminator-integration-popup__footer-temp">
 
-		<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
-			target="_blank"
-			class="sui-button sui-button-blue forminator-addon-connect">
-			<?php esc_html_e( 'Authorize', 'forminator' ); ?>
-		</a>
+		<div class="sui-actions-right">
+			<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
+				target="_blank"
+				class="sui-button sui-button-blue forminator-addon-connect">
+				<?php esc_html_e( 'Authorize', 'forminator' ); ?>
+			</a>
+		</div>
 
 	</div>
+
 	<script>
 		(function ($) {
 			$('input[name="identifier"]').on( 'change', function (e) {
@@ -82,7 +102,7 @@ foreach ( $template_vars as $key => $val ) {
 <?php endif; ?>
 
 <?php if ( $vars['is_connected'] ) : ?>
-	<div class="sui-block-content-center">
-		<button class="sui-button sui-button-ghost forminator-addon-disconnect"><?php esc_html_e( 'Disconnect', 'forminator' ); ?></button>
+	<div style="text-align: center;">
+		<button class="sui-button sui-button-ghost forminator-addon-disconnect forminator-integration-popup__close"><?php esc_html_e( 'Disconnect', 'forminator' ); ?></button>
 	</div>
 <?php endif; ?>

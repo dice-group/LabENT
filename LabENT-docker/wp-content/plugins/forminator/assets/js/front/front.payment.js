@@ -525,7 +525,7 @@
 			if (fontFamily && customFonts) {
 				stripeObject.fonts = [
 					{
-						cssSrc: 'https://fonts.googleapis.om/css?family=' + fontFamily,
+						cssSrc: 'https://fonts.googleapis.com/css?family=' + fontFamily,
 					}
 				];
 			}

@@ -4,14 +4,14 @@
  * Description:		The famous database browser & manager (for MySQL & MariaDB) - use it inside WordPress Dashboard without an extra hassle.
  * Text Domain:		wp-phpmyadmin-extension
  * Domain Path:		/languages
- * Version:			5.1.1.05
+ * Version:		    5.1.3
  * WordPress URI:	https://wordpress.org/plugins/wp-phpmyadmin-extension/
  * Plugin URI:		https://puvox.software/software/wordpress-plugins/?plugin=wp-phpmyadmin-extension
  * Contributors: 	puvoxsoftware,ttodua
- * Author:			Puvox.software
+ * Author:		    Puvox.software
  * Author URI:		https://puvox.software/
  * Donate Link:		https://paypal.me/Puvox
- * License:			GPL-3.0
+ * License:		    GPL-3.0
  * License URI:		https://www.gnu.org/licenses/gpl-3.0.html
  
  * @copyright:		Puvox.software
@@ -21,18 +21,12 @@ declare(strict_types=1);
 namespace WpPhpMyAdminExtension
 {
   if (!defined('ABSPATH')) exit;
-  require_once( __DIR__."/library_default_puvox.php" );
+  require_once( __DIR__."/library_wp.php" );
   
-  if (!trait_exists( '\\'.__NAMESPACE__.'\\PluginClass_extension')){
-	trait PluginClass_extension{}
-  }
-
-
-  class PluginClass extends \Puvox\default_plugin
+  class PluginClass extends \Puvox\wp_plugin
   {
-	use PluginClass_extension;
 
-	protected $required_version = "7.2.5";
+	protected $required_version = "7.1.3";
 
 	public function declare_settings()
 	{
@@ -65,9 +59,8 @@ namespace WpPhpMyAdminExtension
 		
 		$this->is_new_php = $this->helpers->above_version($this->required_version);
 	}
- 
+
 	//by default, this will is disabled per requirements. Users can enable only for themselves.
-	private $pma_installed_using_ajax = false;
 	private $allow_work = true;
 	
 	public function __construct_my()
@@ -126,6 +119,7 @@ namespace WpPhpMyAdminExtension
 		$this->pma_mainpage_path	= $this->pma_abspath	. '/index.php';
 		
 		$this->pma_zipPath			= $this->lib_absPath	. '/phpMyAdmin.zip'; 
+		$this->pma_langfiles_zipPath= $this->lib_absPath	. '/phpMyAdmin_langs.zip'; 
 		$this->pma_sessionfile		= $this->pma_abspath	. '/_session_temp.php'; 
 		$this->pma_sessionAllowfile	= $this->pma_abspath	. '/_session_temp_allow.php';
 		$this->pma_sessionDbfile	= $this->pma_abspath	. '/_session_temp_db_name_'. $this->helpers->array_value($_SERVER,'HTTP_HOST','undefined_server') .'.php';
@@ -134,10 +128,10 @@ namespace WpPhpMyAdminExtension
 		$this->path_to_pma_common	= $this->pma_abspath	. '/libraries/common.inc.php';
 		$this->path_to_def_common	= __DIR__ . '/default_common_inc_code.php';
 		//deleted targets //details: https://goo.gl/tCWdEv
-		$this->pma_delete_dirs		= ['/vendor/tecnickcom/tcpdf', '/locale', '/themes/original', '/doc', '/setup', '/examples', '/install', '/js/vendor/openlayers' ];	  //vendor\phpmyadmin\sql-parser\locale
+		$this->pma_delete_dirs		= ['/vendor/tecnickcom/tcpdf', '/locale', '/themes/original', '/doc', '/setup', '/examples', '/install', '/js/vendor/openlayers', '/vendor/phpmyadmin/sql-parser/locale'];	  //
+		$this->pma_delete_files		= ['/ChangeLog', '/composer.lock', '/yarn.lock'];	
 		$this->pma_create_files		= ['/vendor/tecnickcom/tcpdf/tcpdf.php'];	
 		$this->conflict_file_1		= $this->pma_abspath . '/vendor/phpmyadmin/motranslator/src/functions.php';
-		$this->old_pma_zip			= 'https://files.phpmyadmin.net/phpMyAdmin/4.9.4/phpMyAdmin-4.9.4-all-languages.zip';
 		
 		$this->if_redirect_to_pma();
 	}
@@ -165,12 +159,19 @@ namespace WpPhpMyAdminExtension
 						exit(__('Failure: can\'t rename <code>'.$dir.'</code> to <code>'.$this->pma_abspath.'</code>. Either do it manually from FTP, or try completely re-install the plugin.', 'wp-phpmyadmin-extension') );
 						usleep(500000);
 					}
-					
+
 					// delete extra directories
 					foreach($this->pma_delete_dirs as $eachDir){
 						$fullPath = $this->pma_abspath.'/'.$eachDir.'/';
 						if( is_dir($fullPath) ){
 							$this->helpers->rmdir_recursive($fullPath);
+						}
+					}
+					// delete extra files
+					foreach($this->pma_delete_files as $eachFile){
+						$fullPath = $this->pma_abspath.'/'.$eachDir.'/';
+						if( file_exists($fullPath) ){
+							unlink($fullPath);
 						}
 					}
 					// create extra directories & files
@@ -294,7 +295,7 @@ namespace WpPhpMyAdminExtension
 
 	// ======
 
-	public function create_session_var($force=false){ 
+	public function create_session_file($force=false){ 
 		$new_content = '<?php $sess_vars = ["time"=>'.time().', "name"=>"wp_pma_'.$this->helpers->randomString(14).'",  "value"=>"wp_pma_'.$this->helpers->randomString(23).'",  "require_ip"=>'.($this->opts['require_ip']? 'true':'false').', "ip"=>"'.$this->helpers->ip.'", "strip_slashes"=>'. ($this->opts['strip_slashes']? 'true':'false') .'];'; 
 
 		$create=false;
@@ -351,7 +352,6 @@ namespace WpPhpMyAdminExtension
 		}
 	}
 
-
 	public function replace_in_file($file, $from_pattern, $to){
 		if(file_exists($file))
 		{
@@ -360,20 +360,24 @@ namespace WpPhpMyAdminExtension
 			$this->file_put_contents($file, $new_cont);
 		}
 	}
-	
+
 	// https://docs.phpmyadmin.net/en/latest/setup.html#signon-authentication-mode 
 	public function if_redirect_to_pma()
 	{ 
 		if( isset($_GET['goto_wp_phpmyadmin']) ){ 
 			if( current_user_can('install_plugins') && current_user_can("manage_options") )
 			{ 
+				// for manual logout
 				if(isset($_GET['logout']))
 				{
 					$this->create_signon(false); 
 					exit("Logout done!");
 				}
 
-				$this->opts['ssl_error_shown']=1; $this->update_opts();
+
+				if (empty($this->opts['ssl_error_shown'])) {
+					$this->opts['ssl_error_shown']=1; $this->update_opts();
+				}
 				
 				if(isset($_GET['hosting_pma'])){
 					$m_url	= $this->opts['manual_pma_login_url'];
@@ -384,33 +388,26 @@ namespace WpPhpMyAdminExtension
 				}
 				else{
 					$this->helpers->disable_cache(true);
-					// when chosen installed pma-url, then use protection (which we cant use with hosting-url)
+					// when chosen our installed pma-url, then we ca use protection too
 					// p.s. SESSIONS DOESNT WORK for some reasons, probably WP resets then in 'shutdown' and start... SO WE USE COOKIES... 
-					$this->create_session_var();
+					$this->create_session_file();
 					$this->create_userip_file(); 
 					$this->create_signon(true); 
  					//debug ::	$this->helpers->set_cookie('xxxxxxx', json_encode($_SESSION) );
 					$this->chosen_server_url = $this->pma_mainpage_url;
+					$this->helpers->php_redirect($this->chosen_server_url);
 				}
-				if ( $this->opts['use_https'] ) 
-					$this->chosen_server_url = str_replace('http://','https://', $this->chosen_server_url);
 
-				$this->helpers->php_redirect($this->chosen_server_url);
-
-				//if(isset($_GET['automatic_login']))
-				//{
-				//	register_shutdown_function( function(){
-				//		<script> </script>
-				//		<iframe src="<?php echo  $this->chosen_server_url; ?pma_username=DB_USER&pma_password=DB_PASSWORD;" ></iframe>
-				//	 } );
-				//	 no longer works: 
-				//	 * include($this->pma_mainpage_path);
-				//	 * manual-post: https://pastebin(dot)com/yfZvt0zv
-				//}
-				//else {
-				//	$this->helpers->php_redirect($this->chosen_server_url);
-				//} 
-				//exit;
+				if(isset($_GET['automatic_login']))
+				{
+					// these methods don't work : https://pastebin_com/ERNBRY56 &&  https://pastebin_com/5ydiUKsj
+				}
+				else {
+					$this->helpers->php_redirect($this->chosen_server_url);
+				}
+				?>
+				<?php
+				exit;
 			}
 			else{
 				exit("You do not have enough privilegges to open this page.");
@@ -431,7 +428,7 @@ namespace WpPhpMyAdminExtension
 		.myplugin {padding:10px;}
 		.myplugin #old_pma_install:disabled{opacity:0.3;}
 		.myplugin .enterb{font-size:1.5em; padding:10px; } 
-		#mainsubmit-button{display:none; background:green;}
+		#mainsubmit-button{zdisplay:none; background:green;}
 		.myplugin .sample_disabled{opacity:0.3;}
 		body .ui-tooltip{background:pink;}
 		td:nth-child(3) { width: 280px; }
@@ -461,6 +458,9 @@ namespace WpPhpMyAdminExtension
 				$this->opts['hide_phma_errors']	= isset($_POST[ $this->plugin_slug ]['hide_phma_errors']); 
 				$this->update_opts(); 
 				
+				if (isset($_POST[ $this->plugin_slug ]['install_languages'])) {
+					$this->obtainLanguagePackages();
+				}
 				//reflect changes immediately
 				$this->replace_in_file($this->path_to_pma_config, '/\$cfg\[\WSendErrorReports\W\]\s+=\s+\W(.*?)\W/', '$cfg["SendErrorReports"] = \''. ($this->opts['hide_phma_errors'] ? 'never':'ask') .'\''); 
 			}
@@ -477,50 +477,49 @@ namespace WpPhpMyAdminExtension
 				<tr class="installed_logins">
 					<td><h3><?php _e("phpMyAdmin in your WP", 'wp-phpmyadmin-extension');?></h3></td>
 					<td>
-						<?php  
+					<?php  
 						$sitewides = get_site_option('active_sitewide_plugins');
 						$singlesites= get_site_option('active_plugins');
 						$ITHEMES_SLUG = 'better-wp-security/better-wp-security.php';
-						if (is_plugin_active('better-wp-security') || ( is_array($sitewides) && array_key_exists($ITHEMES_SLUG, $sitewides) ) || ( is_array($singlesites) && in_array($ITHEMES_SLUG, $singlesites) ) ) 
+						if (is_plugin_active('better-wp-security') || ( is_array($sitewides) && array_key_exists($ITHEMES_SLUG, $sitewides) ) || ( is_array($singlesites) && in_array($ITHEMES_SLUG, $singlesites) ) ) {
 							echo '<br/> <b style="color:red;">(Note: Seems you are using iThemes Security, which places specific restriction in htaccess. So,you might need to turn of setting :  <a target="_blank" href="'.admin_url('/admin.php?page=itsec&path=%2Fsettings%2Fconfigure%2Fadvanced%2Fsystem-tweaks').'"> Security > Settings > System Tweaks > PHP in Plugins </a>, othewise you might be restricted to enter PMA)</b>';
-						?>
+						}
+					?>
 					<?php  
-						
-						$error=false;
-						foreach ( array_filter($this->is_new_php ? ['hash','ctype'] : [] ) as $extension)
-						{
-							if(!extension_loaded($extension)) { 
-								$error=true;
-								_e('<div class="error_">extension <code>'.$extension.'</code> not enabled on your server. PhpMyAdmin can not work, unless you(or your hoster) enables it</div>', 'wp-phpmyadmin-extension');
-							}
+					$error=false;
+					foreach ( array_filter($this->is_new_php ? ['hash','ctype'] : [] ) as $extension)
+					{
+						if(!extension_loaded($extension)) { 
+							$error=true;
+							_e('<div class="error_">extension <code>'.$extension.'</code> not enabled on your server. PhpMyAdmin can not work, unless you(or your hoster) enables it</div>', 'wp-phpmyadmin-extension');
 						}
-						
-						if (!$this->is_new_php)
-						{
-							_e('<div class="error_">Your server\'s PHP version is lower than required '.$this->required_version.'. The latest PhpMyAdmin can\'t work, so we <b>strongly</b> recommend to contact your hosting administrator to update your obsolete PHP version.</div>', 'wp-phpmyadmin-extension');
-							if (!file_exists($this->pma_zipPath)) 
-							{
-								$error=true;
-								//_e('<div class="error_2">If neither your hosting provider can help you, then as a temporary solution, you can <button id="old_pma_install">download & install PhpMyAdmin 4.9.4</button> from official website, but we strongly recommend to upgrate your PHP and then you will be able to use latest up-to-date version, instead of using old version.</div>', 'wp-phpmyadmin-extension');
-							}
+					}
+					
+					if (!$this->is_new_php)
+					{
+						_e('<div class="error_">Your server\'s PHP version is lower than required '.$this->required_version.'. The latest PhpMyAdmin can\'t work, so we <b>strongly</b> recommend to contact your hosting administrator to update your obsolete PHP version.</div>', 'wp-phpmyadmin-extension');
+						if (!file_exists($this->pma_zipPath)) {
+							$error=true;
+							//_e('<div class="error_2">If neither your hosting provider can help you, then as a temporary solution, you can <button id="old_pma_install">download & install PhpMyAdmin 4.9.4</button> from official website, but we strongly recommend to upgrate your PHP and then you will be able to use latest up-to-date version, instead of using old version.</div>', 'wp-phpmyadmin-extension');
 						}
+					}
 
-						if ( ! $this->is_writable() ) 
-							_e('<div class="error_">Your <code>WP-CONTENT/PLUGINS/WP-PHPMYADMIN-EXTENSION</code> directory is not writable. Correct that at first, from hosting/sFTP settings</div>');
+					if ( ! $this->is_writable() ) 
+						_e('<div class="error_">Your <code>WP-CONTENT/PLUGINS/WP-PHPMYADMIN-EXTENSION</code> directory is not writable. Correct that at first, from hosting/sFTP settings</div>');
 
-						?>
+					?>
 					</td>
 					<td> 
-						<!--
-						<p class="submit manual_login"><a class="<?php if (!is_dir($this->pma_abspath)) echo "sample_disabled";?> button button-primary type_auto enterb enter_manual" target="_blank"  href="<?php echo $url_to_open;?>&manual_login"><?php _e("Login Manually", 'wp-phpmyadmin-extension');?></a></p>
+<!--
+					<p class="submit manual_login"><a class="<?php if (!is_dir($this->pma_abspath)) echo "sample_disabled";?> button button-primary type_auto enterb enter_manual" target="_blank"  href="<?php echo $url_to_open;?>&manual_login"><?php _e("Login Manually", 'wp-phpmyadmin-extension');?></a></p>
 
-						<p class="submit automatic_login"><a class="<?php if (!is_dir($this->pma_abspath)) echo "sample_disabled";?> button button-primary type_auto enterb enter_automatic" target="_blank" href="<?php echo $url_to_open;?>&automatic_login"  id="installed_automatic" ><?php _e("Login Automatically", 'wp-phpmyadmin-extension');?></a></p>
-						-->
-						
-						<p class="submit automatic_login">
-							<a class="<?php if (!is_dir($this->pma_abspath) || $error) echo "sample_disabled";?> button button-primary type_auto enterb enter_automatic" target="_blank" href="<?php echo $url_to_open;?>&plugin_pma&automatic_login" id="installed_automatic" onclick="show_ssl_wanring1(event, this);"><?php _e("Enter phpMyAdmin", 'wp-phpmyadmin-extension');?></a> 
-							<br/> (Note: due to bug in PMA, you have to manually click <a href="<?php echo $url_to_open;?>&logout" target="_blank">logout</a> after you done working in PMA) 
-						</p> 
+					<p class="submit automatic_login"><a class="<?php if (!is_dir($this->pma_abspath)) echo "sample_disabled";?> button button-primary type_auto enterb enter_automatic" target="_blank" href="<?php echo $url_to_open;?>&automatic_login"  id="installed_automatic" ><?php _e("Login Automatically", 'wp-phpmyadmin-extension');?></a></p>
+-->
+					 
+					<p class="submit automatic_login">
+						<a class="<?php if (!is_dir($this->pma_abspath) || $error) echo "sample_disabled";?> button button-primary type_auto enterb enter_automatic" target="_blank" href="<?php echo $url_to_open;?>&automatic_login" id="installed_automatic" onclick="show_ssl_wanring1(event, this);"><?php _e("Enter phpMyAdmin", 'wp-phpmyadmin-extension');?></a> 
+						<br/> (Note: logout from PMA after you done working there)
+					</p> 
 					</td>
 				</tr> 
 
@@ -534,7 +533,7 @@ namespace WpPhpMyAdminExtension
 					</td>
 					<td>
 					<p class="submit"><a class="button button-primary type_manual enterb enter_manual" target="_blank"  href="<?php if(empty($this->opts['manual_pma_login_url'])) echo "javascript:alert('url is empty');void(0);"; else if(stripos($this->opts['manual_pma_login_url'], '//')===false) echo "javascript:alert('incorrect url format');void(0);"; else echo $url_to_open.'&hosting_pma&manual_login';?>"><?php _e("Login Manually", 'wp-phpmyadmin-extension');?></a></p>
-					<p class="submit"><a class="button button-primary type_manual enterb enter_automatic comingsoon" target="_blank"  href="<?php if(empty($this->opts['manual_pma_login_url'])) echo "javascript:alert('url is empty');void(0);"; else if(stripos($this->opts['manual_pma_login_url'], '//')===false) echo "javascript:alert('incorrect url format');void(0);"; else echo $url_to_open.'&hosting_pma&automatic_url';?>" id="hosting_automatic" ><?php _e("Login Automatically", 'wp-phpmyadmin-extension');?></a></p>
+					<!-- <p class="submit"><a class="button button-primary type_manual enterb enter_automatic comingsoon" target="_blank"  href="<?php if(empty($this->opts['manual_pma_login_url'])) echo "javascript:alert('url is empty');void(0);"; else if(stripos($this->opts['manual_pma_login_url'], '//')===false) echo "javascript:alert('incorrect url format');void(0);"; else echo $url_to_open.'&hosting_pma&automatic_url';?>" id="hosting_automatic" ><?php _e("Login Automatically", 'wp-phpmyadmin-extension');?></a></p> -->
 					</td>
 				</tr>
 				
@@ -542,7 +541,7 @@ namespace WpPhpMyAdminExtension
 					<td></td>
 					<td></td>
 					<td>
-						<b><p class="description"><?php _e("Credentials:", 'wp-phpmyadmin-extension');?></p></b> <?php _e('DB Username', 'wp-phpmyadmin-extension');?>: <input type="text" value="<?php echo DB_USER;?>" class="noinput"/>
+						<b><p class="description"><?php _e("Credentials:", 'wp-phpmyadmin-extension');?></p></b> <?php _e('DB Username', 'wp-phpmyadmin-extension');?>: <input type="text" value="<?php echo DB_USER;?>" disabled />
 						<br/><?php _e('DB Password', 'wp-phpmyadmin-extension');?>: <b><?php _e('Get from wp-config.php', 'wp-phpmyadmin-extension');?></b>
 						<br/>
 					</td>
@@ -569,6 +568,13 @@ namespace WpPhpMyAdminExtension
 					<td><input type="checkbox" name="<?php echo $this->plugin_slug;?>[strip_slashes]" <?php checked($this->opts['strip_slashes']);?> data-onchange-save="true" /> </td>
 					<td></td>
 				</tr>
+				<?php if ($this->checkNeedLanguageFiles()) { ?>
+				<tr>
+					<td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12.02 0c6.614.011 11.98 5.383 11.98 12 0 6.623-5.376 12-12 12-6.623 0-12-5.377-12-12 0-6.617 5.367-11.989 11.981-12h.039zm3.694 16h-7.427c.639 4.266 2.242 7 3.713 7 1.472 0 3.075-2.734 3.714-7m6.535 0h-5.523c-.426 2.985-1.321 5.402-2.485 6.771 3.669-.76 6.671-3.35 8.008-6.771m-14.974 0h-5.524c1.338 3.421 4.34 6.011 8.009 6.771-1.164-1.369-2.059-3.786-2.485-6.771m-.123-7h-5.736c-.331 1.166-.741 3.389 0 6h5.736c-.188-1.814-.215-3.925 0-6m8.691 0h-7.685c-.195 1.8-.225 3.927 0 6h7.685c.196-1.811.224-3.93 0-6m6.742 0h-5.736c.062.592.308 3.019 0 6h5.736c.741-2.612.331-4.835 0-6m-12.825-7.771c-3.669.76-6.671 3.35-8.009 6.771h5.524c.426-2.985 1.321-5.403 2.485-6.771m5.954 6.771c-.639-4.266-2.242-7-3.714-7-1.471 0-3.074 2.734-3.713 7h7.427zm-1.473-6.771c1.164 1.368 2.059 3.786 2.485 6.771h5.523c-1.337-3.421-4.339-6.011-8.008-6.771"/></svg> <?php _e('Install all languages for PhpMyAdmin:', 'wp-phpmyadmin-extension');?></td> 
+					<td><input type="checkbox" name="<?php echo $this->plugin_slug;?>[install_languages]" data-onchange-save="true" /> </td>
+					<td></td>
+				</tr>
+				<?php } ?>
 			</table>
 			
 			<?php $this->nonceSubmit();  ?>
@@ -625,9 +631,18 @@ namespace WpPhpMyAdminExtension
 
 		$this->settings_page_part("end");
 	} 
-	
 
- 
+	private function checkNeedLanguageFiles () {
+		return (!is_dir($this->pma_abspath.'/locale'));
+	}
+	private function obtainLanguagePackages () {
+		$lang_files_zip = 'https://plugins.svn.wordpress.org/wp-phpmyadmin-extension/assets/pma-locales.zip';
+		wp_remote_get( $url=$lang_files_zip, ['timeout'=>300,  'stream'=>true,  'filename'=>$this->pma_langfiles_zipPath ] );
+		$this->helpers->unzip($this->pma_langfiles_zipPath, $this->pma_abspath);
+		usleep(500000);
+		unlink($this->pma_langfiles_zipPath);
+	}
+
 	public function backend_call($act)
     {
 		// removed : https://pastebin_com/Pi6jCbrf

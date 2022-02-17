@@ -16,7 +16,7 @@
 			<?php } ?>
 		</ul>
 
-		<select class="sui-mobile-nav sui-sidenav-hide-lg">
+		<select class="sui-mobile-nav sui-sidenav-hide-lg integration-nav">
 			<option value="forminator-integrations"><?php esc_html_e( 'Applications', 'forminator' ); ?></option>
 			<?php if ( forminator_is_show_documentation_link() ) { ?>
 				<option value="forminator-api"><?php esc_html_e( 'API', 'forminator' ); ?></option>

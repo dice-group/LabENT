@@ -352,17 +352,13 @@ $new = true;
 						<span class="sui-settings-label"><?php esc_html_e( 'Language', 'forminator' ); ?></span>
 						<span class="sui-description" style="margin-bottom: 10px;"><?php esc_html_e( 'By default, we\'ll show the CAPTCHA in your website\'s language.', 'forminator' ); ?></span>
 
-						<div style="width: 100%; max-width: 240px;">
-
-							<select name="captcha_language" id="captcha_language" class="sui-select">
-								<?php $languages = forminator_get_captcha_languages(); ?>
-								<option value=""><?php esc_html_e( 'Automatic', 'forminator' ); ?></option>
-								<?php foreach ( $languages as $key => $lang ) : ?>
-									<option value="<?php echo esc_attr( $key ); ?>" <?php selected( $captcha_language, $key ); ?>><?php echo esc_html( $lang ); ?></option>
-								<?php endforeach; ?>
-							</select>
-
-						</div>
+						<select name="captcha_language" id="captcha_language" class="sui-select" data-width="240">
+							<?php $languages = forminator_get_captcha_languages(); ?>
+							<option value=""><?php esc_html_e( 'Automatic', 'forminator' ); ?></option>
+							<?php foreach ( $languages as $key => $lang ) : ?>
+								<option value="<?php echo esc_attr( $key ); ?>" <?php selected( $captcha_language, $key ); ?>><?php echo esc_html( $lang ); ?></option>
+							<?php endforeach; ?>
+						</select>
 
 					</div>
 

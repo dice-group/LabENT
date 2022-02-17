@@ -14,20 +14,74 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( __( 'Create Spread Sheet', 'forminator' ) ); ?></h3>
-	<p><?php esc_html_e( 'Create Spreadsheet that will be used to send submissions.', 'forminator' ); ?></p>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php echo esc_html( __( 'Create Spreadsheet', 'forminator' ) ); ?>
+	</h3>
+
+	<p id="forminator-integration-popup__description" class="sui-description">
+		<?php esc_html_e( 'Create Spreadsheet that will be used to send submissions.', 'forminator' ); ?>
+	</p>
+
 	<?php if ( ! empty( $vars['file_id'] ) ) : ?>
-		<span class="sui-notice sui-notice-info"><p>
-		<?php esc_html_e( 'You can open your current spread sheet', 'forminator' ); ?>
-				<a target="_blank" href="https://docs.google.com/spreadsheets/d/<?php echo esc_attr( $vars['file_id'] ); ?>"><?php esc_html_e( 'here', 'forminator' ); ?></a>.</p></span>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-blue sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p>
+						<?php
+						/* translators: ... */
+						printf(
+							esc_html__( 'You can open your current Spreadsheet %shere%s.', 'forminator' ),
+							'<a target="_blank" href="https://docs.google.com/spreadsheets/d/' . esc_attr( $vars['file_id'] ) . '">',
+							'</a>'
+						); ?>
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
 	<?php endif; ?>
+
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $vars['error_message'] ); ?></p></span>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
+		</div>
 	<?php endif; ?>
+
 </div>
+
 <form>
+
 	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['folder_id_error'] ) ? 'sui-form-field-error' : '' ); ?>">
 		<label class="sui-label"><?php esc_html_e( 'Drive Folder ID', 'forminator' ); ?></label>
 		<input
@@ -65,7 +119,7 @@ foreach ( $template_vars as $key => $val ) {
 		</span>
 	</div>
 
-	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['file_name_error'] ) ? 'sui-form-field-error' : '' ); ?>">
+	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['file_name_error'] ) ? 'sui-form-field-error' : '' ); ?>" style="margin-bottom: 0;">
 		<label class="sui-label"><?php esc_html_e( 'Spreadsheet File Name', 'forminator' ); ?></label>
 		<input
 				class="sui-form-control"
@@ -77,4 +131,5 @@ foreach ( $template_vars as $key => $val ) {
 	</div>
 
 	<input type="hidden" name="multi_id" value="<?php echo esc_attr( $vars['multi_id'] ); ?>">
+
 </form>

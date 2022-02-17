@@ -42,8 +42,25 @@
 
 						<?php else : ?>
 
-							<div class="sui-notice" style="margin-top: 10px;">
-								<p><?php echo esc_html__( 'Contact Form 7 plugin is not active on your website.', 'forminator' ); ?></p>
+							<div
+								role="alert"
+								class="sui-notice sui-active"
+								style="display: block; text-align: left;"
+								aria-live="assertive"
+							>
+
+								<div class="sui-notice-content">
+
+									<div class="sui-notice-message">
+
+										<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+										<p><?php echo esc_html__( 'Contact Form 7 plugin is not active on your website.', 'forminator' ); ?></p>
+
+									</div>
+
+								</div>
+
 							</div>
 
 						<?php endif; ?>

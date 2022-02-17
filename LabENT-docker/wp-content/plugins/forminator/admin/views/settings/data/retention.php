@@ -46,7 +46,7 @@
 				<div class="sui-col-md-6">
 					<div class="sui-form-field">
 
-						<select id="<?php echo esc_attr( $option_slug ); ?>_unit" name="<?php echo esc_attr( $option_slug ); ?>_unit">
+						<select id="<?php echo esc_attr( $option_slug ); ?>_unit" name="<?php echo esc_attr( $option_slug ); ?>_unit" class="sui-select">
 							<option value="days" <?php selected( $args['unit'], 'days' ); ?>>
 								<?php esc_html_e( 'day(s)', 'forminator' ); ?></option>
 							<option value="weeks" <?php selected( $args['unit'], 'weeks' ); ?>>

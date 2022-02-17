@@ -33,17 +33,47 @@ if ( $stripe_loaded ) {
 
 	<?php if ( version_compare( PHP_VERSION, $stripe_min_php_version, 'lt' ) ) : ?>
 
-		<div class="sui-notice sui-notice-warning">
+		<div
+			role="alert"
+			class="sui-notice sui-notice-yellow sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
 
-			<p><?php /* translators: ... */ printf( esc_html__( 'To be able to use Stripe Payments feature please upgrade your PHP to %1$sversion %2$s%3$s or above.', 'forminator' ), '<strong>', esc_html( $stripe_min_php_version ), '</strong>' ); ?></p>
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php /* translators: ... */ printf( esc_html__( 'To be able to use Stripe Payments feature please upgrade your PHP to %1$sversion %2$s%3$s or above.', 'forminator' ), '<strong>', esc_html( $stripe_min_php_version ), '</strong>' ); ?></p>
+
+				</div>
+
+			</div>
 
 		</div>
 
 	<?php elseif ( ! $stripe_loaded ) : ?>
 
-		<div class="sui-notice sui-notice-warning">
+		<div
+			role="alert"
+			class="sui-notice sui-notice-yellow sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
 
-			<p><?php esc_html_e( 'Failed to load Stripe Library, possibly conflict with other plugins. Please contact our support .', 'forminator' ); ?></p>
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php esc_html_e( 'Failed to load Stripe Library, possibly conflict with other plugins. Please contact our support .', 'forminator' ); ?></p>
+
+				</div>
+
+			</div>
 
 		</div>
 

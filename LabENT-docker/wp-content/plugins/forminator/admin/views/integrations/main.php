@@ -7,8 +7,25 @@ if ( empty( $module_id ) ) {
 
 if ( empty( $addons['connected'] ) && empty( $addons['not_connected'] ) ) { ?>
 
-	<div class="sui-notice sui-notice-info">
-		<p><?php printf( /* translators: ... */ esc_html__( 'You are not connected to any third party apps. You can connect to the available apps via their API on the %1$sIntegrations%2$s page and come back to activate them for collecting data of this module.', 'forminator' ), '<a href="' . esc_url( $integrations_page ) . '">', '</a>' ); ?></p>
+	<div
+		role="alert"
+		class="sui-notice sui-notice-blue sui-active"
+		style="display: block; text-align: left;"
+		aria-live="assertive"
+	>
+
+		<div class="sui-notice-content">
+
+			<div class="sui-notice-message">
+
+				<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+				<p><?php printf( /* translators: ... */ esc_html__( 'You are not connected to any third party apps. You can connect to the available apps via their API on the %1$sIntegrations%2$s page and come back to activate them for collecting data of this module.', 'forminator' ), '<a href="' . esc_url( $integrations_page ) . '">', '</a>' ); ?></p>
+
+			</div>
+
+		</div>
+
 	</div>
 
 <?php } else { ?>
@@ -19,8 +36,25 @@ if ( empty( $addons['connected'] ) && empty( $addons['not_connected'] ) ) { ?>
 
 		<?php if ( empty( $addons['connected'] ) ) { ?>
 
-			<div class="sui-notice sui-notice-info">
-				<p><?php esc_html_e( "You are not sending this module's data to any third party apps. You can activate any of the connected apps below and start sending this module's data to them.", 'forminator' ); ?></p>
+			<div
+				role="alert"
+				class="sui-notice sui-notice-blue sui-active"
+				style="display: block; text-align: left;"
+				aria-live="assertive"
+			>
+
+				<div class="sui-notice-content">
+
+					<div class="sui-notice-message">
+
+						<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+						<p><?php esc_html_e( "You are not sending this module's data to any third party apps. You can activate any of the connected apps below and start sending this module's data to them.", 'forminator' ); ?></p>
+
+					</div>
+
+				</div>
+
 			</div>
 
 		<?php } else { ?>
@@ -51,8 +85,25 @@ if ( empty( $addons['connected'] ) && empty( $addons['not_connected'] ) ) { ?>
 
 		<?php if ( empty( $addons['not_connected'] ) ) { ?>
 
-			<div class="sui-notice">
-				<p><?php printf( /* translators: ... */ esc_html__( 'Connect to more third party apps on the %1$sIntegrations%2$s page and activate them to collect the data of this module here.', 'forminator' ), '<a href="' . esc_url( $integrations_page ) . '">', '</a>' ); ?></p>
+			<div
+				role="alert"
+				class="sui-notice sui-active"
+				style="display: block; text-align: left;"
+				aria-live="assertive"
+			>
+
+				<div class="sui-notice-content">
+
+					<div class="sui-notice-message">
+
+						<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+						<p><?php printf( /* translators: ... */ esc_html__( 'Connect to more third party apps on the %1$sIntegrations%2$s page and activate them to collect the data of this module here.', 'forminator' ), '<a href="' . esc_url( $integrations_page ) . '">', '</a>' ); ?></p>
+
+					</div>
+
+				</div>
+
 			</div>
 
 		<?php } else { ?>

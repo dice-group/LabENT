@@ -1,38 +1,33 @@
 <?php if ( ! isset( $addons ) ) {
 	return;
 } ?>
-<div
-	tabindex="-1"
-	id="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>"
-	class="sui-dialog sui-dialog-sm sui-dialog-alt fui-dialog-publish"
-	aria-hidden="true"
->
+<div class="sui-modal sui-modal-sm">
 
 	<div
-		class="sui-dialog-content sui-fade-in"
-		aria-labelledby="fui-addons--install-title-<?php echo esc_attr( $addons->pid ); ?>"
-		aria-describedby="fui-addons--install-description-<?php echo esc_attr( $addons->pid ); ?>"
 		role="dialog"
+		id="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>"
+		class="sui-modal-content"
+		aria-modal="true"
+		aria-labelledby="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>__title"
+		aria-describedby="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>__description"
 	>
 
-		<div role="document" class="sui-box">
+		<div class="sui-box">
 
-			<div class="sui-box-header sui-block-content-center">
+			<div class="sui-box-header sui-flatten sui-content-center sui-spacing-top--60">
 
-				<button
-					class="sui-dialog-close"
-					data-addon="<?php echo esc_attr( $addons->pid ); ?>"
-					data-element="forminator-activate-popup"
-					aria-label="Close this dialog window"
-				></button>
+				<button class="sui-button-icon sui-button-float--right" data-modal-close>
+					<span class="sui-icon-close sui-md" aria-hidden="true"></span>
+					<span class="sui-screen-reader-text">Close this modal</span>
+				</button>
 
-				<h3 id="fui-addons--install-title-<?php echo esc_attr( $addons->pid ); ?>" class="sui-box-title"><?php echo esc_html( sprintf( __( '%s installed!', 'forminator' ), $addons->name ) ); ?></h3>
+				<h3 id="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: initial; text-overflow: initial;"><?php echo esc_html( sprintf( __( '%s installed!', 'forminator' ), $addons->name ) ); ?></h3>
 
-				<p id="fui-addons--install-description-<?php echo esc_attr( $addons->pid ); ?>" class="sui-description" style="margin-top: 15px;"><?php esc_html_e( 'Would you like to activate it now?', 'forminator' ); ?></p>
+				<p id="forminator-activate-popup-<?php echo esc_attr( $addons->pid ); ?>__description" class="sui-description" style="margin-top: 15px;"><?php esc_html_e( 'Would you like to activate it now?', 'forminator' ); ?></p>
 
 			</div>
 
-			<div class="sui-box-footer sui-flatten sui-box-footer-center">
+			<div class="sui-box-footer sui-flatten sui-content-center">
 
 				<button
 					class="sui-button addons-modal-close"
@@ -55,16 +50,16 @@
 					<span class="sui-icon-loader sui-loading" aria-hidden="true"></span>
 				</button>
 
-			</div><!-- END .sui-box -->
+			</div>
 
 			<img
 				src="<?php echo esc_url( forminator_plugin_url() . 'assets/images/forminator-prompt.png' ); ?>"
 				srcset="<?php echo esc_url( forminator_plugin_url() . 'assets/images/forminator-prompt.png' ); ?> 1x, <?php echo esc_url( forminator_plugin_url() . 'assets/images/forminator-prompt@2x.png' ); ?> 2x"
 				class="sui-image sui-image-center"
-				style="margin-top: 20px;"
 			/>
 
-		</div><!-- END .sui-box -->
+		</div>
 
-	</div><!-- END .sui-dialog-content -->
-</div><!-- END .sui-dialog -->
+	</div>
+
+</div>

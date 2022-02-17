@@ -168,8 +168,8 @@ class Forminator_MultiValue extends Forminator_Field {
 			$option_default    = isset( $option['default'] ) ? filter_var( $option['default'], FILTER_VALIDATE_BOOLEAN ) : false;
 			$calculation_value = $calc_enabled && isset( $option['calculation'] ) ? $option['calculation'] : 0.0;
 			$option_image_url  = array_key_exists( 'image', $option ) ? $option['image'] : '';
-			$option_label      = '<span class="forminator-checkbox-label">' . esc_html( $option['label'] ) . '</span>';
-			$aria_label        = '<span class="forminator-screen-reader-only">' . esc_html( $option['label'] ) . '</span>';
+			$option_label      = '<span class="forminator-checkbox-label">' . wp_kses_post( $option['label'] ) . '</span>';
+			$aria_label        = '<span class="forminator-screen-reader-only">' . wp_kses_post( $option['label'] ) . '</span>';
 
 			$class = 'forminator-checkbox';
 

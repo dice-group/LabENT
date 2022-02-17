@@ -350,7 +350,7 @@ final class Forminator_Addon_Campaignmonitor extends Forminator_Addon_Abstract {
 
 		if ( $show_success ) {
 			$buttons['close'] = array(
-				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close' ),
+				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close forminator-integration-popup__close' ),
 			);
 		} else {
 			if ( $this->is_connected() ) {

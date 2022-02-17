@@ -17,22 +17,40 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 }
 
-$list_selector_class = 'sui-select';
-
-if ( empty( $vars['lists'] ) ) {
-	$list_selector_class = 'fui-select-disabled';
-}
-
 $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['custom_fields_map'] ) : array();
 ?>
-<div class="integration-header">
 
-	<h3 id="dialogTitle2" class="sui-box-title"><?php echo esc_html( __( 'Create Contact', 'forminator' ) ); ?></h3>
+<div class="forminator-integration-popup__header">
 
-	<p class="sui-description" style="max-width: 400px; margin: 20px auto 0; line-height: 22px;"><?php esc_html_e( 'Let\'s start with choosing a HubSpot list and matching up your form fields with the default HubSpot contact fields to make sure weâ€™re sending data to the right place.', 'forminator' ); ?></p>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php echo esc_html( __( 'Create Contact', 'forminator' ) ); ?>
+	</h3>
+
+	<p id="forminator-integration-popup__description" class="sui-description">
+		<?php esc_html_e( 'Let\'s start with choosing a HubSpot list and matching up your form fields with the default HubSpot contact fields to make sure weâ€™re sending data to the right place.', 'forminator' ); ?>
+	</p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $vars['error_message'] ); ?></p></span>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
+		</div>
 	<?php endif; ?>
 
 </div>
@@ -46,13 +64,21 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 			<span class="sui-label-note"><?php esc_html_e( 'Static list only', 'forminator' ); ?></span>
 		</label>
 
-		<select id="hubspot-list-id" class="<?php echo esc_attr( $list_selector_class ); ?>" aria-labelledby="hubspot-list-id-label" aria-describedby="hubspot-list-id-desc hubspot-list-id-error" name="list_id">
+		<select
+			name="list_id"
+			id="hubspot-list-id"
+			class="sui-select"
+			aria-labelledby="hubspot-list-id-label"
+			aria-describedby="hubspot-list-id-desc hubspot-list-id-error"
+			data-placeholder="<?php echo ( empty( $vars['lists'] ) ) ? esc_html_e( 'No static lists found on your HubSpot account', 'forminator' ) : esc_html_e( 'Select a list', 'forminator' ); ?>"
+			<?php if ( empty( $vars['lists'] ) ) { echo 'disabled'; } ?>
+		>
+
+			<option></option>
 
 			<?php
 			// Select a list.
 			if ( ! empty( $vars['lists'] ) ) { ?>
-
-				<option value=""><?php esc_html_e( 'Select a list', 'forminator' ); ?></option>
 
 				<?php
 				foreach ( $vars['lists'] as $list_id => $list_name ) : ?>
@@ -60,10 +86,6 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 				<?php
 				endforeach; ?>
 
-				<?php
-				// Empty notice.
-			} else { ?>
-				<option value=""><?php esc_html_e( 'No static lists found on your HubSpot account', 'forminator' ); ?></option>
 			<?php } ?>
 
 		</select>
@@ -127,7 +149,7 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 							}
 							?>
 							<div class="sui-form-field <?php echo esc_attr( ! empty( $current_error ) ? 'sui-form-field-error' : '' ); ?>"<?php echo ( ! empty( $current_error ) ) ? ' style="padding-top: 5px;"' : ''; ?>>
-								<select class="sui-select" name="fields_map[<?php echo esc_attr( $key ); ?>]">
+								<select name="fields_map[<?php echo esc_attr( $key ); ?>]" class="sui-select sui-select-sm">
 									<option value=""><?php esc_html_e( 'None', 'forminator' ); ?></option>
 									<?php
 									if ( ! empty( $forminator_fields ) ) :
@@ -154,7 +176,7 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 					<tr class="custom-field" id="custom-field">
 						<td>
 							<div class="sui-form-field">
-								<select class="sui-select" name=custom_property[]">
+								<select name=custom_property[]" class="sui-select sui-select-sm">
 									<option value=""><?php esc_html_e( 'None', 'forminator' ); ?></option>
 									<?php if ( ! empty( $vars['properties'] ) ) {
 										foreach ( $vars['properties'] as $p => $prop ) { ?>
@@ -168,7 +190,7 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 							<div class="fui-select-with-delete">
 
 								<div class="sui-form-field">
-									<select class="sui-select" name="custom_field[]">
+									<select name="custom_field[]" class="sui-select sui-select-sm">
 										<option value=""><?php esc_html_e( 'None', 'forminator' ); ?></option>
 										<?php
 										if ( ! empty( $forminator_fields ) ) :
@@ -194,7 +216,7 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 				<tr class="custom-field" id="custom-field" style="display: none;">
 					<td>
 						<div class="sui-form-field">
-							<select class="sui-select" name=custom_property[]">
+							<select name=custom_property[]" class="sui-select sui-select-sm">
 								<option value=""><?php esc_html_e( 'None', 'forminator' ); ?></option>
 								<?php if ( ! empty( $vars['properties'] ) ) {
 									foreach ( $vars['properties'] as $p => $prop ) { ?>
@@ -209,7 +231,7 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 						<div class="fui-select-with-delete">
 
 							<div class="sui-form-field">
-								<select class="sui-select" name="custom_field[]">
+								<select name="custom_field[]" class="sui-select sui-select-sm">
 									<option value=""><?php esc_html_e( 'None', 'forminator' ); ?></option>
 									<?php
 									if ( ! empty( $forminator_fields ) ) :
@@ -250,10 +272,11 @@ $custom_field_map = isset( $vars['custom_fields_map'] ) ? array_filter( $vars['c
 	<input type="hidden" name="multi_id" value="<?php echo esc_attr( $vars['multi_id'] ); ?>" />
 
 </form>
+
 <script type="text/javascript">
 	(function ($) {
 		$(document).ready(function (e) {
-            $(".add-hubspot-field").unbind().click(function(e) {
+            $(".add-hubspot-field").unbind().on('click', function(e) {
 				e.preventDefault();
 				if( $('.custom-field:visible').length < 1 ) {
 					$('#custom-field').show();

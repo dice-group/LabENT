@@ -10,9 +10,9 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2">
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
 		<?php
 			/* translators: ... */
 			echo esc_html( sprintf( __( 'Connect %1$s', 'forminator' ), 'AWeber' ) );
@@ -23,14 +23,29 @@ foreach ( $template_vars as $key => $val ) {
 
 <form>
 
-	<div class="sui-notice sui-notice-loading">
+	<div
+		role="alert"
+		class="sui-notice sui-active"
+		style="display: block; text-align: left;"
+		aria-live="assertive"
+	>
 
-		<p>
-			<?php
-				/* translators: ... */
-				echo esc_html( sprintf( __( 'We are waiting %1$s authorization...', 'forminator' ), 'AWeber' ) );
-			?>
-		</p>
+		<div class="sui-notice-content">
+
+			<div class="sui-notice-message">
+
+				<span class="sui-notice-icon sui-icon-loader sui-loading" aria-hidden="true"></span>
+
+				<p>
+					<?php
+						/* translators: ... */
+						echo esc_html( sprintf( __( 'We are waiting %1$s authorization...', 'forminator' ), 'AWeber' ) );
+					?>
+				</p>
+
+			</div>
+
+		</div>
 
 	</div>
 

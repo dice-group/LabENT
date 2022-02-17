@@ -14,15 +14,36 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 id="dialogTitle2" class="sui-box-title"><?php echo esc_html( __( 'Assign Fields', 'forminator' ) ); ?></h3>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php echo esc_html( __( 'Assign Fields', 'forminator' ) ); ?>
+	</h3>
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( "Match up your form fields with your Campaign Monitor fields to make sure we're sending data to the right place.", 'forminator' ); ?></span>
+	<p id="forminator-integration-popup__description" class="sui-description">
+		<?php esc_html_e( "Match up your form fields with your Campaign Monitor fields to make sure we're sending data to the right place.", 'forminator' ); ?>
+	</p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<div class="sui-notice sui-notice-error">
-			<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
@@ -71,7 +92,8 @@ foreach ( $template_vars as $key => $val ) {
 						?>
 						<div class="sui-form-field <?php echo esc_attr( ! empty( $current_error ) ? 'sui-form-field-error' : '' ); ?>">
 							<label>
-								<select class="sui-select" name="fields_map[<?php echo esc_attr( $key ); ?>]">
+								<?php // DEV NOTE: Select without JS. ?>
+								<select style="max-width: none;" name="fields_map[<?php echo esc_attr( $key ); ?>]">
 									<option value="">None</option>
 									<?php foreach ( $forminator_fields as $forminator_field ) : ?>
 										<option value="<?php echo esc_attr( $forminator_field['element_id'] ); ?>"

@@ -14,17 +14,34 @@ $vars = array(
 foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 }
-
 ?>
-<div class="integration-header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( __( 'Additional Options', 'forminator' ) ); ?></h3>
+<div class="forminator-integration-popup__header">
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Configure additional options for AWeber integration.', 'forminator' ); ?></span>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg"><?php echo esc_html( __( 'Additional Options', 'forminator' ) ); ?></h3>
+
+	<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Configure additional options for AWeber integration.', 'forminator' ); ?></p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<div class="sui-notice sui-notice-error">
-			<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
@@ -38,21 +55,25 @@ foreach ( $template_vars as $key => $val ) {
 
 		<div class="sui-insert-variables">
 
-			<input name="ad_tracking"
+			<input
+				name="ad_tracking"
 				placeholder="<?php echo esc_attr( __( 'Ad Tracking', 'forminator' ) ); ?>"
 				value="<?php echo esc_attr( $vars['ad_tracking'] ); ?>"
 				id="ad_tracking"
-				class="sui-form-control" />
+				class="sui-form-control"
+			/>
 
-			<select data-textarea-id="ad_tracking">
-
+			<select
+				id="ad-tracking-variables"
+				class="sui-variables"
+				data-textarea-id="ad_tracking"
+				<?php echo ( count( $vars['fields'] ) > 5 ) ? 'data-search="true"' : ''; ?>
+			>
 				<?php foreach ( $vars['fields'] as $field ) : ?>
-					<option value="{<?php echo esc_attr( $field['element_id'] ); ?>}"
-						data-content="{<?php echo esc_attr( $field['element_id'] ); ?>}">
+					<option value="{<?php echo esc_attr( $field['element_id'] ); ?>}">
 						<?php echo esc_html( $field['field_label'] ); ?>
 					</option>
 				<?php endforeach; ?>
-
 			</select>
 
 		</div>
@@ -65,17 +86,21 @@ foreach ( $template_vars as $key => $val ) {
 
 	</div>
 
-	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['tags_error'] ) ? 'sui-form-field-error' : '' ); ?>">
+	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['tags_error'] ) ? 'sui-form-field-error' : '' ); ?>" style="margin-bottom: 0;">
 
 		<label class="sui-label" for="tags"><?php esc_html_e( 'Tags', 'forminator' ); ?></label>
 
-		<select class="sui-select fui-multi-select" name="tags[]" id="tags"
-				multiple="multiple"
-				data-reorder="1"
-				data-tags="true"
-				data-token-separators="[',']"
-				data-placeholder=""
-				data-allow-clear="false">
+		<select
+			name="tags[]"
+			id="tags"
+			class="sui-select"
+			multiple="multiple"
+			data-reorder="1"
+			data-tags="true"
+			data-token-separators="[',']"
+			data-placeholder=""
+			data-allow-clear="false"
+		>
 
 			<?php foreach ( $vars['tags_selected_fields'] as $forminator_field ) : ?>
 				<option value="<?php echo esc_attr( $forminator_field['element_id'] ); ?>"

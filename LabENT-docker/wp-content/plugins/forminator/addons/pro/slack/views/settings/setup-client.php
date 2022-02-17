@@ -14,23 +14,53 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 }
 ?>
-<div class="integration-header">
-	<h3 class="sui-box-title" id="dialogTitle2">
+
+<div class="forminator-integration-popup__header">
+
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
 		<?php
 		/* translators: ... */
 		echo esc_html( sprintf( __( 'Setup %1$s Client', 'forminator' ), 'Slack' ) );
 		?>
 	</h3>
+
 	<?php if ( ! empty( $vars['token'] ) ) : ?>
-		<p><?php esc_html_e( 'Your Slack account is already authorized. Edit info below to re-authorize.', 'forminator' ); ?> </p>
+
+		<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Your Slack account is already authorized. Edit info below to re-authorize.', 'forminator' ); ?> </p>
+
 	<?php else : ?>
-		<p><?php esc_html_e( 'Setup Slack to be used by Forminator to communicating with Slack server.', 'forminator' ); ?></p>
+
+		<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Setup Slack to be used by Forminator to communicating with Slack server.', 'forminator' ); ?></p>
+
 		<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-			<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $vars['error_message'] ); ?></p></span>
+			<div
+				role="alert"
+				class="sui-notice sui-notice-red sui-active"
+				style="display: block; text-align: left;"
+				aria-live="assertive"
+			>
+
+				<div class="sui-notice-content">
+
+					<div class="sui-notice-message">
+
+						<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+						<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+					</div>
+
+				</div>
+
+			</div>
 		<?php endif; ?>
+
 	<?php endif ?>
+
 </div>
+
 <form>
+
 	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['client_id_error'] ) ? 'sui-form-field-error' : '' ); ?>">
 		<label class="sui-label"><?php esc_html_e( 'Client ID', 'forminator' ); ?></label>
 		<input
@@ -41,6 +71,7 @@ foreach ( $template_vars as $key => $val ) {
 			<span class="sui-error-message"><?php echo esc_html( $vars['client_id_error'] ); ?></span>
 		<?php endif; ?>
 	</div>
+
 	<div class="sui-form-field <?php echo esc_attr( ! empty( $vars['client_secret_error'] ) ? 'sui-form-field-error' : '' ); ?>">
 		<label class="sui-label"><?php esc_html_e( 'Client Secret', 'forminator' ); ?></label>
 		<input
@@ -132,4 +163,5 @@ foreach ( $template_vars as $key => $val ) {
 				</ol>
 			</span>
 	</div>
+
 </form>

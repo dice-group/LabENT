@@ -15,26 +15,60 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 id="dialogTitle2" class="sui-box-title">
-	<?php
-		/* translators: ... */
-		echo esc_html( sprintf( __( 'Configure %1$s API', 'forminator' ), 'Campaign Monitor' ) );
-	?>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php
+			/* translators: ... */
+			echo esc_html( sprintf( __( 'Configure %1$s API', 'forminator' ), 'Campaign Monitor' ) );
+		?>
 	</h3>
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Setup Campaign Monitor API Access.', 'forminator' ); ?></span>
+	<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Setup Campaign Monitor API Access.', 'forminator' ); ?></p>
 
 	<?php if ( ! empty( $vars['client_name'] ) ) : ?>
-		<div class="sui-notice sui-notice-success">
-			<p><?php esc_html_e( 'Campaign Monitor Integrations currently connected to API Client: ', 'forminator' ); ?> <strong><?php echo esc_html( $vars['client_name'] ); ?></strong></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-green sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-check-tick" aria-hidden="true"></span>
+
+					<p><?php esc_html_e( 'Campaign Monitor Integrations currently connected to API Client: ', 'forminator' ); ?> <strong><?php echo esc_html( $vars['client_name'] ); ?></strong></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<div class="sui-notice sui-notice-error">
-			<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
@@ -53,7 +87,7 @@ foreach ( $template_vars as $key => $val ) {
 				value="<?php echo esc_attr( $vars['api_key'] ); ?>"
 				class="sui-form-control" />
 
-			<i class="sui-icon-key" aria-hidden="true"></i>
+			<span class="sui-icon-key" aria-hidden="true"></span>
 
 		</div>
 
@@ -83,7 +117,7 @@ foreach ( $template_vars as $key => $val ) {
 					?>
 				</li>
 				<li>
-				<?php
+					<?php
 					echo sprintf(/* translators: ... */
 						esc_html__( 'Click on %1$sShow API Key%2$s, select and copy on the shown up value.', 'forminator' ),
 						'<strong>',
@@ -107,7 +141,7 @@ foreach ( $template_vars as $key => $val ) {
 				value="<?php echo esc_attr( $vars['client_id'] ); ?>"
 				class="sui-form-control" />
 
-			<i class="sui-icon-profile-male" aria-hidden="true"></i>
+			<span class="sui-icon-profile-male" aria-hidden="true"></span>
 
 		</div>
 
@@ -143,4 +177,5 @@ foreach ( $template_vars as $key => $val ) {
 
 
 	</div>
+
 </form>

@@ -10,10 +10,8 @@ from rdflib import URIRef, BNode, Literal
 from rdflib.serializer import Serializer
 import os
 
-
-
 ## file Upload
-OUT_FOLDER = "../uploads" #os.path.join(path, 'uploads')
+OUT_FOLDER = "uploads"
 
 if not os.path.isdir(OUT_FOLDER):
     os.mkdir(OUT_FOLDER)

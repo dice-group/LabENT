@@ -10,7 +10,6 @@ $vars = array(
 	'live_key_error'    => '',
 	'live_secret'       => '',
 	'live_secret_error' => '',
-
 );
 /** @var array $template_vars */
 foreach ( $template_vars as $key => $val ) {
@@ -18,12 +17,29 @@ foreach ( $template_vars as $key => $val ) {
 }
 ?>
 
-<span class="sui-description"><?php /* translators: ... */ printf( esc_html__( 'Enter your Stripe API keys below to connect your account. You can grab your API keys from %1$shere%2$s.' ), '<a href="https://dashboard.stripe.com/account/apikeys" target="_blank">', '</a>' ); ?></span>
+<p class="sui-description" style="margin-top: 0; text-align: center;"><?php /* translators: ... */ printf( esc_html__( 'Enter your Stripe API keys below to connect your account. You can grab your API keys from %1$shere%2$s.' ), '<a href="https://dashboard.stripe.com/account/apikeys" target="_blank">', '</a>' ); ?></p>
 
 <?php if ( ! empty( $vars['error_message'] ) ) : ?>
 
-	<div class="sui-notice sui-notice-error">
-		<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+	<div
+		role="alert"
+		class="sui-notice sui-notice-red sui-active"
+		style="display: block; text-align: left;"
+		aria-live="assertive"
+	>
+
+		<div class="sui-notice-content">
+
+			<div class="sui-notice-message">
+
+				<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+				<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+			</div>
+
+		</div>
+
 	</div>
 
 <?php endif; ?>

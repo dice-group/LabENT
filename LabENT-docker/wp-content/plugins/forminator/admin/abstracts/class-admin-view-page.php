@@ -300,10 +300,13 @@ abstract class Forminator_Admin_View_Page extends Forminator_Admin_Page {
 	 */
 	public function bulk_actions( $position = 'top', $is_registration = false ) { ?>
 
-		<select name="<?php echo ( 'top' === $position ) ? 'entries-action' : 'entries-action-bottom'; ?>"
-				class="sui-select-sm sui-select-inline"
-				style="min-width: 200px;">
-			<option value=""><?php esc_html_e( 'Bulk Actions', 'forminator' ); ?></option>
+		<select
+			name="<?php echo ( 'top' === $position ) ? 'entries-action' : 'entries-action-bottom'; ?>"
+			class="sui-select sui-select-sm sui-select-inline"
+			data-width="200px"
+			data-placeholder="<?php esc_html_e( 'Bulk Actions', 'forminator' ); ?>"
+		>
+			<option></option>
 			<?php if ( $is_registration ) { ?>
 				<option value="approve-users"><?php esc_html_e( 'Approve Users', 'forminator' ); ?></option>
 			<?php } ?>

@@ -79,7 +79,7 @@
 			this.update_buttons();
 			this.update_navigation();
 
-			this.$el.find('.forminator-button.forminator-button-back, .forminator-button.forminator-button-next, .forminator-button.forminator-button-submit').click(function (e) {
+			this.$el.find('.forminator-button.forminator-button-back, .forminator-button.forminator-button-next, .forminator-button.forminator-button-submit').on("click", function (e) {
 				e.preventDefault();
 				$(this).trigger('forminator.front.pagination.move');
 			});
@@ -103,7 +103,7 @@
 				self.handle_click('next');
 			});
 
-			this.$el.find('.forminator-step').click(function (e) {
+			this.$el.find('.forminator-step').on("click", function (e) {
 				e.preventDefault();
 				var step = $(this).data('nav');
 				self.handle_step(step);

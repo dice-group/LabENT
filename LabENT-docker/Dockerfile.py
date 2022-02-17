@@ -4,8 +4,7 @@ ADD . /axiom-generator
 WORKDIR /axiom-generator
 
 RUN apk add --no-cache --virtual .build-deps g++ python3-dev libffi-dev openssl-dev && \
-    apk add --no-cache --update python3 && \
-    pip3 install --upgrade pip setuptools
+    apk add --no-cache --update python3
 
 RUN apk add musl-dev
 RUN apk --no-cache add lapack libstdc++ && apk --no-cache add --virtual .builddeps gcc gfortran musl-dev lapack-dev && pip3 install scipy && apk del .builddeps && rm -rf /root/.cache
@@ -27,13 +26,13 @@ RUN pip3 install numpy pandas
 RUN pip3 install rdflib
 RUN apk add libc6-compat
 
-RUN pip3 install torch==1.9.0 torchvision -f https://download.pytorch.org/whl/torch_stable.html
-
-RUN git clone https://github.com/hzahera/vectograph.git
+RUN git clone https://github.com/dice-group/vectograph.git
 WORKDIR "/axiom-generator/vectograph"
 RUN pip3 install -e .
+
+WORKDIR "../"
 
 EXPOSE 7007
 COPY . .
 
-CMD [ "python3", "./axiom-generator/simple_flask.py" ]
+CMD [ "python3", "./axiom-generator/flaskAPP-AxiomGenerator.py" ]

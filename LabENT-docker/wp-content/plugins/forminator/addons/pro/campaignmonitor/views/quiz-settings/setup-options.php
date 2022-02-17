@@ -16,15 +16,32 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( __( 'Additional Options', 'forminator' ) ); ?></h3>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;"><?php echo esc_html( __( 'Additional Options', 'forminator' ) ); ?></h3>
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Configure additional options for Campaign Monitor integration.', 'forminator' ); ?></span>
+	<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Configure additional options for Campaign Monitor integration.', 'forminator' ); ?></p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<div class="sui-notice sui-notice-error">
-			<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
@@ -80,11 +97,12 @@ foreach ( $template_vars as $key => $val ) {
 
 	</div>
 
-	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['consent_to_track_error'] ) ? ' sui-form-field-error' : '' ); ?>">
+	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['consent_to_track_error'] ) ? ' sui-form-field-error' : '' ); ?>" style="margin-bottom: 0;">
 
 		<label class="sui-label" for="consent_to_track"><?php esc_html_e( 'Consent to Track', 'forminator' ); ?></label>
 
-		<select name="consent_to_track" id="consent_to_track" class="sui-select sui-form-control">
+		<?php // DEV NOTE: Select without JS. ?>
+		<select name="consent_to_track" id="consent_to_track" style="max-width: none;">
 			<option value="Unchanged" <?php selected( 'Unchanged', $vars['consent_to_track'] ); ?>>Unchanged</option>
 			<option value="Yes" <?php selected( 'Yes', $vars['consent_to_track'] ); ?>>Yes</option>
 			<option value="No" <?php selected( 'No', $vars['consent_to_track'] ); ?>>No</option>
@@ -98,8 +116,6 @@ foreach ( $template_vars as $key => $val ) {
 		</span>
 	</div>
 
-	<input type="hidden"
-		name="multi_id"
-		value="<?php echo esc_attr( $vars['multi_id'] ); ?>" />
+	<input type="hidden" name="multi_id" value="<?php echo esc_attr( $vars['multi_id'] ); ?>" />
 
 </form>

@@ -1,24 +1,134 @@
-<!doctype html>
-<title>Python Flask Multiple Files Upload Example</title>
-<h2>Select file to upload</h2>
-<p>
-	{% with messages = get_flashed_messages() %}
-	  {% if messages %}
-		<ul class=flashes>
-		{% for message in messages %}
-		  <li>{{ message }}</li>
-		{% endfor %}
-		</ul>
-	  {% endif %}
-	{% endwith %}
-</p>
-<form method="post" action="/" enctype="multipart/form-data">
-    <dl>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+width: 800px;
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-border {
+
+	border:1px solid gray;
+	padding: 20px 10px;
+}
+.header {
+  overflow: hidden;
+  background-color: ##FFFFFF;
+width: 655px;
+margin: auto;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 12px; 
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: D4D4D4;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-left {
+	width: 100px;
+  float: left;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+}
+</style>
+</head>
+
+
+<body>
+
+
+	<div class="header" >
+		
+	<div class="header-left">
+		<img src="http://localhost:8000/wp-content/uploads/2022/01/DAIKIRI_Logo_final.png" class="header-left">	</div>
+		<div class="header-right">
+		  <a class="active" href="http://localhost:8000/">Home</a>
+		  <a href="http://localhost:8000/?page_id=570">Task Panel</a>
+		  <a href="http://localhost:8000/?page_id=177">About</a>
+		</div>
+	  </div>
+	  
+	  <div style="padding-left:5px">
+		<h3>Axiom Generation for Semantification Workpackage</h3>
+
 		<p>
-			<input type="file" name="file" autocomplete="off" required>
+			Axiom-generator allows to upload an csv file which each row contains (clusterID, Type). You can upload files in step1.
+			After, the uploaded file processed successfully, you can download if from Step 2.
 		</p>
-    </dl>
-    <p>
-		<input type="submit" value="Submit">
+	</div>
+
+	<br> 
+<div class="div-border">
+	<b>1. Select a csv file to upload: </b>
+	<p>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+			<ul class=flashes>
+			{% for message in messages %}
+			  <li>{{ message }}</li>
+			{% endfor %}
+			</ul>
+		  {% endif %}
+		{% endwith %}
 	</p>
-</form>
+	<form method="post" action="/" enctype="multipart/form-data">
+			<input type="file" name="file" autocomplete="off" required>
+		
+			<input type="submit" value="Submit">
+	</form>
+
+</div>
+
+<br> <br> 
+<div class="div-border">
+	<p> 
+		<b>2. Download the semantification ontology from here:</b>
+	</p>
+	<form action="/download" method="post">
+		<button name="Download" type="submit">Download Ontology</button>
+	</form>
+
+</div>
+<div, class="header">
+<br><br>
+	<p>
+		Thanks for using Axiom-Generator.For any issues, please contact: hamada.zahera@upb.de
+	</p>
+</div>
+</body>
+</html>

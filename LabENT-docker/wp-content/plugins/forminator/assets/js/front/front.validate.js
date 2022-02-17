@@ -380,7 +380,7 @@
 		return this.optional(element) || check;
 	});
 	$.validator.addMethod("maxwords", function (value, element, param) {
-		return this.optional(element) || jQuery.trim(value).split(/\s+/).length <= param;
+		return this.optional(element) || value.trim().split(/\s+/).length <= param;
 	});
 	$.validator.addMethod("trim", function (value, element, param) {
 		return true === this.optional(element) || 0 !== value.trim().length;
@@ -469,7 +469,7 @@
 
 	$.validator.addMethod("extension", function (value, element, param) {
 		var check = false;
-		if ($.trim(value) !== '') {
+		if (value.trim() !== '') {
 			var extension = value.replace(/^.*\./, '');
 			if (extension == value) {
 				extension = 'notExt';

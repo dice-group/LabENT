@@ -429,6 +429,7 @@ class Forminator_Admin_L10n {
 			'form_reset'      => __( 'Form tracking data successfully reset.', 'forminator' ),
 			'poll_reset'      => __( 'Poll tracking data successfully reset.', 'forminator' ),
 			'quiz_reset'      => __( 'Quiz tracking data successfully reset.', 'forminator' ),
+			'preset_deleted'  => __( 'The selected preset has been successfully deleted.', 'forminator' ),
 		);
 
 		return $list;

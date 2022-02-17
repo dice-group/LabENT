@@ -842,4 +842,64 @@ class Forminator_Admin {
 		</script>
 		<?php
 	}
+
+	/**
+	 * Get apply preset modal HTML
+	 */
+	public static function get_apply_preset_modal() {
+		?>
+		<div class="sui-modal sui-modal-sm sui-modal-alt">
+			<div
+				role="dialog"
+				id="forminator-apply-preset-modal"
+				class="sui-modal-content sui-fade-in"
+				aria-labelledby="forminator-apply-preset-title"
+				aria-describedby="forminator-apply-preset-description"
+			>
+				<div class="sui-box" role="document">
+					<div class="sui-box-header sui-flatten sui-content-center sui-spacing-top--60">
+						<button class="sui-button-icon sui-button-float--right" data-modal-close="">
+							<span class="sui-icon-close sui-md" aria-hidden="true"></span>
+							<span class="sui-screen-reader-text"><?php esc_html_e( 'Close this dialog window.', 'forminator' ); ?></span>
+						</button>
+
+						<h3 class="sui-box-title sui-lg" id="forminator-apply-preset-title"><?php esc_html_e( 'Choose Preset', 'forminator' ); ?></h3>
+
+						<p class="sui-description" id="forminator-apply-preset-description">
+							<?php esc_html_e( 'Select an appearance preset from the list below to apply the appearance to the selected form(s)', 'forminator' ); ?>
+						</p>
+					</div>
+					<div class="sui-box-body sui-box-body-slim">
+
+						<div class="sui-form-field" style="margin-bottom: 10px;">
+							<?php echo Forminator_Settings_Page::get_preset_selectbox(); ?>
+						</div>
+
+						<div class="sui-notice" style="margin-top: 10px;">
+							<div class="sui-notice-content">
+								<div class="sui-notice-message">
+									<span class="sui-notice-icon sui-icon-info sui-md" aria-hidden="true"></span>
+									<p><?php esc_html_e( 'The current appearance configurations will be overwritten for the selected form(s).', 'forminator' ); ?></p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="sui-box-footer sui-flatten sui-box-footer-center sui-content-center" style="padding-bottom: 40px;">
+						<button id="forminator-apply-preset" class="sui-button sui-button-blue">
+							<span class="sui-button-text-default">
+								<i class="sui-icon-check" aria-hidden="true"></i> <?php esc_html_e( 'Apply Preset', 'forminator' ); ?>
+							</span>
+							<span class="sui-button-text-onload">
+								<i class="sui-icon-loader sui-loading" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+					<?php wp_nonce_field( 'forminator_apply_preset' ); ?>
+				</div>
+			</div>
+		</div>
+		<?php
+	}
 }

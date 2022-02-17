@@ -1,7 +1,7 @@
 === WP phpMyAdmin ===
 
 Tags			 : phpmyadmin,phpminiadmin,mysql,sql,database,manager,management,browser
-Stable tag		 : 5.1.1.05
+Stable tag		 : 5.1.3
 WordPress URI	 : https://wordpress.org/plugins/wp-phpmyadmin-extension/
 Plugin URI		 : https://puvox.software/software/wordpress-plugins/?plugin=wp-phpmyadmin-extension
 Contributors	 : puvoxsoftware,ttodua
@@ -10,7 +10,7 @@ Author URI		 : https://puvox.software/
 Donate link		 : https://paypal.me/puvox
 License			 : GPL-3.0
 License URI		 : https://www.gnu.org/licenses/gpl-3.0.html
-Requires at least: 4.4
+Requires at least: 5.0
 Tested up to	 : 5.8
 
 [ ✅ 𝐒𝐄𝐂𝐔𝐑𝐄 𝐏𝐋𝐔𝐆𝐈𝐍𝐒 b𝓎 𝒫𝓊𝓋𝑜𝓍 ]
@@ -53,9 +53,13 @@ B) Download plugin from WordPress.org , Extract the zip file and upload the cont
 
 == Changelog ==
 
+= 5.1.3 =
+* PMA 5.1.3
+* added language files
+* >= PHP 7.1.3 requirement
+
 = 5.10 =
 * PMA 5.1.0
-* PHP 7.2.5 requirement
 
 = 3.02 =
 * PMA 5.0.2 

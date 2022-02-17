@@ -111,6 +111,11 @@ class Forminator_Admin_AJAX {
 
 		add_action( 'wp_ajax_forminator_reset_tracking_data', array( $this, 'reset_tracking_data' ) );
 
+		add_action( 'wp_ajax_forminator_save_appearance_preset', array( $this, 'save_appearance_preset' ) );
+		add_action( 'wp_ajax_forminator_create_appearance_preset', array( $this, 'create_appearance_preset' ) );
+		add_action( 'wp_ajax_forminator_apply_appearance_preset', array( $this, 'apply_appearance_preset' ) );
+		add_action( 'wp_ajax_forminator_delete_appearance_preset', array( $this, 'delete_appearance_preset' ) );
+
 		add_action( 'wp_ajax_forminator_dismiss_prelaunch_subscriptions', array( $this, 'dismiss_prelaunch_subscriptions_notice' ) );
 
 		add_action( 'wp_ajax_forminator_module_search', array( $this, 'module_search' ) );
@@ -381,6 +386,157 @@ class Forminator_Admin_AJAX {
 	}
 
 	/**
+	 * Apply Appearance Preset ajax.
+	 */
+	public function apply_appearance_preset() {
+		forminator_validate_ajax( 'forminator_apply_preset' );
+
+		$preset_id = filter_input( INPUT_POST, 'preset_id' );
+		$ids       = filter_input( INPUT_POST, 'ids', FILTER_VALIDATE_INT, FILTER_REQUIRE_ARRAY );
+		$edit_form = filter_input( INPUT_POST, 'edit_form', FILTER_VALIDATE_BOOLEAN );
+		$count     = 0;
+
+		$new_settings = Forminator_Settings_Page::get_preset( $preset_id );
+		if ( $ids ) {
+			foreach ( $ids as $form_id ) {
+				$form_model = Forminator_Form_Model::model()->load( $form_id );
+				if ( ! $form_model ) {
+					continue;
+				}
+
+				$form_model->settings = self::merge_appearance_settings( $form_model->settings, $new_settings );
+
+				if ( $edit_form ) {
+					$settings     = filter_input( INPUT_POST, 'settings' );
+					$old_settings = json_decode( wp_unslash( $settings ), true );
+					if ( $old_settings ) {
+						$form_model->settings = self::merge_appearance_settings( $old_settings, $new_settings );
+					}
+					wp_send_json_success( $form_model->settings );
+				}
+
+				// Save data.
+				$form_model->save();
+
+				$count++;
+			}
+		}
+
+		if ( $edit_form ) {
+			wp_send_json_error( __( 'Something went wrong.', 'forminator' ) );
+		}
+
+		$success = sprintf( __( 'Preset successfully applied to %d form(s).', 'forminator' ), $count );
+		wp_send_json_success( $success );
+	}
+
+	/**
+	 * Merge Appearance settings
+	 *
+	 * @param array $settings Current Settings.
+	 * @param array $new_settings New Appearance settings.
+	 * @return array
+	 */
+	private function merge_appearance_settings( $settings, $new_settings ) {
+		$appearance_settings = Forminator_Settings_Page::only_appearance_settings( $settings );
+		$rest_settings       = array();
+		foreach ( $settings as $key => $val ) {
+			if ( ! array_key_exists( $key, $appearance_settings ) ) {
+				$rest_settings[ $key ] = $val;
+			}
+		}
+		$new_settings = array_merge( $rest_settings, $new_settings );
+
+		return $new_settings;
+	}
+
+	/**
+	 * Create Appearance Preset ajax.
+	 */
+	public function create_appearance_preset() {
+		forminator_validate_ajax( 'forminator_create_preset' );
+
+		$id       = uniqid();
+		$settings = array();
+		$form_id  = filter_input( INPUT_POST, 'form_id' );
+		$name     = filter_input( INPUT_POST, 'name' );
+
+		if ( empty( $name ) ) {
+			wp_send_json_error( __( 'Preset Name is empty.', 'forminator' ) );
+		}
+
+		if ( ! empty( $form_id ) ) {
+			$form     = Forminator_Form_Model::model()->load( $form_id );
+			$settings = $form->settings;
+		}
+
+		// Update preset list.
+		Forminator_Settings_Page::save_preset_list( $id, $name );
+
+		// Save preset.
+		self::save_preset( $id, $settings );
+
+		wp_send_json_success( $id );
+	}
+
+	/**
+	 * Delete Appearance Preset ajax.
+	 */
+	public function delete_appearance_preset() {
+		forminator_validate_ajax( 'forminator_appearance_preset' );
+
+		$id = filter_input( INPUT_POST, 'preset_id' );
+		if ( empty( $id ) ) {
+			wp_send_json_error( __( 'Preset ID is empty.', 'forminator' ) );
+		}
+		if ( 'default' === $id ) {
+			wp_send_json_error( __( 'Preset ID is incorrect.', 'forminator' ) );
+		}
+
+		// Delete preset from list.
+		$key          = 'forminator_appearance_presets';
+		$preset_names = get_option( $key, array() );
+		unset( $preset_names[ $id ] );
+		update_option( $key, $preset_names );
+
+		// Delete preset.
+		delete_option( 'forminator_appearance_preset_' . $id );
+
+		wp_send_json_success();
+	}
+
+	/**
+	 * Save Appearance Preset ajax.
+	 */
+	public function save_appearance_preset() {
+		forminator_validate_ajax( 'forminator_appearance_preset' );
+
+		$id = filter_input( INPUT_POST, 'presetId' );
+		if ( ! $id ) {
+			wp_send_json_error( esc_attr__( "Appearance preset id doesn't exist", 'forminator' ) );
+		}
+
+		$settings = array();
+		if ( ! empty( $_POST['settings'] ) ) {
+			$settings = Forminator_Core::sanitize_array( json_decode( wp_unslash( $_POST['settings'] ), true ) );
+		}
+
+		self::save_preset( $id, $settings );
+
+		wp_send_json_success( esc_attr__( 'The preset has been successfully updated.', 'forminator' ) );
+	}
+
+	/**
+	 * Save Appearance Preset
+	 *
+	 * @param string $id ID.
+	 * @param array  $settings Settings.
+	 */
+	private static function save_preset( $id, $settings ) {
+		update_option( 'forminator_appearance_preset_' . $id, $settings );
+	}
+
+	/**
 	 * Load existing custom field keys
 	 *
 	 * @return string JSON
@@ -553,8 +709,13 @@ class Forminator_Admin_AJAX {
 			$html .= '<div class="forminator-g-recaptcha-' . $captcha . '" data-sitekey="' . $captcha_key . '" data-theme="light" data-size="' . $captcha_size . '"></div>';
 
 		} else {
-			$html .= '<div class="sui-notice">';
-			$html .= '<p>' . esc_html__( 'You have to first save your credentials to load the reCAPTCHA . ', 'forminator' ) . '</p>';
+			$html .= '<div role="alert" class="sui-notice sui-active" style="display: block; text-align: left;" aria-live="assertive">';
+				$html .= '<div class="sui-notice-content">';
+					$html .= '<div class="sui-notice-message">';
+						$html .= '<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>';
+						$html .= '<p>' . esc_html__( 'You have to first save your credentials to load the reCAPTCHA . ', 'forminator' ) . '</p>';
+					$html .= '</div>';
+				$html .= '</div>';
 			$html .= '</div>';
 		}
 
@@ -1031,15 +1192,13 @@ class Forminator_Admin_AJAX {
 		// Validate nonce
 		forminator_validate_ajax( 'forminator_save_import_' . $slug );
 
-		$importable = trim( Forminator_Core::sanitize_text_field( 'importable' ) );
-
-		$import_data = json_decode( $importable, true );
+		$import_data = Forminator_Core::sanitize_array( json_decode( wp_unslash( $_POST['importable'] ), true ) );
 
 		// hook custom data here.
 		$import_data = apply_filters( 'forminator_' . $slug . '_import_data', $import_data );
 
 		try {
-			if ( empty( $importable ) ) {
+			if ( empty( $_POST['importable'] ) ) {
 				throw new Exception( __( 'Import text can not be empty.', 'forminator' ) );
 			}
 

@@ -13,7 +13,7 @@ class Forminator_Addon_Hubspot_Wp_Api {
 	const CLIENT_SECRET = '502c3a75-38fe-4a1f-9fc4-ff2464b639bf';
 	const HAPIKEY       = '7cf97e44-4037-4708-a032-0955318e0e76';
 
-	public static $oauth_scopes = 'contacts%20tickets';
+	public static $oauth_scopes = 'tickets crm.lists.write crm.lists.read crm.objects.contacts.write crm.objects.contacts.read crm.schemas.contacts.write crm.schemas.contacts.read';
 
 	/**
 	 * Instances of hubspot api
@@ -436,7 +436,7 @@ class Forminator_Addon_Hubspot_Wp_Api {
 			'grant_type'    => 'authorization_code',
 			'client_id'     => self::CLIENT_ID,
 			'client_secret' => self::CLIENT_SECRET,
-			'scope'         => self::$oauth_scopes,
+			'scope'         => rawurlencode( self::$oauth_scopes ),
 		);
 		$args         = array_merge( $default_args, $args );
 

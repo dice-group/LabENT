@@ -168,16 +168,16 @@ final class Forminator_Addon_Zapier extends Forminator_Addon_Abstract {
 
 		if ( $show_success ) {
 			$buttons['close'] = array(
-				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close' ),
+				'markup' => self::get_button_markup( esc_html__( 'Close', 'forminator' ), 'sui-button-ghost forminator-addon-close forminator-integration-popup__close' ),
 			);
 		} else {
 			if ( $this->is_connected() ) {
 				$buttons['disconnect'] = array(
-					'markup' => self::get_button_markup( esc_html__( 'Disconnect', 'forminator' ), 'sui-button-ghost forminator-addon-disconnect' ),
+					'markup' => self::get_button_markup( esc_html__( 'Disconnect', 'forminator' ), 'sui-button-ghost forminator-addon-disconnect forminator-integration-popup__close' ),
 				);
 			} else {
 				$buttons['submit'] = array(
-					'markup' => self::get_button_markup( esc_html__( 'Activate', 'forminator' ), 'forminator-addon-connect' ),
+					'markup' => self::get_button_markup( esc_html__( 'Activate', 'forminator' ), 'forminator-addon-connect forminator-integration-popup__close' ),
 				);
 			}
 		}

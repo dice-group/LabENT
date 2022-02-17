@@ -1,87 +1,66 @@
 <?php
 $current_user = wp_get_current_user();
-$banner_1x    = forminator_plugin_url() . 'assets/images/conditional-data.png';
-$banner_2x    = forminator_plugin_url() . 'assets/images/conditional-data@2x.png';
+$banner_1x    = forminator_plugin_url() . 'assets/images/new-feature.png';
+$banner_2x    = forminator_plugin_url() . 'assets/images/new-feature@2x.png';
 ?>
 
-<div
-	id="forminator-new-feature"
-	class="sui-dialog sui-dialog-onboard"
-	aria-hidden="true"
->
-
-	<div class="sui-dialog-overlay sui-fade-out" data-a11y-dialog-hide="forminator-new-feature" aria-hidden="true"></div>
+<div class="sui-modal sui-modal-md">
 
 	<div
-		class="sui-dialog-content sui-fade-out"
 		role="dialog"
+		id="forminator-new-feature"
+		class="sui-modal-content"
+		aria-live="polite"
+		aria-modal="true"
+		aria-labelledby="forminator-new-feature__title"
 	>
 
-		<div class="sui-slider forminator-feature-modal" data-prop="forminator_dismiss_feature_1158" data-nonce="<?php echo esc_attr( wp_create_nonce( 'forminator_dismiss_notification' ) ); ?>">
+		<div class="sui-box forminator-feature-modal" data-prop="forminator_dismiss_feature_11511" data-nonce="<?php echo esc_attr( wp_create_nonce( 'forminator_dismiss_notification' ) ); ?>">
 
-			<ul role="document" class="sui-slider-content">
+			<div class="sui-box-header sui-flatten sui-content-center">
 
-				<li class="sui-current sui-loaded" data-slide="1">
+				<figure class="sui-box-banner" aria-hidden="true">
+					<img
+						src="<?php echo esc_url( $banner_1x ); ?>"
+						srcset="<?php echo esc_url( $banner_1x ); ?> 1x, <?php echo esc_url( $banner_2x ); ?> 2x"
+						alt=""
+					/>
+				</figure>
 
-					<div class="sui-box">
+				<button class="sui-button-icon sui-button-white sui-button-float--right forminator-dismiss-new-feature" data-modal-close>
+					<span class="sui-icon-close sui-md" aria-hidden="true"></span>
+					<span class="sui-screen-reader-text">Close this dialog.</span>
+				</button>
 
-						<div class="sui-box-banner" role="banner" aria-hidden="true" style="background: #0073AA;">
-							<img
-								src="<?php echo esc_url( $banner_1x ); ?>"
-								srcset="<?php echo esc_url( $banner_1x ); ?> 1x, <?php echo esc_url( $banner_2x ); ?> 2x"
-								class="sui-image"
-								alt="Forminator"
-							/>
-						</div>
+				<h3 class="sui-box-title sui-lg" style="overflow: initial; white-space: initial; text-overflow: initial;"><?php esc_html_e( 'New! Global Appearance Presets', 'forminator' ); ?></h3>
 
-						<div class="sui-box-header sui-block-content-center">
+				<p class="sui-description"><?php printf( esc_html__( 'Hey, %s! Global appearance presets are here. You can now create appearance presets in the Forminator settings and apply them to forms on your site. You can also bulk apply presets to multiple forms with just a click.', 'forminator' ), esc_html( ucfirst( $current_user->display_name ) ) ); ?></p>
 
-							<button data-a11y-dialog-hide="forminator-new-feature" class="sui-dialog-close forminator-dismiss-new-feature" aria-label="<?php esc_html_e( 'Close this dialog window', 'forminator' ); ?>"></button>
+			</div>
 
-							<?php // if ( FORMINATOR_PRO ) { ?>
+			<!--<div class="sui-box-body sui-spacing-top--0">
 
-								<h2 class="sui-box-title"><?php esc_html_e( 'New! Conditionally Send Data to Apps', 'forminator' ); ?></h2>
+				<ul>
 
-							<?php // } else { ?>
+					<li style="margin-bottom: 15px;">
+						<p class="sui-description" style="margin-bottom: 5px;"><strong><?php esc_html_e( 'Conditional After Submission Behavior', 'forminator' ); ?></strong></p>
+						<p class="sui-description"><?php esc_html_e( 'After submission behaviors have a great new feature: you can now choose what happens after users successfully submit a form based on the data they provide. For example, you can redirect users to specific pages or display different submission messages.', 'forminator' ); ?></p>
+					</li>
 
-							<?php // } ?>
+					<li>
+						<p class="sui-description" style="margin-bottom: 5px;"><strong><?php esc_html_e( 'Support for hCaptcha', 'forminator' ); ?></strong></p>
+						<p class="sui-description"><?php esc_html_e( 'In the latest release, you can choose between reCAPTCHA and hCaptcha to stop pesky robots from submitting form data.', 'forminator' ); ?></p>
+					</li>
 
-						</div>
+				</ul>
 
-						<div class="sui-box-body sui-block-content-center">
+			</div>-->
 
-							<p class="sui-description"><?php printf( esc_html__( 'Hey, %s! You can now conditionally send form data from Forminator to connected applications, such as adding a user to a relevant mailing list or user group, or sending data to a connected app only when the Consent checkbox is checked.', 'forminator' ), esc_html( ucfirst( $current_user->display_name ) ) ); ?></p>
+			<div class="sui-box-footer sui-flatten sui-content-center">
 
-						</div>
-						<div class="sui-box-body" sui-spacing-bottom="0">
+				<button class="sui-button forminator-dismiss-new-feature" data-modal-close><?php esc_html_e( 'Got It', 'forminator' ); ?></button>
 
-							<ul class="sui-list" sui-type="bullets">
-
-								<li>
-									<p class="sui-description"><strong sui-color="darkgray"><?php esc_html_e( 'Conditional After Submission Behavior', 'forminator' ); ?></strong></p>
-									<p class="sui-description"><?php esc_html_e( 'After submission behaviors have a great new feature: you can now choose what happens after users successfully submit a form based on the data they provide. For example, you can redirect users to specific pages or display different submission messages.', 'forminator' ); ?></p>
-								</li>
-
-								<li>
-									<p class="sui-description"><strong sui-color="darkgray"><?php esc_html_e( 'Support for hCaptcha', 'forminator' ); ?></strong></p>
-									<p class="sui-description"><?php esc_html_e( 'In the latest release, you can choose between reCAPTCHA and hCaptcha to stop pesky robots from submitting form data.', 'forminator' ); ?></p>
-								</li>
-
-							</ul>
-
-						</div>
-
-						<div class="sui-box-footer sui-block-content-center">
-
-							<button class="sui-button forminator-dismiss-new-feature" type="button" data-a11y-dialog-hide="forminator-new-feature"><?php esc_html_e( 'Got It', 'forminator' ); ?></button>
-
-						</div>
-
-					</div>
-
-				</li>
-
-			</ul>
+			</div>
 
 		</div>
 

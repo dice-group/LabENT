@@ -70,9 +70,14 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 		}
 
 		foreach ( $data['models'] as $model ) {
+			$form_name = $model->name;
+			if ( isset( $model->settings['formName'] ) && ! empty( $model->settings['formName'] ) ) {
+				$form_name = $model->settings['formName'];
+			}
+
 			$modules[] = static::module_array(
 				$model->id,
-				$model->settings['formName'],
+				$form_name,
 				$form_view->count_views( $model->id ),
 				date( get_option( 'date_format' ), strtotime( $model->raw->post_date ) ),
 				$model->status,
@@ -350,6 +355,18 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 									</button>
 								</li>
 
+								<?php if ( 'form' === $module_slug ) { ?>
+								<li>
+									<button
+										class="wpmudev-open-modal"
+										data-modal="apply_preset"
+										data-form-id="<?php echo esc_attr( $module['id'] ); ?>"
+									>
+										<i class="sui-icon-brush" aria-hidden="true"></i> <?php esc_html_e( 'Apply Preset', 'forminator' ); ?>
+									</button>
+								</li>
+								<?php } ?>
+
 								<?php if ( Forminator::is_import_export_feature_enabled() ) : ?>
 									<?php if ( $has_leads ) : ?>
 										<li aria-hidden="true"><a href="#" class="fui-button-with-tag sui-tooltip sui-tooltip-left"
@@ -428,7 +445,7 @@ abstract class Forminator_Admin_Module_Edit_Page extends Forminator_Admin_Page {
 						<?php if ( $has_leads ) : ?>
 							<li class="fui-conversion-select" data-col="selector">
 								<label class="fui-selector-label"><?php esc_html_e( 'View data for', 'forminator' ); ?></label>
-								<select class="sui-select-sm fui-selector-button fui-select-listing-data">
+								<select class="sui-select sui-select-sm fui-selector-button fui-select-listing-data">
 									<option value="submissions"><?php esc_html_e( 'Submissions', 'forminator' ); ?></option>
 									<option value="leads"><?php esc_html_e( 'Leads Form', 'forminator' ); ?></option>
 								</select>

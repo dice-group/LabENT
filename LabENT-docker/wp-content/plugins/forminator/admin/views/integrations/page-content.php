@@ -30,8 +30,25 @@
 
 	<?php } else { ?>
 
-		<div class="sui-notice sui-notice-info">
-			<p><?php esc_html_e( 'You are not connected to any third party apps. You can connect to the available apps listed below and activate them in your modules to collect data.', 'forminator' ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-blue sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php esc_html_e( 'You are not connected to any third party apps. You can connect to the available apps listed below and activate them in your modules to collect data.', 'forminator' ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 
 	<?php } ?>

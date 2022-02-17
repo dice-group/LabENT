@@ -157,7 +157,7 @@ class Forminator_Upload extends Forminator_Field {
 		$file_limit_type  = self::get_property( 'file-limit', $field, 'unlimited' );
 		$custom_file_type = self::get_property( 'custom-files', $field, false );
 		$custom_file_type = filter_var( $custom_file_type, FILTER_VALIDATE_BOOLEAN );
-		$file_mime_types  = $this->file_mine_type( $field );
+		$file_mime_types  = $this->file_mime_type( $field );
 		$mime_types       = array_filter( $file_mime_types );
 
 		if ( 'multiple' === $file_type ) {
@@ -270,8 +270,8 @@ class Forminator_Upload extends Forminator_Field {
 			$element_id .= '[]';
 		}
 		$rules              = '"' . $element_id . '": {' . "\n";
-		$mine_type          = $this->file_mine_type( $field );
-		$allowed_mime_types = ! empty( $mine_type ) ? implode( '|', array_values( $mine_type ) ) : '';
+		$mime_type          = $this->file_mime_type( $field );
+		$allowed_mime_types = ! empty( $mime_type ) ? implode( '|', array_values( $mime_type ) ) : '';
 
 		if ( $this->is_required( $field ) ) {
 			$rules .= '"required": true,';
@@ -743,7 +743,7 @@ class Forminator_Upload extends Forminator_Field {
 	 *
 	 * @return array
 	 */
-	public function file_mine_type( $field ) {
+	public function file_mime_type( $field ) {
 		$mime_types          = array();
 		$default_all         = array(
 			'all-image',

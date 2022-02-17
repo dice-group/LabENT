@@ -188,8 +188,12 @@ class Forminator_Entries_Page extends Forminator_Admin_Page {
 	 *
 	 * @since 1.0.5
 	 */
-	public function render_form_switcher( $form_type = 'forminator_forms', $form_id = 0 ) {
-		echo '<select name="form_id" data-allow-search="1" data-minimum-results-for-search="0" class="sui-select sui-select-sm sui-select-inline">';
+	public static function render_form_switcher( $form_type = 'forminator_forms', $form_id = 0 ) {
+		$classes = 'sui-select';
+		// Using this method for Create Appearance Preset.
+		if ( 0 !== $form_id ) {
+			$classes .= ' sui-select-sm sui-select-inline';
+		}
 
 		$empty_option = __( 'Choose Form', 'forminator' );
 		$method       = 'get_forms';
@@ -202,11 +206,11 @@ class Forminator_Entries_Page extends Forminator_Admin_Page {
 			$method       = 'get_quizzes';
 		}
 
-		echo '<option value="" ' . selected( 0, $form_id, false ) . '>' . esc_html( $empty_option ) . '</option>';
+		echo '<select name="form_id" data-allow-search="1" data-minimum-results-for-search="0" class="' . esc_attr( $classes ) . '" data-search="true" data-search="true" data-placeholder="' . esc_attr( $empty_option ) . '">';
+		echo '<option><option>';
 
 		$forms = Forminator_API::$method( null, 1, 999 );
-
-		apply_filters( 'forminator_entries_get_forms', $forms, $form_type );
+		$forms = apply_filters( 'forminator_entries_get_forms', $forms, $form_type );
 
 		foreach ( $forms as $form ) {
 			/**@var Forminator_Base_Form_Model $form */

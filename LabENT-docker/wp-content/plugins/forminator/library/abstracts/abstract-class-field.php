@@ -1780,7 +1780,8 @@ abstract class Forminator_Field {
 				paste_webkit_styles : 'font-weight font-style color',
 				preview_styles      : 'font-family font-size font-weight font-style text-decoration text-transform',
 				tabfocus_elements   : ':prev,:next',
-                plugins    : 'charmap,hr,media,paste,tabfocus,textcolor,fullscreen,wptextpattern,lists,WordPress,wpeditimage,wpgallery,link,wplink,wpdialogs,wpview',
+                plugins    : 'charmap,hr,media,paste,tabfocus,textcolor,fullscreen,wptextpattern,lists,wordpress,wpeditimage,wpgallery,link,wplink,wpdialogs,wpview'," // phpcs:ignore WordPress.WP.CapitalPDangit.Misspelled
+				. "
 				resize     : 'vertical',
 				menubar    : false,
 				indent     : false,

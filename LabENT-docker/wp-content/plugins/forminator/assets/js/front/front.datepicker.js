@@ -174,14 +174,16 @@
 				day = date.getDay(),
 				date_string = jQuery.datepicker.formatDate('mm/dd/yy', date);
 
-			for ( var i = 0; i < disableRange.length; i++ ) {
+			if ( 0 !== disableRange[0].length ) {
+				for ( var i = 0; i < disableRange.length; i++ ) {
 
-				var disable_date_range = disableRange[i].split("-"),
-					start_date = new Date( $.trim( disable_date_range[0] ) ),
-					end_date = new Date( $.trim( disable_date_range[1] ) );
-				if ( date >= start_date && date <= end_date ) {
-					hasRange = false;
-					break;
+					var disable_date_range = disableRange[i].split("-"),
+						start_date = new Date( disable_date_range[0].trim() ),
+						end_date = new Date( disable_date_range[1].trim() );
+					if ( date >= start_date && date <= end_date ) {
+						hasRange = false;
+						break;
+					}
 				}
 			}
 

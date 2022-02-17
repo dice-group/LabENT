@@ -16,27 +16,45 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( sprintf( /* translators: ... */ __( 'Setup %1$s Client', 'forminator' ), 'Google Sheets' ) ); ?></h3>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php echo esc_html( sprintf( /* translators: ... */ __( 'Setup %1$s Client', 'forminator' ), 'Google Sheets' ) ); ?>
+	</h3>
 
 	<?php if ( ! empty( $vars['token'] ) ) : ?>
-		<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Your Google Sheets account is already authorized. Edit info below to re-authorize.', 'forminator' ); ?></span>
+		<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Your Google Sheets account is already authorized. Edit info below to re-authorize.', 'forminator' ); ?></p>
 	<?php else : ?>
-        <span class="sui-description" style="margin-top: 20px;">
-			<?php esc_html_e( 'Set up your Google Sheets oAuth 2.0 client by entering your credentials below.', 'forminator' );
-			if ( forminator_is_show_addons_documentation_link() ) { ?>
-                <br/>
-				<?php echo sprintf(/* translators: ... */
+        <p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Set up your Google Sheets oAuth 2.0 client by entering your credentials below.', 'forminator' ); ?></p>
+		<p class="sui-description">
+			<?php if ( forminator_is_show_addons_documentation_link() ) { ?>
+                <?php echo sprintf(/* translators: ... */
 					esc_html__( '%1$sGuide to generate credentials%2$s.', 'forminator' ),
 					'<a href="https://wpmudev.com/docs/wpmu-dev-plugins/forminator/#google-sheets" target="_blank">',
 					'</a>'
 				);
 			} ?>
-		</span>
+		</p>
 		<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-			<div class="sui-notice sui-notice-error">
-				<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+			<div
+				role="alert"
+				class="sui-notice sui-notice-red sui-active"
+				style="display: block; text-align: left;"
+				aria-live="assertive"
+			>
+
+				<div class="sui-notice-content">
+
+					<div class="sui-notice-message">
+
+						<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+						<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+					</div>
+
+				</div>
+
 			</div>
 		<?php endif; ?>
 	<?php endif ?>
@@ -50,9 +68,9 @@ foreach ( $template_vars as $key => $val ) {
 		<label class="sui-label"><?php esc_html_e( 'Authorized Redirect URI', 'forminator' ); ?></label>
 
 		<div class="sui-with-button sui-with-button-icon">
-			<input type="text" id="forminator-form-shortcode" class="sui-form-control" value="<?php echo esc_html( ! empty( $vars['redirect_url'] ) ? $vars['redirect_url'] : '' ); ?>">
+			<input type="text" id="auth-redirect-uri" class="sui-form-control" value="<?php echo esc_html( ! empty( $vars['redirect_url'] ) ? $vars['redirect_url'] : '' ); ?>">
 			<a class="sui-button-icon copy-clipboard-integration" data-shortcode="<?php echo esc_html( ! empty( $vars['redirect_url'] ) ? $vars['redirect_url'] : '' ); ?>">
-				<i aria-hidden="true" class="sui-icon-copy"></i>
+				<span aria-hidden="true" class="sui-icon-copy"></span>
 				<span class="sui-screen-reader-text"><?php esc_html_e( 'Copy shortcode', 'forminator' ); ?></span>
 			</a>
 		</div>
@@ -122,7 +140,7 @@ foreach ( $template_vars as $key => $val ) {
 jQuery('.copy-clipboard-integration').on( "click", function ( e ) {
 	e.preventDefault();
 
-	copyToClipboard( jQuery( this ).data( 'shortcode' ) );
+	copyToClipboardModal( jQuery( this ).prev( '#auth-redirect-uri' ) );
 
 	Forminator.Notification.open( 'success', Forminator.l10n.options.uri_copied, 4000 );
 });

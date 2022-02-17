@@ -31,6 +31,7 @@ class Forminator_CForm_Page extends Forminator_Admin_Module_Edit_Page {
 				'draft-forms'          => __( 'Unpublish', 'forminator' ),
 				'clone-forms'          => __( 'Duplicate', 'forminator' ),
 				'reset-views-forms'    => __( 'Reset Tracking Data', 'forminator' ),
+				'apply-preset-forms'   => __( 'Apply Appearance Preset', 'forminator' ),
 				'delete-entries-forms' => __( 'Delete Submissions', 'forminator' ),
 				'delete-forms'         => __( 'Delete', 'forminator' ),
 			)

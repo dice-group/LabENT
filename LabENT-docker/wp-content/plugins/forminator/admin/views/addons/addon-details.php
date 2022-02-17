@@ -19,7 +19,7 @@ if ( $res->is_hidden ) {
 }
 
 $has_features = false;
-$features     = array(
+$features	 = array(
 	0 => array(),
 	1 => array(),
 );
@@ -27,34 +27,29 @@ $features     = array(
 if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 	$has_features = true;
 	$chunk_size   = ceil( count( $res->features ) / 2 );
-	$features     = array_chunk( $res->features, $chunk_size );
+	$features	 = array_chunk( $res->features, $chunk_size );
 }
 ?>
 
-<div
-	tabindex="-1"
-	id="forminator-modal-addons-details-<?php echo esc_attr( $pid ); ?>"
-	class="sui-dialog"
-	aria-hidden="true"
->
+<div class="sui-modal sui-modal-lg">
 
 	<div
-		class="sui-dialog-content sui-fade-in"
-		aria-labelledby="dialogTitle"
-		aria-describedby="dialogDescription"
 		role="dialog"
+		id="forminator-modal-addons-details-<?php echo esc_attr( $pid ); ?>"
+		class="sui-modal-content"
+		aria-modal="true"
+		aria-labelledby="forminator-modal-addons-details-<?php echo esc_attr( $pid ); ?>__title"
+		aria-describedby="forminator-modal-addons-details-<?php echo esc_attr( $pid ); ?>__description"
 	>
 
-		<div class="sui-box" role="document">
+		<div class="sui-box">
 
 			<div class="sui-box-header">
 
-				<button
-					class="sui-dialog-close"
-					data-addon="<?php echo esc_attr( $res->pid ); ?>"
-					data-element="forminator-modal-addons-details"
-					aria-label="Close this dialog window"
-				></button>
+				<button class="sui-button-icon sui-button-float--right" data-modal-close>
+					<span class="sui-icon-close sui-md" aria-hidden="true"></span>
+					<span class="sui-screen-reader-text">Close this modal</span>
+				</button>
 
 				<div class="forminator-details-header">
 
@@ -122,7 +117,9 @@ if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 								<?php esc_html_e( 'Try Pro For 35% Off', 'forminator' ); ?>
 							</a>
 						<?php } ?>
+
 					</div>
+
 				</div>
 
 			</div>
@@ -228,31 +225,31 @@ if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 								if ( isset( $log['version'] ) ) {
 									?>
 
-								<div class="forminator-addon-changelog">
+									<div class="forminator-addon-changelog">
 
-									<div class="forminator-addon-changelog--header">
+										<div class="forminator-addon-changelog--header">
 
-										<?php
-										$title = '<h4>';
-											/* translators: Log version */
-											$title .= '<span class="sui-tag sui-tag-sm sui-tag-purple">' . sprintf( esc_html__( 'Version %s', 'forminator' ), esc_attr( $log['version'] ) ) . '</span>';
-										if ( $log['version'] === $res->version_latest ) {
-											$title .= '<span class="sui-tag sui-tag-sm">' . esc_html__( 'Current', 'forminator' ) . '</span>';
-										}
-										$title .= '</h4>';
+											<?php
+											$title = '<h4>';
+												/* translators: Log version */
+												$title .= '<span class="sui-tag sui-tag-sm sui-tag-purple">' . sprintf( esc_html__( 'Version %s', 'forminator' ), esc_attr( $log['version'] ) ) . '</span>';
+											if ( $log['version'] === $res->version_latest ) {
+												$title .= '<span class="sui-tag sui-tag-sm">' . esc_html__( 'Current', 'forminator' ) . '</span>';
+											}
+											$title .= '</h4>';
 
-										echo wp_kses_post( $title );
-										?>
+											echo wp_kses_post( $title );
+											?>
 
-										<p><?php echo esc_html( date( 'F j, Y', $log['time'] ) ); ?></p>
+											<p><?php echo esc_html( date( 'F j, Y', $log['time'] ) ); ?></p>
+
+										</div>
+
+										<div class="forminator-addon-changelog--body">
+											<?php echo wp_kses_post( $log['log'] ); ?>
+										</div>
 
 									</div>
-
-									<div class="forminator-addon-changelog--body">
-										<?php echo wp_kses_post( $log['log'] ); ?>
-									</div>
-
-								</div>
 
 									<?php
 								}
@@ -267,7 +264,8 @@ if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 
 			</div>
 
-			<div class="sui-box-footer">
+			<div class="sui-box-footer sui-content-separated">
+
 				<a
 					href="https://wpmudev.com/docs/wpmu-dev-plugins/forminator/?utm_source=forminator&utm_medium=plugin&utm_campaign=forminator_stripe-addon_docs#add-ons"
 					target="_blank"
@@ -283,10 +281,11 @@ if ( is_array( $res->features ) && ! empty( $res->features ) ) {
 				>
 					<?php esc_html_e( 'Close', 'forminator' ); ?>
 				</button>
+
 			</div>
 
 		</div><!-- END .sui-box -->
 
-	</div><!-- END .sui-dialog-content -->
+	</div><!-- END .sui-modal-content -->
 
-</div><!-- END .sui-dialog -->
+</div><!-- END .sui-modal -->

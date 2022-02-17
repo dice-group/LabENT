@@ -18,7 +18,7 @@
 
 				<?php wp_nonce_field( 'forminator_' . static::$module_slug . '_request', 'forminatorNonce' ); ?>
 
-				<input type="hidden" name="ids" value="" />
+				<input type="hidden" id="forminator_bulk_ids" name="ids" value="" />
 				<input type="hidden" name="msearch" value="" />
 
 				<label for="forminator-check-all-modules" class="sui-checkbox">
@@ -27,7 +27,12 @@
 					<span class="sui-screen-reader-text"><?php esc_html_e( 'Select all', 'forminator' ); ?></span>
 				</label>
 
-				<select class="sui-select-sm sui-select-inline fui-select-listing-actions" name="forminator_action">
+				<select
+					name="forminator_action"
+					class="sui-select sui-select-sm sui-select-inline fui-select-listing-actions"
+					data-width="200px"
+					data-search="false"
+				>
 					<option value=""><?php esc_html_e( 'Bulk Action', 'forminator' ); ?></option>
 					<?php foreach ( $this->bulk_actions() as $val => $label ) : ?>
 						<option value="<?php echo esc_attr( $val ); ?>"><?php echo esc_html( $label ); ?></option>
@@ -35,6 +40,10 @@
 				</select>
 
 				<button class="sui-button"><?php esc_html_e( 'Apply', 'forminator' ); ?></button>
+
+				<?php if ( 'forminator_forms' === $post_type ) { ?>
+				<button id="forminator_bulk_apply_preset" data-modal="apply_preset" class="sui-hidden wpmudev-open-modal"></button>
+				<?php } ?>
 
 			</form>
 

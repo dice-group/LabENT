@@ -17,7 +17,14 @@ $image_empty2x = forminator_plugin_url() . 'assets/images/forminator-summary@2x.
 
 		<div class="sui-box-body wpmudev-popup-form">
 
-			<div class="sui-notice sui-notice-error wpmudev-ajax-error-placeholder sui-hidden"><p></p></div>
+			<div
+				role="alert"
+				id="wpmudev-ajax-error-placeholder"
+				class="sui-notice sui-notice-error"
+				aria-live="assertive"
+			>
+				<!-- Nothing should be placed here -->
+			</div>
 
 			<?php // ROW: Forms. ?>
 			<div class="sui-box-settings-row">
@@ -86,23 +93,19 @@ $image_empty2x = forminator_plugin_url() . 'assets/images/forminator-summary@2x.
 									<label class="sui-label"><?php esc_html_e( 'Choose Forms', 'forminator' ); ?></label>
 
 									<select id="forminator-choose-import-form" class="sui-select" multiple="multiple" name="cf7-form-id[]">
-
 										<?php
 										if ( ! empty( $forms ) ) :
 
 											foreach ( $forms as $key => $value ) {
-
 												echo sprintf(
 													'<option value="%f">%s</option>',
 													absint( $value->ID ),
 													esc_html( $value->post_title )
 												);
-
 											}
 
 										endif;
 										?>
-
 									</select>
 
 								</div>
@@ -344,8 +347,13 @@ $image_empty2x = forminator_plugin_url() . 'assets/images/forminator-summary@2x.
 
 					<?php if ( ! $is_addons ) { ?>
 
-						<div class="sui-notice">
-							<p><?php esc_html_e( "We couldn't find any supported add-ons.", 'forminator' ); ?></p>
+						<div class="sui-notice sui-notice-warning sui-notice-active" style="display: block;">
+							<div class="sui-notice-content">
+								<div class="sui-notice-message">
+									<span class="sui-notice-icon sui-icon-info sui-md" aria-hidden="true"></span>
+									<p><?php esc_html_e( "We couldn't find any supported add-ons.", 'forminator' ); ?></p>
+								</div>
+							</div>
 						</div>
 
 					<?php } ?>

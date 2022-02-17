@@ -1221,7 +1221,15 @@ abstract class Forminator_Addon_Abstract implements Forminator_Addon_Interface {
 	 */
 	protected function get_empty_wizard( $notice ) {
 
-		$empty_wizard_html = '<span class="sui-notice sui-notice-error"><p>' . esc_html( $notice ) . '</p></span>';
+		$empty_wizard_html  = '<div role="alert" class="sui-notice sui-notice-red sui-active" style="display: block;" aria-live-"assertive">';
+			$empty_wizard_html .= '<div class="sui-notice-content">';
+				$empty_wizard_html .= '<div class="sui-notice-message">';
+					$empty_wizard_html .= '<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>';
+					$empty_wizard_html .= '<p>' . esc_html( $notice ) . '</p>';
+				$empty_wizard_html .= '</div>';
+			$empty_wizard_html .= '</div>';
+		$empty_wizard_html .= '</div>';
+
 
 		/**
 		 * Filter html markup for empty wizard

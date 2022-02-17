@@ -10,30 +10,34 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 id="dialogTitle2" class="sui-box-title"><?php echo esc_html( sprintf( /* translators: ... */ __( 'Connect %1$s', 'forminator' ), 'Google Sheets' ) ); ?></h3>
-
-	<?php if ( ! empty( $vars['token'] ) ) : ?>
-		<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Click button below to re-authorize.', 'forminator' ); ?></span>
-	<?php else : ?>
-		<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Authorize Forminator to connect with your Google account in order to send data from your forms.', 'forminator' ); ?></span>
-	<?php endif; ?>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
+		<?php echo esc_html( sprintf( /* translators: ... */ __( 'Connect %1$s', 'forminator' ), 'Google Sheets' ) ); ?>
+	</h3>
 
 </div>
 
-<div class="sui-block-content-center" style="margin-top: -10px; margin-bottom: -20px;">
-<?php if ( empty( $vars['token'] ) ) : ?>
-	<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
-		target="_blank"
-		class="sui-button sui-button-blue forminator-addon-connect">
-		<?php esc_html_e( 'Authorize', 'forminator' ); ?>
-	</a>
-<?php else : ?>
-	<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
-		target="_blank"
-		class="sui-button sui-button-blue forminator-addon-connect">
-		<?php esc_html_e( 'Re-authorize', 'forminator' ); ?>
-	</a>
-<?php endif; ?>
+<p id="forminator-integration-popup__description" class="sui-description" style="text-align: center;">
+	<?php if ( ! empty( $vars['token'] ) ) : ?>
+		<?php esc_html_e( 'Click button below to re-authorize.', 'forminator' ); ?>
+	<?php else : ?>
+		<?php esc_html_e( 'Authorize Forminator to connect with your Google account in order to send data from your forms.', 'forminator' ); ?>
+	<?php endif; ?>
+</p>
+
+<div class="forminator-integration-popup__footer-temp">
+	<?php if ( empty( $vars['token'] ) ) : ?>
+		<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
+			target="_blank"
+			class="sui-button sui-button-blue forminator-addon-connect forminator-integration-popup__close">
+			<?php esc_html_e( 'Authorize', 'forminator' ); ?>
+		</a>
+	<?php else : ?>
+		<a href="<?php echo esc_attr( $vars['auth_url'] ); ?>"
+			target="_blank"
+			class="sui-button sui-button-blue forminator-addon-connect forminator-integration-popup__close">
+			<?php esc_html_e( 'Re-authorize', 'forminator' ); ?>
+		</a>
+	<?php endif; ?>
 </div>

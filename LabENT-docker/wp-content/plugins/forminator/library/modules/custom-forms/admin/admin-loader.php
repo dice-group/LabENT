@@ -104,6 +104,20 @@ class Forminator_Custom_Form_Admin extends Forminator_Admin_Module {
 			'preview_nonce' => wp_create_nonce( 'forminator_popup_preview_form' ),
 		);
 
+		$presets_page = admin_url( 'admin.php?page=forminator-settings&section=appearance-presets' );
+
+		$data['modules']['ApplyPreset'] = array(
+			'title'       => esc_html__( 'Choose Preset', 'forminator' ),
+			'description' => esc_html__( 'Select an appearance preset from the list below to apply the appearance to the selected form(s)', 'forminator' ),
+			'presetUrl'   => $presets_page,
+			'notice'      => esc_html__( 'The current appearance configurations will be overwritten for the selected form(s).', 'forminator' ),
+			'noticeForm'  => __( "Your form's current appearance configurations will be overwritten.", 'forminator' ),
+			'button'      => esc_html__( 'Apply Preset', 'forminator' ),
+			'nonce'       => wp_create_nonce( 'forminator_apply_preset' ),
+			'selectbox'   => Forminator_Settings_Page::get_preset_selectbox(),
+			'presets'     => Forminator_Settings_Page::get_preset_names(),
+		);
+
 		return apply_filters( 'forminator_form_admin_data', $data, $model, $this );
 	}
 

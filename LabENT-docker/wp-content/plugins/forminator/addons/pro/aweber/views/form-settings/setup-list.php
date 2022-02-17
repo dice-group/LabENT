@@ -11,17 +11,34 @@ $vars = array(
 foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 }
-
 ?>
-<div class="integration-header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( __( 'Choose List', 'forminator' ) ); ?></h3>
+<div class="forminator-integration-popup__header">
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Pick AWeber List for new subscriber to be added to.', 'forminator' ); ?></span>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg"><?php echo esc_html( __( 'Choose List', 'forminator' ) ); ?></h3>
+
+	<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Pick AWeber List for new subscriber to be added to.', 'forminator' ); ?></p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<div class="sui-notice sui-notice-error">
-			<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
 		</div>
 	<?php endif; ?>
 
@@ -29,12 +46,12 @@ foreach ( $template_vars as $key => $val ) {
 
 <form>
 
-	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['list_id_error'] ) ? ' sui-form-field-error' : '' ); ?>">
+	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['list_id_error'] ) ? ' sui-form-field-error' : '' ); ?>" style="margin: 0;">
 
 		<label class="sui-label" for="aweber-list-id"><?php esc_html_e( 'List', 'forminator' ); ?></label>
 
-		<select name="list_id" class="sui-select sui-form-control" id="aweber-list-id">
-			<option value=""><?php esc_html_e( 'Please select a list', 'forminator' ); ?></option>
+		<select name="list_id" id="aweber-list-id" class="sui-select" data-placeholder="<?php esc_html_e( 'Please select a list', 'forminator' ); ?>">
+			<option></option>
 			<?php foreach ( $vars['lists'] as $list_id => $list_name ) : ?>
 				<option value="<?php echo esc_attr( $list_id ); ?>"
 					<?php selected( $vars['list_id'], $list_id ); ?>>

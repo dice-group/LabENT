@@ -347,6 +347,7 @@ class Forminator_Postdata extends Forminator_Field {
 		$field_enabled = self::get_property( $field_name, $field, '' );
 		$type          = trim( $type );
 		$full_id       = 'forminator-field-' . $input_suffix . '-' . $id;
+		$is_preview    = filter_input( INPUT_POST, 'is_preview', FILTER_VALIDATE_BOOLEAN );
 
 		if ( ! empty( $field_enabled ) ) {
 			$cols         = 12;
@@ -376,20 +377,20 @@ class Forminator_Postdata extends Forminator_Field {
 
 					$html .= '<div class="forminator-field">';
 
+			$ajax = ! empty( $options['ajax'] );
 			if ( 'wp_editor' === $type ) {
 				// multiple wp_editor support.
 				$field_markup['id'] = $field_markup['id'] . '-' . uniqid();
 			}
 
-			$ajax = ! empty( $options['ajax'] );
-			if ( 'wp_editor' === $type && ! $ajax ) {
+			if ( 'wp_editor' === $type && ! $is_preview && ! $ajax ) {
 				$html .= self::create_wp_editor(
 					$field_markup,
 					$label,
 					$description,
 					$required
 				);
-			} elseif ( in_array( $type, array( 'textarea', 'wp_editor' ), true ) ) {
+			} elseif ( 'textarea' === $type || 'wp_editor' === $type && ( $ajax || $is_preview ) ) {
 				$html .= self::create_textarea(
 					$field_markup,
 					$label,
@@ -397,7 +398,7 @@ class Forminator_Postdata extends Forminator_Field {
 					$required,
 					$design
 				);
-				if ( 'wp_editor' === $type && $ajax ) {
+				if ( 'wp_editor' === $type ) {
 					$_id   = $field_markup['id'];
 					$args  = self::get_tinymce_args( $_id );
 					$html .= '<script>wp.editor.initialize("' . esc_attr( $_id ) . '", ' . $args . ');</script>';

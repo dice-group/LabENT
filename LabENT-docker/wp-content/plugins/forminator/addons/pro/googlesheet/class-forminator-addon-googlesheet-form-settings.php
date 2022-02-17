@@ -199,7 +199,7 @@ class Forminator_Addon_Googlesheet_Form_Settings extends Forminator_Addon_Form_S
 			try {
 				$input_exceptions = new Forminator_Addon_Googlesheet_Form_Settings_Exception();
 				if ( empty( $file_name ) ) {
-					$input_exceptions->add_input_exception( __( 'Please put valid spread sheet name', 'forminator' ), 'file_name_error' );
+					$input_exceptions->add_input_exception( __( 'Please put valid Spreadsheet name', 'forminator' ), 'file_name_error' );
 				}
 
 				$google_client = $this->addon->get_google_client();

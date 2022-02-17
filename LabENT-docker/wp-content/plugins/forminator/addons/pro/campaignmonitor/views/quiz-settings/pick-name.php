@@ -12,22 +12,40 @@ foreach ( $template_vars as $key => $val ) {
 	$vars[ $key ] = $val;
 } ?>
 
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2"><?php echo esc_html( __( 'Setup Name', 'forminator' ) ); ?></h3>
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;"><?php echo esc_html( __( 'Setup Name', 'forminator' ) ); ?></h3>
 
-	<span class="sui-description" style="margin-top: 20px;"><?php esc_html_e( 'Setup friendly name for this integration, so it will be easily identified by you.', 'forminator' ); ?></span>
+	<p id="forminator-integration-popup__description" class="sui-description"><?php esc_html_e( 'Setup friendly name for this integration, so it will be easily identified by you.', 'forminator' ); ?></p>
 
 	<?php if ( ! empty( $vars['error_message'] ) ) : ?>
-		<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $vars['error_message'] ); ?></p></span>
+		<div
+			role="alert"
+			class="sui-notice sui-notice-red sui-active"
+			style="display: block; text-align: left;"
+			aria-live="assertive"
+		>
+
+			<div class="sui-notice-content">
+
+				<div class="sui-notice-message">
+
+					<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+					<p><?php echo esc_html( $vars['error_message'] ); ?></p>
+
+				</div>
+
+			</div>
+
+		</div>
 	<?php endif; ?>
 
 </div>
 
 <form>
 
-	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['name_error'] ) ? ' sui-form-field-error' : '' ); ?>"
-		style="margin-bottom: 0;">
+	<div class="sui-form-field<?php echo esc_attr( ! empty( $vars['name_error'] ) ? ' sui-form-field-error' : '' ); ?>" style="margin-bottom: 0;">
 
 		<label class="sui-label"><?php esc_html_e( 'Name', 'forminator' ); ?></label>
 

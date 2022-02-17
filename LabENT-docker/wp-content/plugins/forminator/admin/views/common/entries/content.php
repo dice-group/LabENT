@@ -30,16 +30,17 @@ if ( $count > 0 ) {
 				<select
 					name="form_type"
 					onchange="submit()"
-					class="sui-select-sm"
+					class="sui-select sui-select-sm fui-bar-selectors__module"
+					data-placeholder="<?php esc_html_e( 'Type', 'forminator' ); ?>"
+					data-search="false"
 				>
-
+					<option></option>
 					<?php foreach ( $this->get_form_types() as $_post_type => $name ) { ?>
 						<option value="<?php echo esc_attr( $_post_type ); ?>" <?php echo selected( $_post_type, $form_type ); ?>><?php echo esc_html( $name ); ?></option>
 					<?php } ?>
-
 				</select>
 
-				<?php $this->render_form_switcher( $form_type, $form_id ); ?>
+				<?php static::render_form_switcher( $form_type, $form_id ); ?>
 
 			</div>
 

@@ -340,6 +340,9 @@ class NpDataProvider {
         if (!$return) {
             $return = '';
         }
+        if (strpos($return, '-mode') === false) {
+            $return = $return . ' u-xl-mode';
+        }
         return $return;
     }
 
@@ -700,24 +703,30 @@ class NpDataProvider {
         if ($header && isset($header['dialogs']) && $header['dialogs']) {
             $headerDialogs = json_decode($header['dialogs'], true);
             foreach ($headerDialogs as $headerDialog) {
-                $result .= $headerDialog['publishHtml'] . '<style>' . $headerDialog['publishCss'] . '</style>';
-                array_push($addedAnchors, $headerDialog['sectionAnchorId']);
+                if (strpos($html, $headerDialog['sectionAnchorId']) !== false && !in_array($headerDialog['sectionAnchorId'], $addedAnchors)) {
+                    $result .= $headerDialog['publishHtml'] . '<style>' . $headerDialog['publishCss'] . '</style>';
+                    array_push($addedAnchors, $headerDialog['sectionAnchorId']);
+                }
             }
         }
 
         if ($footer && isset($footer['dialogs']) && $footer['dialogs']) {
             $footerDialogs = json_decode($footer['dialogs'], true);
             foreach ($footerDialogs as $footerDialog) {
-                $result .= $footerDialog['publishHtml'] . '<style>' . $footerDialog['publishCss'] . '</style>';
-                array_push($addedAnchors, $footerDialog['sectionAnchorId']);
+                if (strpos($html, $footerDialog['sectionAnchorId']) !== false && !in_array($footerDialog['sectionAnchorId'], $addedAnchors)) {
+                    $result .= $footerDialog['publishHtml'] . '<style>' . $footerDialog['publishCss'] . '</style>';
+                    array_push($addedAnchors, $footerDialog['sectionAnchorId']);
+                }
             }
         }
 
         $pageDialogs = $this->getDialogsData();
         if ($pageDialogs) {
             foreach ($pageDialogs as $pageDialog) {
-                $result .= $pageDialog['publishHtml'] . '<style>' . $pageDialog['publishCss'] . '</style>';
-                array_push($addedAnchors, $pageDialog['sectionAnchorId']);
+                if (strpos($html, $pageDialog['sectionAnchorId']) !== false && !in_array($pageDialog['sectionAnchorId'], $addedAnchors)) {
+                    $result .= $pageDialog['publishHtml'] . '<style>' . $pageDialog['publishCss'] . '</style>';
+                    array_push($addedAnchors, $pageDialog['sectionAnchorId']);
+                }
             }
         }
 
@@ -795,6 +804,20 @@ class NpDataProvider {
                 }
             }
             $result = $data_provider->fixImagePaths($result);
+
+            if (strpos($result, '--theme-sheet') === false) {
+                $result .=<<<VARS
+.u-body {
+    --theme-sheet-width-xl: 1140px;
+    --theme-sheet-width-lg: 940px;
+    --theme-sheet-width-md: 720px;
+    --theme-sheet-width-sm: 540px;
+    --theme-sheet-width-xs: 340px;
+    --theme-sheet-width-xxl: 1320px;
+}
+VARS;
+            }
+
             return $result;
         }
         // for old versions:

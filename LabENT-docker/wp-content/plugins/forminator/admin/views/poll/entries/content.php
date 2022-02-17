@@ -8,7 +8,26 @@ $custom_votes = $this->map_custom_votes();
 ?>
 
 <?php if ( $this->error_message() ) : ?>
-	<span class="sui-notice sui-notice-error"><p><?php echo esc_html( $this->error_message() ); ?></p></span>
+	<div
+		role="alert"
+		class="sui-notice sui-notice-red sui-active"
+		style="display: block; text-align: left;"
+		aria-live="assertive"
+	>
+
+		<div class="sui-notice-content">
+
+			<div class="sui-notice-message">
+
+				<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+				<p><?php echo esc_html( $this->error_message() ); ?></p></span>
+
+			</div>
+
+		</div>
+
+	</div>
 <?php endif; ?>
 
 <?php if ( $count > 0 ) : ?>

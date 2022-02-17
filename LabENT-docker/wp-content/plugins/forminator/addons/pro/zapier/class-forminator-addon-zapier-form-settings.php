@@ -132,7 +132,21 @@ class Forminator_Addon_Zapier_Form_Settings extends Forminator_Addon_Form_Settin
 		} catch ( Forminator_Addon_Zapier_Form_Settings_Exception $e ) {
 			$input_error_messages = $e->get_input_exceptions();
 		} catch ( Forminator_Addon_Zapier_Exception $e ) {
-			$error_message = '<span class="sui-notice sui-notice-error"><p>' . $e->getMessage() . '</p></span>';
+			$error_message = '<div role="alert" class="sui-notice sui-notice-red sui-active" style="display: block; text-align: left;" aria-live="assertive">';
+
+				$error_message .= '<div class="sui-notice-content">';
+
+					$error_message .= '<div class="sui-notice-message">';
+
+						$error_message .= '<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>';
+
+						$error_message .= '<p>' . $e->getMessage() . '</p>';
+
+					$error_message .= '</div>';
+
+				$error_message .= '</div>';
+
+			$error_message .= '</div>';
 		}
 
 		$buttons = array();
@@ -159,8 +173,8 @@ class Forminator_Addon_Zapier_Form_Settings extends Forminator_Addon_Form_Settin
 		);
 
 		return array(
-			'html'         => '<div class="integration-header"><h3 class="sui-box-title" id="dialogTitle2">' . __( 'Setup Webhook', 'forminator' ) . '</h3>
-							<span class="sui-description" style="margin-top: 20px;">' . $help_message . '</span>
+			'html'         => '<div class="forminator-integration-popup__header"><h3 class="sui-box-title sui-lg" id="dialogTitle2">' . __( 'Setup Webhook', 'forminator' ) . '</h3>
+							<p class="sui-description">' . $help_message . '</p>
 							' . $error_message . '</div>
 							<form enctype="multipart/form-data">
 								<div class="sui-form-field ' . ( isset( $input_error_messages['name'] ) ? 'sui-form-field-error' : '' ) . '">
@@ -191,8 +205,20 @@ class Forminator_Addon_Zapier_Form_Settings extends Forminator_Addon_Form_Settin
 								</div>
 								<input type="hidden" name="multi_id" value="' . esc_attr( $multi_id ) . '" />
 							</form>
-							<div class="sui-notice sui-notice-warning">
-								<p>' . $notice_message . '</p>
+							<div role="alert" class="sui-notice sui-notice-red sui-active" style="display: block; text-align: left;" aria-live="assertive">
+
+								<div class="sui-notice-content">
+
+									<div class="sui-notice-message">
+
+										<span class="sui-notice-icon sui-icon-info" aria-hidden="true"></span>
+
+										<p>' . $notice_message . '</p>
+
+									</div>
+
+								</div>
+
 							</div>',
 			'redirect'     => false,
 			'is_close'     => ( $is_submit && empty( $error_message ) && empty( $input_error_messages ) ),

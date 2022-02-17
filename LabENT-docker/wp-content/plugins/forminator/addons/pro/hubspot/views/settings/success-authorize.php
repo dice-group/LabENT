@@ -1,12 +1,14 @@
-<div class="integration-header">
+<div class="forminator-integration-popup__header">
 
-	<h3 class="sui-box-title" id="dialogTitle2">
+	<h3 id="forminator-integration-popup__title" class="sui-box-title sui-lg" style="overflow: initial; white-space: normal; text-overflow: initial;">
 		<?php
 			/* translators: ... */
 			echo esc_html( sprintf( __( '%1$s Connected', 'forminator' ), 'HubSpot' ) );
 		?>
 	</h3>
 
-	<span class="sui-description" style="color: #666666; margin-top: 20px; margin-bottom: -30px; line-height: 22px;"><?php esc_html_e( 'Awesome! You are connected to HubSpot. You can now go to your forms and activate HubSpot integration to collect data.', 'forminator' ); ?></span>
-
 </div>
+
+<p id="forminator-integration-popup__description" class="sui-description" style="text-align: center;">
+	<?php esc_html_e( 'Awesome! You are connected to HubSpot. You can now go to your forms and activate HubSpot integration to collect data.', 'forminator' ); ?>
+</p>
