@@ -19,22 +19,22 @@ Now the docker compose to build the LabENT project. This might takes few minutes
 
 If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web browser
 * `http://localhost:8000` 
-
-To login into Wordpress CMS, please go to 
-* `http://localhost:8000/wp-logn.php`
-
 ---
-> ### Build from docker-hub
-Get a docker image of wordpress:
-* `docker pull hamadazahera/wordpress-labent:latest` 
+## DAIKIRI Panel: How it works:
 
-Get a docker image of mysql:
-* `docker pull hamadazahera/mysql-latent:5.7`
+* <b>Load Data</b>: LabENT demo allows to load input from csv file, simple add your file into 
+`LabENT-docker/mysql-dump/`. The input file should have the following format: 
+* * `clusterId,tripes,` triples is a list of rdf data in format 
+`|subject|predicate|object|<br>|subject|predicate|object|`  
+* <b>Annotate Button</b>: once the user click on, it presents the data (clusterID, set of triples) for labelling. The user should add the label in the last column in the presented table. Then, click on <b>Submit</b> button to save the data.
 
----
-## DAIKIRI Panel: How it works
-* Annotate Button: 
-* Upload Button: Once a user uploaded an owl file by clicking on Upload button. The file is saved automatically into `LabENT-docker/wp-content/uploads`
+* <b>Export Button</b>: LabENT also allows to export the annotated data and download into your local machine.
+
+* <b> Axiom Generator Button </b>: Once you click on, it calls the <b>Axiom-Generator</b> module that allows to upload a csv and convert it into an OWL ontology. Each row in the csv file should have the following format:
+`ClusterID,Type`. You can also download the generated ontology if you click on <b>Download Ontology</b> button. 
+
+* <b>Upload Button</b>: You can edit the generated ontology e.g. using Protege and upload it back. The upload file will be located into 
+`LabENT-docker/wp-content/uploads`
 ---
 ## Aknowledgment: 
 This project is configured to work as a part of DAIKIRI project pipeline for ontology learning and structured machine learning from industrial data. If you have any further questions or feedback, please feel free to contact `hamada.zahera@upb.de`

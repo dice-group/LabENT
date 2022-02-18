@@ -1,9 +1,11 @@
 import os
-from flask import Flask, flash, request, redirect, render_template, send_file,send_from_directory
+from flask import Flask, flash, request, redirect, render_template, send_file
 from werkzeug.utils import secure_filename
 
-import pandas as pd
-from src.Semantification import  Semantification
+import io
+import csv
+
+from src.generator import  AxiomGenerator
 
 app=Flask(__name__)
 
@@ -42,12 +44,16 @@ def upload_file():
             filename = secure_filename(file.filename)
             file_path=os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(file_path)
-            file.close()
+            
+            stream = io.StringIO(file.stream.read().decode("UTF8"), newline=None)
 
-            # call main fucntion of axiom-generator
-            data=pd.read_csv(file_path, header=0, index_col=0)
-            Semantification(data)
+            reader = csv.reader(open(file_path,'r'))
+            next(reader)
+
+            AxiomGenerator(reader)
+
             flash('File successfully uploaded and converted to OWL ontology')
+            file.close()
             return redirect('/')
         else:
             flash('Error Allowed file types are csv, owl, xml, rdf')
@@ -58,7 +64,6 @@ def download_file():
     return send_file("../uploads/semantification-ontology.owl",
                     attachment_filename='semantification-ontology.owl',
                      as_attachment=True)
-
 
 
 if __name__ == "__main__":
