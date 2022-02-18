@@ -25,7 +25,7 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
 * <b>Load Data</b>: LabENT demo allows to load input from csv file, simple add your file, change to the directory
 `LabENT-docker/mysql-dump/`. The input file should have the following format:
 <br>
-```csv:
+```
 clust_101,|sub1|pred1|obj1|<br>|sub2|pred2|obj2|<br>|sub3|pred3|obj3|,
 clust_201,|sub2|pred2|obj2|<br>|sub2.2|pred2.2|obj2.2|<br>|sub2.3|pred2.3|obj2.3|,
 clust_301,|sub3|pred3|obj3|<br>|sub3.2|pred3.2|obj3.2|<br>|sub3.3|pred3.3|obj3.3|,
