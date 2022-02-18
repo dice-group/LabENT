@@ -13,8 +13,8 @@ class AxiomGenerator:
         onto = get_ontology("http://daikiri-semantificaion.de/onto.owl")
         with onto:
             for id_, type_ in reader:
-                type_ = Thing
-                Class = types.new_class(id_, (type_,))
+                parent = Thing
+                Class = types.new_class(type_, (parent,))
 
             onto.save(OUT_FOLDER+'/semantification-ontology.owl')
 
