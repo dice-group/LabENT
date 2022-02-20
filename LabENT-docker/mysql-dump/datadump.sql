@@ -1,5 +1,5 @@
-DELETE FROM wordpress.entitylabels;
-LOAD DATA LOCAL INFILE '/docker-entrypoint-initdb.d/entity-labels.csv'
-INTO TABLE wordpress.entitylabels 
+DELETE FROM wordpress.annotationData;
+LOAD DATA LOCAL INFILE '/docker-entrypoint-initdb.d/annotationData.csv'
+INTO TABLE wordpress.annotationData 
 FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n' (entityID,EntityTriples,eType);
+LINES TERMINATED BY '\n' (ID,Triples,Types);

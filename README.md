@@ -22,26 +22,30 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
 ---
 ## DAIKIRI Panel: How it works:
 
-* <b>Load Data</b>: LabENT demo allows to load input from csv file, simple add your file, change to the directory
-`LabENT-docker/mysql-dump/`. The input file should have the following format:
-<br>
-
-```
-clust_101,|sub1|pred1|obj1|<br>|sub2|pred2|obj2|<br>|sub3|pred3|obj3|,
-clust_201,|sub2|pred2|obj2|<br>|sub2.2|pred2.2|obj2.2|<br>|sub2.3|pred2.3|obj2.3|,
-clust_301,|sub3|pred3|obj3|<br>|sub3.2|pred3.2|obj3.2|<br>|sub3.3|pred3.3|obj3.3|,
-clust_401,|sub4.3|pred4.3|obj4.3|<br>|sub4.2|pred4.2|obj4.2|<br>|sub4.3|pred4.3|obj4.3|,
-```
-
-Then, run this command <br>
-`cat datadump.sql | docker exec -i labent-docker-db-1 mysql -uroot -pwordpress wordpress` <br> to load the data from file `entity-labels.csv`  into the database. If you do changes into the csv file, then you need to re-run this command to send your data into the database.
+* <b>Load Data</b>:  `Input folder` contains a case study from BostonHouses dataset, in particular:
+    * `sampleBoston.nt`: contains RDF triples in the following format: 
+    ```
+    <Event_1> <Feature_Category_6> <6_quantile_8> .
+    <Event_1> <Feature_Category_7> <7_quantile_1> .
+    <Event_2> <Feature_Category_5> <5_quantile_1> .
+    <Event_2> <Feature_Category_6> <6_quantile_8> .
+    <Event_3> <Feature_Category_2> <2_quantile_6> .
+    <Event_3> <Feature_Category_3> <3_quantile_6> .
+    ``` 
+    * `clusteringOutput.csv`: contains the clustering results for the BostonHourse dataset in the following format: 
+    ```
+    EntityID ClusterID
+    <Event_1> <Cluster_0>
+    <Event_2> <Cluster_0>
+    <Event_3> <Cluster_1>
+    ```
+<b> To process this data and load into LabENT demo, simply run:</b> `sh scripts.sh`
 
 * <b>Annotate Button</b>: once the user click on, it presents the data (clusterID, set of triples) for labelling. The user should add the label in the last column in the presented table. Then, click on <b>Submit</b> button to save the data.
 
 * <b>Export Button</b>: LabENT also allows to export the annotated data and download into your local machine.
 
-* <b> Axiom Generator Button </b>: Once you click on, it calls the <b>Axiom-Generator</b> module that allows to upload a csv and convert it into an OWL ontology. Each row in the csv file should have the following format:
-`ClusterID,Type`. You can also download the generated ontology if you click on <b>Download Ontology</b> button. 
+* <b> Axiom Generator Button </b>: Once you click on, it calls the <b>Axiom-Generator</b> module that allows to upload two csv files: 1) labeled_data.csv, 2) clusteringOutput.csv; then generate the corresponding OWL ontology that can be download if you click on <b>Download Ontology</b> button. 
 
 * <b>Upload Button</b>: You can edit the generated ontology e.g. using Protege and upload it back. The upload file will be located into 
 `LabENT-docker/wp-content/uploads`

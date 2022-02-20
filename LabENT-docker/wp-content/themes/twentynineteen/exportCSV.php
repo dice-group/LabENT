@@ -9,7 +9,7 @@ function OutputCSV()
 {
 	header('Content-Description: File Transfer');
     header('Content-Type: text/csv');
-	header('Content-Disposition: attachment; filename=labeled_entities.csv');
+	header('Content-Disposition: attachment; filename=labelled_data.csv');
 	header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
 	
 	ob_end_clean();
@@ -23,7 +23,7 @@ function OutputCSV()
 	}
 	fputcsv($output, array('ClusterID',  'Types'));
 	// Select All from mysql table
-	$query = "SELECT `entityID`, `eType` FROM `entitylabels`";
+	$query = "SELECT `ID`, `Types` FROM `annotationData`";
 	$result = mysqli_query($con,$query);
 	
 	while($row=$result->fetch_row())

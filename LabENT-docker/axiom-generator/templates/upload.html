@@ -12,7 +12,6 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .div-border {
-
 	border:1px solid gray;
 	padding: 20px 10px;
 }
@@ -20,7 +19,7 @@ font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
   background-color: ##FFFFFF;
 width: 655px;
-margin: auto;
+padding-top: 50px;
 }
 
 .header a {
@@ -29,7 +28,7 @@ margin: auto;
   text-align: right;
   padding: 12px;
   text-decoration: none;
-  font-size: 12px; 
+  font-size: 14px; 
   line-height: 15px;
   border-radius: 4px;
 }
@@ -37,6 +36,7 @@ margin: auto;
 .header a.logo {
   font-size: 18px;
   font-weight: bold;
+  padding: auto;
 }
 
 .header a:hover {
@@ -51,11 +51,16 @@ margin: auto;
 
 .header-right {
   float: right;
+  padding: auto;
 }
 
 .header-left {
 	width: 100px;
   float: left;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+
 }
 @media screen and (max-width: 500px) {
   .header a {
@@ -71,7 +76,6 @@ margin: auto;
 
 <body>
 
-
 	<div class="header" >
 		
 	<div class="header-left">
@@ -84,11 +88,12 @@ margin: auto;
 	  </div>
 	  
 	  <div style="padding-left:5px">
-		<h3>Axiom Generation for Semantification Workpackage</h3>
+		<br><br>
+		<b>Axiom Generation for Semantification Workpackage</b>
 
 		<p>
-			Axiom-generator allows to upload an csv file which each row contains (clusterID, Type). You can upload files in step1.
-			After, the uploaded file processed successfully, you can download if from Step 2.
+			Please select two input csv files to upload together: 1) file of labeled_data 2) file of clustering results. 
+			<br>After, the files are uploaded successfully, you can download if from Step 2.
 		</p>
 	</div>
 
@@ -107,7 +112,7 @@ margin: auto;
 		{% endwith %}
 	</p>
 	<form method="post" action="/" enctype="multipart/form-data">
-			<input type="file" name="file" autocomplete="off" required>
+			<input type="file" name="files[]" multiple="true" autocomplete="off" required>
 		
 			<input type="submit" value="Submit">
 	</form>
@@ -125,9 +130,9 @@ margin: auto;
 
 </div>
 <div, class="header">
-<br><br>
+<br><br><br><br>
 	<p>
-		Thanks for using Axiom-Generator.For any issues, please contact: hamada.zahera@upb.de
+		Thanks for using Axiom-Generator. For any issues, please contact: hamada.zahera@upb.de
 	</p>
 </div>
 </body>

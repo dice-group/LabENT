@@ -1,42 +1,75 @@
-import argparse
-import pandas as pd
-from vectograph.quantizer import QCUT
-from vectograph.transformers import GraphGenerator
-import time
+import os
+from flask import Flask, flash, request, redirect, render_template, send_file
+from werkzeug.utils import secure_filename
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
+import io
+import csv
 
-    parser.add_argument("--tabularpath", type=str, default=None,
-                        nargs="?", help="Path of Tabular Data, i.e./.../data.csv")
-    # Hyper parameters for conversion
-    parser.add_argument("--num_quantile", type=int, default=2, nargs="?",
-                        help="q param in https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.qcut.html")
-    parser.add_argument("--min_unique_val_per_column", type=int, default=2, nargs="?",
-                        help="Apply Quantile-based discretization function on those columns having at least such "
-                             "unique values.")
-    parser.add_argument("--kg_path", type=str, default='.', nargs="?",
-                        help="Path for knowledge graph to be saved")
-    parser.add_argument("--kg_name", type=str, default='DefaultKG.nt', nargs="?",
-                        help="The name of a Knowledge graph in the ntriple format.")
+from src.generator import  AxiomGenerator
 
-    args = parser.parse_args()
-    if args.tabularpath is not None:
-        try:
-            df = pd.read_csv(args.tabularpath,index_col=0)
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Could not read csv file in {args.tabularpath}")
+app=Flask(__name__)
+
+app.secret_key = "daikiri-key"
+
+path = os.getcwd()
+## file Upload
+UPLOAD_FOLDER = "uploads" 
+
+if not os.path.isdir(UPLOAD_FOLDER):
+    os.mkdir(UPLOAD_FOLDER)
+
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER #'../uploads/'
+
+ALLOWED_EXTENSIONS = set(['csv', 'owl', 'xml', 'rdf'])
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/')
+def upload_form():
+    return render_template('upload.html')
+
+@app.route('/', methods=['POST'])
+def upload_file():
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'files[]' not in request.files:
+            flash('No file selected for uploading.')
+            return redirect(request.url)
+
+        files = request.files.getlist('files[]')
+
+        file_paths=[]
+        for file in files:
+            if file and allowed_file(file.filename):
+                filename = secure_filename(file.filename)
+                file_path=os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                file.save(file_path)
+                file_paths.append(file_path)
+
+            file.close()
+        
+        reader_file1= csv.reader(open(file_paths[0],'r'))
+        reader_file2= csv.reader(open(file_paths[1],'r'), delimiter = " ")
+
+        next(reader_file1)
+        next(reader_file2)
+
+        AxiomGenerator(reader_file1, reader_file2)
+
+        flash('File successfully uploaded and converted to OWL ontology')
+
+        return redirect('/')
     else:
-        from sklearn import datasets
-        print('Sklearn fetch_california_housing dataset is used')
-        X, y = datasets.fetch_california_housing(return_X_y=True)
-        df = pd.DataFrame(X)
+        flash('Error Allowed file types are csv, owl, xml, rdf')
+        return redirect(request.url)
 
-    print('Original Tabular data: {0} by {1}'.format(*df.shape))
-    print('Quantisation starts')
-    X_transformed = QCUT(min_unique_val_per_column=args.min_unique_val_per_column,
-                         num_quantile=args.num_quantile).transform(df)
-    X_transformed.index = 'Event_' + X_transformed.index.astype(str)
-    print('Graph data being generated')
-    kg = GraphGenerator(kg_path=args.kg_path, kg_name=args.kg_name).transform(X_transformed)
-    print('Done!')
+@app.route('/download', methods = ['GET', 'POST']) # this is a job for GET, not POST
+def download_file():
+    return send_file("../uploads/semantification-ontology.owl",
+                    attachment_filename='semantification-ontology.owl',
+                     as_attachment=True)
+
+
+if __name__ == "__main__":
+    app.run(host = '0.0.0.0',port = 7007, debug = True)

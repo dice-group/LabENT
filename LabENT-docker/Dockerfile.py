@@ -15,4 +15,4 @@ RUN pip3 install owlready2
 EXPOSE 7007
 COPY . .
 
-CMD [ "python3", "./axiom-generator/flaskAPP-AxiomGenerator.py" ]
+CMD [ "python3", "./axiom-generator/main.py" ]
