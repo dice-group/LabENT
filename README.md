@@ -41,11 +41,11 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
     ```
 <b> To process this data and load into LabENT demo, simply run:</b> `sh scripts.sh`
 
-* <b>Annotate Button</b>: once the user click on, it presents the data (clusterID, set of triples) for labelling. The user should add the label in the last column in the presented table. Then, click on <b>Submit</b> button to save the data.
+* <b>Annotate Button</b>: once the user click on, it presents the data (clusterID, set of triples) for labelling. The user should add the label in the last column in the presented table. Then, click on <i>Submit</i> button to save the data.
 
 * <b>Export Button</b>: LabENT also allows to export the annotated data and download into your local machine.
 
-* <b> Axiom Generator Button </b>: Once you click on, it calls the <b>Axiom-Generator</b> module that allows to upload two csv files: 1) labeled_data.csv, 2) clusteringOutput.csv; then generate the corresponding OWL ontology that can be download if you click on <b>Download Ontology</b> button. 
+* <b> Axiom Generator Button </b>: Once you click on, it calls the <i>Axiom-Generator</i> module that allows to upload two csv files: 1) labeled_data.csv, 2) clusteringOutput.csv; then generate the corresponding OWL ontology that can be download if you click on <b>Download Ontology</b> button. 
 
 * <b>Upload Button</b>: You can edit the generated ontology e.g. using Protege and upload it back. The upload file will be located into 
 `LabENT-docker/wp-content/uploads`
