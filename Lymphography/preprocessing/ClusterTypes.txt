@@ -1,0 +1,5 @@
+class patienID ClusterID
+Malign-Lymph r6nxpl cluster-1
+Metastases bf28z5 cluster-2
+Fibrosis iq1g4d cluster-3
+Normal xql5ex cluster-4

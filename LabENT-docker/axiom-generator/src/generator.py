@@ -22,7 +22,7 @@ class AxiomGenerator:
             
             for entity_id, cluster_id in reader_file2:
                 # assign each entity it's cluster type
-                individual= classes[cluster_id[1:-1]](entity_id[1:-1])
+                individual= classes[cluster_id](entity_id)
 
             onto.save(OUT_FOLDER+'/semantification-ontology.owl')
 
