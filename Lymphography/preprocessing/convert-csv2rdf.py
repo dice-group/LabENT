@@ -6,7 +6,7 @@ schema = Namespace('http://www.example.org/lymphography#')
 ppl = Namespace('http://example.org/people/')
 
 
-df=pd.read_csv("lymphograph-raw.csv",sep=",")
+df=pd.read_csv("preprocessing/lymphograph-raw.csv",sep=",")
 
 g = Graph()
 
@@ -36,4 +36,4 @@ for index, row in df.iterrows():
     
 
 #write attempt
-g.serialize('./lymphograph-triples.rdf', format='xml')
+g.serialize('preprocessing/lymphograph-triples.rdf', format='xml')

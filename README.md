@@ -22,24 +22,46 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
 ---
 ## DAIKIRI Panel: How it works:
 
-* <b>Load Data</b>:  `Input folder` contains a case study from BostonHouses dataset, in particular:
-    * `sampleBoston.nt`: contains RDF triples in the following format: 
+* <b>Load Data</b>:  `Lymphography` contains a case study from BostonHouses dataset, in particular:
+    * `preprocessing/lymphograph-triples.rdf`: contains RDF triples in the following format: 
     ```
-    <Event_1> <Feature_Category_6> <6_quantile_8> .
-    <Event_1> <Feature_Category_7> <7_quantile_1> .
-    <Event_2> <Feature_Category_5> <5_quantile_1> .
-    <Event_2> <Feature_Category_6> <6_quantile_8> .
-    <Event_3> <Feature_Category_2> <2_quantile_6> .
-    <Event_3> <Feature_Category_3> <3_quantile_6> .
+  <rdf:Description rdf:about="http://example.org/people/8ef3fk">
+    <ns1:exclusionOfNo>yes</ns1:exclusionOfNo>
+    <ns1:dislocationOf>yes</ns1:dislocationOf>
+    <ns1:lymphatics>displaced</ns1:lymphatics>
+    <ns1:blockOfLymphC>no</ns1:blockOfLymphC>
+    <ns1:blockOfAffere>yes</ns1:blockOfAffere>
+    <ns1:BlockOfLymphS>no</ns1:BlockOfLymphS>
+    <ns1:ByPass>yes</ns1:ByPass>
+    <ns1:extravasates>yes</ns1:extravasates>
+    <ns1:regenerationOF>no</ns1:regenerationOF>
+    <ns1:earlyUptakeIn>no</ns1:earlyUptakeIn>
+    <ns1:changesInLym>round</ns1:changesInLym>
+    <ns1:defectInNode>lac. marginal</ns1:defectInNode>
+    <ns1:changesInNode>lac. margin</ns1:changesInNode>
+    <ns1:changesInstru>drop-like</ns1:changesInstru>
+    <ns1:specialForms>vesicles</ns1:specialForms>
+    <ns1:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:lymNodesEnlar>
+    <ns1:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:lymNodesdimin>
+    <ns1:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:numOfNodes>
+  </rdf:Description>
     ``` 
-    * `clusteringOutput.csv`: contains the clustering results for the BostonHourse dataset in the following format: 
+    * `Input/clusteringOutput.csv`: contains the clustering results for the BostonHourse dataset in the following format: 
     ```
-    EntityID ClusterID
-    <Event_1> <Cluster_0>
-    <Event_2> <Cluster_0>
-    <Event_3> <Cluster_1>
+    patient cluster
+    r0srju cluster-1
+    431kz1 cluster-2
+    xi0aej cluster-1
+    u65736 cluster-1
+    sozm8t cluster-2
+    09ey1n cluster-2
+    6n456m cluster-2
+    4hutyt cluster-2
+    kvxujq cluster-1
+    zv68br cluster-1
+    mtigwr cluster-2
     ```
-<b> To process this data and load into LabENT demo, simply run:</b> `sh scripts.sh`
+<b> To process this data and load into LabENT demo, simply run:</b> `sh script-lymphograph.sh`
 
 * <b>Annotate Button</b>: once the user click on, it presents the data (clusterID, set of triples) for labelling. The user should add the label in the last column in the presented table. Then, click on <i>Submit</i> button to save the data.
 
