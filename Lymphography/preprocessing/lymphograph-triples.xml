@@ -1,0 +1,2967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xml:base="http://www.daikiri.cc/lymphography#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schm="http://www.daikiri.cc/lymphography#"
+>
+  <rdf:Description rdf:about="2l4a3q">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="h98sw2">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ueb1aq">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="iqwa22">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="vqhgpr">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="3104j6">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="oaqw82">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="z9cqob">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ldtxrt">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s70gjk">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="p5ewis">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r5xlro">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="rs5xyx">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4rszbo">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="jvz69o">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="x7d6sl">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="b6qdr5">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r5dbcf">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="zj2mdb">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="x87wkc">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="a3lg4e">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r3zr1u">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="m1o7gm">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="cc3orn">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="t67n6u">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="0jy2x0">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="eyvn8r">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="9vtwzy">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4p3e6e">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="oonz35">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="mt6vm5">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="2e25rv">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="niafva">
+    <schm:lymphatics>normal</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>no</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>no</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="b3zdi0">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="0msdqp">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="u65736">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="rp2qof">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ap3d87">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="37nsjk">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="tubdv9">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="q1hdp8">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="co8cfw">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="apepur">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ldlql5">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="8eii6v">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="sozm8t">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="lpmjtm">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="udgszd">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="zv68br">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="istkca">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="d4p9zi">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="rvxn3j">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="nle04f">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="fmmv13">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="pxr0t2">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="oxq31e">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="0se3oh">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="kfl36r">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="7v9z5i">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="xt2trn">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="q4ah74">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4p1wm6">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="tqcv33">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="xi0aej">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="c397l4">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="k0k17m">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="zvowjx">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="pnxi3u">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>no</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="o637cl">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="bul981">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="a3kveh">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="x3cz2h">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="5siybx">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ac5sr7">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="l4s4zf">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="jdcxvz">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="dex47r">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4hutyt">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>no</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="52a1bv">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r0srju">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ctqfsh">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="wil3t8">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="e9r86z">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="i7jm5o">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="t9agez">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="u8rp2r">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="n415pz">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="9wm6jn">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="i5a4rb">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="iq1g4d">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="et6r37">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r6nxpl">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="u14mox">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="p1l2o9">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="6c3pas">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="9shta1">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="qi0spe">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="7z4zzq">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="d7utst">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="jk8lbd">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>bean</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="s95u5e">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="xql5ex">
+    <schm:lymphatics>normal</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>no</schm:defectInNode>
+    <schm:changesInNode>no</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="bf28z5">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="8xfiqk">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="09ey1n">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>reticular</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="5fywjn">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="kcihhq">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="11z1wl">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="8ef3fk">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="vjb7qf">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="u11t9k">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="qqup1e">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="6n456m">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="nfqjq7">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="a0icbg">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="yacde1">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="d57nn3">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="1xtbt3">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ia6ew2">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="qlggwo">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>yes</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>stripped</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="2szhp9">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4y18vf">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="n4mka4">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="fi0t5v">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="e3gpc3">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="l3rnyp">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="zwlxct">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ggsk40">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="f5wcxd">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="jrzqgp">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="431kz1">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="jlzu80">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>drop-like</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="uf2jru">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="8w4xac">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>grainy</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="o7iat6">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="kvxujq">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="eqv3ow">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>reticular</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="cada59">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="4xfvpb">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>no</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>coarse</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="zscfz0">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="tczzfv">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="pwl2l8">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lacunar</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>no</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="c7vuk5">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="r7bpy8">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lacunar</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>chalices</schm:specialForms>
+    <schm:dislocationOf>no</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="ndcl7m">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>faint</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="8mx74f">
+    <schm:lymphatics>deformed</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>no</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</schm:lymNodesEnlar>
+    <schm:changesInLym>round</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="mtigwr">
+    <schm:lymphatics>arched</schm:lymphatics>
+    <schm:blockOfAffere>yes</schm:blockOfAffere>
+    <schm:blockOfLymphC>yes</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>yes</schm:extravasates>
+    <schm:regenerationOF>no</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. central</schm:defectInNode>
+    <schm:changesInNode>lac. margin</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>no</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:numOfNodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="enk0zg">
+    <schm:lymphatics>displaced</schm:lymphatics>
+    <schm:blockOfAffere>no</schm:blockOfAffere>
+    <schm:blockOfLymphC>no</schm:blockOfLymphC>
+    <schm:BlockOfLymphS>no</schm:BlockOfLymphS>
+    <schm:ByPass>yes</schm:ByPass>
+    <schm:extravasates>no</schm:extravasates>
+    <schm:regenerationOF>yes</schm:regenerationOF>
+    <schm:earlyUptakeIn>yes</schm:earlyUptakeIn>
+    <schm:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</schm:lymNodesdimin>
+    <schm:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</schm:lymNodesEnlar>
+    <schm:changesInLym>oval</schm:changesInLym>
+    <schm:defectInNode>lac. marginal</schm:defectInNode>
+    <schm:changesInNode>lac. central</schm:changesInNode>
+    <schm:changesInstru>diluted</schm:changesInstru>
+    <schm:specialForms>vesicles</schm:specialForms>
+    <schm:dislocationOf>yes</schm:dislocationOf>
+    <schm:exclusionOfNo>yes</schm:exclusionOfNo>
+    <schm:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</schm:numOfNodes>
+  </rdf:Description>
+</rdf:RDF>

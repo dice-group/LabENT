@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +7,10 @@
 * {box-sizing: border-box;}
 
 body { 
-width: 800px;
+width: 1000px;
 margin: auto;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Arial;
+font-size: 14px;
 }
 
 .div-border {
@@ -17,8 +19,9 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   overflow: hidden;
-  background-color: ##FFFFFF;
-width: 655px;
+background-color: #FFFFFF;
+width: 1000px;
+font-size: 14px;
 padding-top: 50px;
 }
 
@@ -28,7 +31,7 @@ padding-top: 50px;
   text-align: right;
   padding: 12px;
   text-decoration: none;
-  font-size: 14px; 
+  font-size: 13px; 
   line-height: 15px;
   border-radius: 4px;
 }
@@ -51,18 +54,23 @@ padding-top: 50px;
 
 .header-right {
   float: right;
+  padding-top: 30px;
   padding: auto;
+  width: auto;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header-left {
-	width: 100px;
+ width: 120px;
   float: left;
-  font-size: 14px;
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   padding: auto;
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .header a {
     float: none;
     display: block;
@@ -80,26 +88,26 @@ padding-top: 50px;
 		
 	<div class="header-left">
 		<img src="http://localhost:8000/wp-content/uploads/2022/01/DAIKIRI_Logo_final.png" class="header-left">	</div>
-		<div class="header-right">
+		<div class="header-right" style="font-size: 14px;">
 		  <a class="active" href="http://localhost:8000/">Home</a>
 		  <a href="http://localhost:8000/?page_id=570">Task Panel</a>
 		  <a href="http://localhost:8000/?page_id=177">About</a>
 		</div>
 	  </div>
 	  
-	  <div style="padding-left:5px">
+	  <div style="font-size:14px; padding-left:5px">
 		<br><br>
-		<b>Axiom Generation for Semantification Workpackage</b>
+		<b>Ontology Learning for DAIKIRI-WP3</b>
 
 		<p>
-			Please select two input csv files to upload together: 1) file of labeled_data 2) file of clustering results. 
-			<br>After, the files are uploaded successfully, you can download if from Step 2.
+			Please select two input csv files to upload together: <i>i) file of labeled_data ii) file of clustering results.</i> 
+			After, the files are uploaded successfully, you can download if from Step 2.
 		</p>
 	</div>
 
 	<br> 
-<div class="div-border">
-	<b>1. Select a csv file to upload: </b>
+<div class="div-border" style="font-size: 14px;">
+	<b>Step 1: Select a csv file to upload: </b>
 	<p>
 		{% with messages = get_flashed_messages() %}
 		  {% if messages %}
@@ -112,20 +120,20 @@ padding-top: 50px;
 		{% endwith %}
 	</p>
 	<form method="post" action="/" enctype="multipart/form-data">
-			<input type="file" name="files[]" multiple="true" autocomplete="off" required>
+			<input type="file" name="files[]" multiple="true" style=" font-size: 14px;" autocomplete="off" required>
 		
-			<input type="submit" value="Submit">
+			<input type="submit"  style=" font-size: 14px;" value="Submit">
 	</form>
 
 </div>
 
 <br> <br> 
-<div class="div-border">
+<div class="div-border" style="font-size:14px;">
 	<p> 
-		<b>2. Download the semantification ontology from here:</b>
+		<b>Step 2: Download the semantification ontology from here:</b>
 	</p>
 	<form action="/download" method="post">
-		<button name="Download" type="submit">Download Ontology</button>
+		<button name="Download" type="submit"  style=" font-size: 14px;">Download Ontology</button>
 	</form>
 
 </div>

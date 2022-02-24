@@ -26,6 +26,7 @@
 
 <Malign-Lymph rdf:about="#r0srju">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#431kz1">
@@ -34,10 +35,12 @@
 
 <Malign-Lymph rdf:about="#xi0aej">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#u65736">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#sozm8t">
@@ -58,10 +61,12 @@
 
 <Malign-Lymph rdf:about="#kvxujq">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#zv68br">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#mtigwr">
@@ -78,6 +83,7 @@
 
 <Malign-Lymph rdf:about="#t9agez">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Fibrosis rdf:about="#jk8lbd">
@@ -106,10 +112,12 @@
 
 <Malign-Lymph rdf:about="#r6nxpl">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#apepur">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#istkca">
@@ -122,18 +130,22 @@
 
 <Malign-Lymph rdf:about="#l4s4zf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#t67n6u">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#mt6vm5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#p5ewis">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#m1o7gm">
@@ -142,14 +154,17 @@
 
 <Malign-Lymph rdf:about="#oaqw82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#52a1bv">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#z9cqob">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#fmmv13">
@@ -174,22 +189,27 @@
 
 <Malign-Lymph rdf:about="#u14mox">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#k0k17m">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#rs5xyx">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#oonz35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#fi0t5v">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#n4mka4">
@@ -206,6 +226,7 @@
 
 <Malign-Lymph rdf:about="#n415pz">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#jdcxvz">
@@ -230,6 +251,7 @@
 
 <Malign-Lymph rdf:about="#eyvn8r">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#zj2mdb">
@@ -246,10 +268,12 @@
 
 <Malign-Lymph rdf:about="#7z4zzq">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#a3kveh">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#6c3pas">
@@ -258,6 +282,7 @@
 
 <Malign-Lymph rdf:about="#qlggwo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#u8rp2r">
@@ -266,6 +291,7 @@
 
 <Malign-Lymph rdf:about="#nle04f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#ggsk40">
@@ -274,6 +300,7 @@
 
 <Malign-Lymph rdf:about="#rvxn3j">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#bf28z5">
@@ -286,10 +313,12 @@
 
 <Malign-Lymph rdf:about="#enk0zg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#8eii6v">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#d4p9zi">
@@ -298,10 +327,12 @@
 
 <Malign-Lymph rdf:about="#9wm6jn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#eqv3ow">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#x7d6sl">
@@ -310,6 +341,7 @@
 
 <Malign-Lymph rdf:about="#l3rnyp">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#8ef3fk">
@@ -318,10 +350,12 @@
 
 <Malign-Lymph rdf:about="#8mx74f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#ueb1aq">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#ldtxrt">
@@ -342,10 +376,12 @@
 
 <Malign-Lymph rdf:about="#r5dbcf">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#ndcl7m">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#u11t9k">
@@ -354,14 +390,17 @@
 
 <Malign-Lymph rdf:about="#vqhgpr">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#s95u5e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#c7vuk5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#nfqjq7">
@@ -378,6 +417,7 @@
 
 <Malign-Lymph rdf:about="#0jy2x0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#ap3d87">
@@ -386,6 +426,7 @@
 
 <Malign-Lymph rdf:about="#4rszbo">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#3104j6">
@@ -402,10 +443,12 @@
 
 <Malign-Lymph rdf:about="#5fywjn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#4p3e6e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#ia6ew2">
@@ -426,6 +469,7 @@
 
 <Malign-Lymph rdf:about="#zscfz0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#9vtwzy">
@@ -446,6 +490,7 @@
 
 <Malign-Lymph rdf:about="#7v9z5i">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#rp2qof">
@@ -454,6 +499,7 @@
 
 <Malign-Lymph rdf:about="#kcihhq">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#c397l4">
@@ -470,6 +516,7 @@
 
 <Malign-Lymph rdf:about="#1xtbt3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#tubdv9">
@@ -478,18 +525,22 @@
 
 <Malign-Lymph rdf:about="#37nsjk">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#i5a4rb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#dex47r">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#tqcv33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#co8cfw">
@@ -498,10 +549,12 @@
 
 <Malign-Lymph rdf:about="#x3cz2h">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#b3zdi0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#a3lg4e">
@@ -526,6 +579,7 @@
 
 <Malign-Lymph rdf:about="#f5wcxd">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#h98sw2">
@@ -538,6 +592,7 @@
 
 <Malign-Lymph rdf:about="#e9r86z">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#zwlxct">
@@ -550,10 +605,12 @@
 
 <Malign-Lymph rdf:about="#i7jm5o">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Malign-Lymph rdf:about="#oxq31e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#tczzfv">
@@ -574,6 +631,7 @@
 
 <Malign-Lymph rdf:about="#r5xlro">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#pxr0t2">
@@ -590,6 +648,7 @@
 
 <Malign-Lymph rdf:about="#xt2trn">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#cc3orn">
@@ -598,6 +657,7 @@
 
 <Malign-Lymph rdf:about="#ctqfsh">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#pnxi3u">
@@ -606,6 +666,7 @@
 
 <Malign-Lymph rdf:about="#b6qdr5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Normal"/>
 </Malign-Lymph>
 
 <Metastases rdf:about="#8w4xac">

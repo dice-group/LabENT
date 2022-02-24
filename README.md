@@ -22,31 +22,22 @@ If you are using Docker Desktop for Mac, Linux or Windows, you can use in a web 
 ---
 ## DAIKIRI Panel: How it works:
 
-* <b>Load Data</b>:  `Lymphography` contains a case study from BostonHouses dataset, in particular:
-    * `preprocessing/lymphograph-triples.rdf`: contains RDF triples in the following format: 
-    ```
-  <rdf:Description rdf:about="http://example.org/people/8ef3fk">
-    <ns1:exclusionOfNo>yes</ns1:exclusionOfNo>
-    <ns1:dislocationOf>yes</ns1:dislocationOf>
-    <ns1:lymphatics>displaced</ns1:lymphatics>
-    <ns1:blockOfLymphC>no</ns1:blockOfLymphC>
-    <ns1:blockOfAffere>yes</ns1:blockOfAffere>
-    <ns1:BlockOfLymphS>no</ns1:BlockOfLymphS>
-    <ns1:ByPass>yes</ns1:ByPass>
-    <ns1:extravasates>yes</ns1:extravasates>
-    <ns1:regenerationOF>no</ns1:regenerationOF>
-    <ns1:earlyUptakeIn>no</ns1:earlyUptakeIn>
-    <ns1:changesInLym>round</ns1:changesInLym>
-    <ns1:defectInNode>lac. marginal</ns1:defectInNode>
-    <ns1:changesInNode>lac. margin</ns1:changesInNode>
-    <ns1:changesInstru>drop-like</ns1:changesInstru>
-    <ns1:specialForms>vesicles</ns1:specialForms>
-    <ns1:lymNodesEnlar rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:lymNodesEnlar>
-    <ns1:lymNodesdimin rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:lymNodesdimin>
-    <ns1:numOfNodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:numOfNodes>
-  </rdf:Description>
-    ``` 
-    * `Input/clusteringOutput.csv`: contains the clustering results for the BostonHourse dataset in the following format: 
+* <b>Load Data</b>:  `Lymphography` contains a case study from Lymphography dataset, in particular:
+    * `preprocessing/lymphograph-triples.rdf`: contains RDF triples (nt format) in the following format: 
+  ```
+  <4hutyt> <http://www.daikiri.cc/lymphography#defectInNode> "lacunar" .
+  <n4mka4> <http://www.daikiri.cc/lymphography#regenerationOF> "no" .
+  <431kz1> <http://www.daikiri.cc/lymphography#exclusionOfNo> "yes" .
+  <jdcxvz> <http://www.daikiri.cc/lymphography#dislocationOf> "no" .
+  <a3kveh> <http://www.daikiri.cc/lymphography#earlyUptakeIn> "yes" .
+  <8eii6v> <http://www.daikiri.cc/lymphography#earlyUptakeIn> "yes" .
+  <i7jm5o> <http://www.daikiri.cc/lymphography#blockOfAffere> "yes" .
+  <xql5ex> <http://www.daikiri.cc/lymphography#blockOfLymphC> "no" .
+  <ia6ew2> <http://www.daikiri.cc/lymphography#BlockOfLymphS> "no" .
+  <qlggwo> <http://www.daikiri.cc/lymphography#changesInstru> "stripped" .
+  <5fywjn> <http://www.daikiri.cc/lymphography#ByPass> "no" .
+  ``` 
+    * `Input/clusteringOutput.csv`: contains the clustering results for the Lymphography dataset in the following format: 
     ```
     patient cluster
     r0srju cluster-1

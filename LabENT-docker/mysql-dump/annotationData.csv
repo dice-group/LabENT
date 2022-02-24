@@ -1,77 +1,77 @@
-cluster-1,"&lt;rdf:Description rdf:about=""http://example.org/people/r6nxpl""&gt;
-    &lt;ns1:exclusionOfNo&gt;yes&lt;/ns1:exclusionOfNo&gt;
-    &lt;ns1:dislocationOf&gt;yes&lt;/ns1:dislocationOf&gt;
-    &lt;ns1:lymphatics&gt;deformed&lt;/ns1:lymphatics&gt;
-    &lt;ns1:blockOfLymphC&gt;no&lt;/ns1:blockOfLymphC&gt;
-    &lt;ns1:blockOfAffere&gt;no&lt;/ns1:blockOfAffere&gt;
-    &lt;ns1:BlockOfLymphS&gt;no&lt;/ns1:BlockOfLymphS&gt;
-    &lt;ns1:ByPass&gt;no&lt;/ns1:ByPass&gt;
-    &lt;ns1:extravasates&gt;no&lt;/ns1:extravasates&gt;
-    &lt;ns1:regenerationOF&gt;no&lt;/ns1:regenerationOF&gt;
-    &lt;ns1:earlyUptakeIn&gt;yes&lt;/ns1:earlyUptakeIn&gt;
-    &lt;ns1:changesInLym&gt;oval&lt;/ns1:changesInLym&gt;
-    &lt;ns1:defectInNode&gt;lac. central&lt;/ns1:defectInNode&gt;
-    &lt;ns1:changesInNode&gt;lacunar&lt;/ns1:changesInNode&gt;
-    &lt;ns1:changesInstru&gt;coarse&lt;/ns1:changesInstru&gt;
-    &lt;ns1:specialForms&gt;vesicles&lt;/ns1:specialForms&gt;
-    &lt;ns1:lymNodesEnlar rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;2&lt;/ns1:lymNodesEnlar&gt;
-    &lt;ns1:lymNodesdimin rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;1&lt;/ns1:lymNodesdimin&gt;
-    &lt;ns1:numOfNodes rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;3&lt;/ns1:numOfNodes&gt;
-  &lt;/rdf:Description&gt;", ||cluster-2,"&lt;rdf:Description rdf:about=http://example.org/people/bf28z5""&gt;
-    &lt;ns1:exclusionOfNo&gt;no&lt;/ns1:exclusionOfNo&gt;
-    &lt;ns1:dislocationOf&gt;no&lt;/ns1:dislocationOf&gt;
-    &lt;ns1:lymphatics&gt;displaced&lt;/ns1:lymphatics&gt;
-    &lt;ns1:blockOfLymphC&gt;no&lt;/ns1:blockOfLymphC&gt;
-    &lt;ns1:blockOfAffere&gt;yes&lt;/ns1:blockOfAffere&gt;
-    &lt;ns1:BlockOfLymphS&gt;no&lt;/ns1:BlockOfLymphS&gt;
-    &lt;ns1:ByPass&gt;no&lt;/ns1:ByPass&gt;
-    &lt;ns1:extravasates&gt;yes&lt;/ns1:extravasates&gt;
-    &lt;ns1:regenerationOF&gt;no&lt;/ns1:regenerationOF&gt;
-    &lt;ns1:earlyUptakeIn&gt;no&lt;/ns1:earlyUptakeIn&gt;
-    &lt;ns1:changesInLym&gt;round&lt;/ns1:changesInLym&gt;
-    &lt;ns1:defectInNode&gt;lacunar&lt;/ns1:defectInNode&gt;
-    &lt;ns1:changesInNode&gt;lac. margin&lt;/ns1:changesInNode&gt;
-    &lt;ns1:changesInstru&gt;grainy&lt;/ns1:changesInstru&gt;
-    &lt;ns1:specialForms&gt;chalices&lt;/ns1:specialForms&gt;
-    &lt;ns1:lymNodesEnlar rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;2&lt;/ns1:lymNodesEnlar&gt;
-    &lt;ns1:lymNodesdimin rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;1&lt;/ns1:lymNodesdimin&gt;
-    &lt;ns1:numOfNodes rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;1&lt;/ns1:numOfNodes&gt;
-  &lt;/rdf:Description&gt;", ||cluster-3,"&lt;rdf:Description rdf:about=http://example.org/people/iq1g4d""&gt;
-    &lt;ns1:exclusionOfNo&gt;no&lt;/ns1:exclusionOfNo&gt;
-    &lt;ns1:dislocationOf&gt;no&lt;/ns1:dislocationOf&gt;
-    &lt;ns1:lymphatics&gt;deformed&lt;/ns1:lymphatics&gt;
-    &lt;ns1:blockOfLymphC&gt;no&lt;/ns1:blockOfLymphC&gt;
-    &lt;ns1:blockOfAffere&gt;no&lt;/ns1:blockOfAffere&gt;
-    &lt;ns1:BlockOfLymphS&gt;no&lt;/ns1:BlockOfLymphS&gt;
-    &lt;ns1:ByPass&gt;yes&lt;/ns1:ByPass&gt;
-    &lt;ns1:extravasates&gt;yes&lt;/ns1:extravasates&gt;
-    &lt;ns1:regenerationOF&gt;yes&lt;/ns1:regenerationOF&gt;
-    &lt;ns1:earlyUptakeIn&gt;no&lt;/ns1:earlyUptakeIn&gt;
-    &lt;ns1:changesInLym&gt;bean&lt;/ns1:changesInLym&gt;
-    &lt;ns1:defectInNode&gt;lacunar&lt;/ns1:defectInNode&gt;
-    &lt;ns1:changesInNode&gt;no&lt;/ns1:changesInNode&gt;
-    &lt;ns1:changesInstru&gt;diluted&lt;/ns1:changesInstru&gt;
-    &lt;ns1:specialForms&gt;vesicles&lt;/ns1:specialForms&gt;
-    &lt;ns1:lymNodesEnlar rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;1&lt;/ns1:lymNodesEnlar&gt;
-    &lt;ns1:lymNodesdimin rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;3&lt;/ns1:lymNodesdimin&gt;
-    &lt;ns1:numOfNodes rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;7&lt;/ns1:numOfNodes&gt;
-  &lt;/rdf:Description&gt;", ||cluster-4,"&lt;rdf:Description rdf:about=http://example.org/people/xql5ex""&gt;
-    &lt;ns1:exclusionOfNo&gt;no&lt;/ns1:exclusionOfNo&gt;
-    &lt;ns1:dislocationOf&gt;no&lt;/ns1:dislocationOf&gt;
-    &lt;ns1:lymphatics&gt;normal&lt;/ns1:lymphatics&gt;
-    &lt;ns1:blockOfLymphC&gt;no&lt;/ns1:blockOfLymphC&gt;
-    &lt;ns1:blockOfAffere&gt;no&lt;/ns1:blockOfAffere&gt;
-    &lt;ns1:BlockOfLymphS&gt;no&lt;/ns1:BlockOfLymphS&gt;
-    &lt;ns1:ByPass&gt;no&lt;/ns1:ByPass&gt;
-    &lt;ns1:extravasates&gt;yes&lt;/ns1:extravasates&gt;
-    &lt;ns1:regenerationOF&gt;no&lt;/ns1:regenerationOF&gt;
-    &lt;ns1:earlyUptakeIn&gt;yes&lt;/ns1:earlyUptakeIn&gt;
-    &lt;ns1:changesInLym&gt;oval&lt;/ns1:changesInLym&gt;
-    &lt;ns1:defectInNode&gt;no&lt;/ns1:defectInNode&gt;
-    &lt;ns1:changesInNode&gt;no&lt;/ns1:changesInNode&gt;
-    &lt;ns1:changesInstru&gt;grainy&lt;/ns1:changesInstru&gt;
-    &lt;ns1:specialForms&gt;no&lt;/ns1:specialForms&gt;
-    &lt;ns1:lymNodesEnlar rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;2&lt;/ns1:lymNodesEnlar&gt;
-    &lt;ns1:lymNodesdimin rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;1&lt;/ns1:lymNodesdimin&gt;
-    &lt;ns1:numOfNodes rdf:datatype=""http://www.w3.org/2001/XMLSchema#integer""&gt;2&lt;/ns1:numOfNodes&gt;
-  &lt;/rdf:Description&gt;",||
+cluster-1,"&lt;4hutyt&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lacunar"" <br> 
+&lt;n4mka4&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#regenerationOF&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;431kz1&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;jdcxvz&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;a3kveh&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;8eii6v&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;i7jm5o&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfAffere&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;xql5ex&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfLymphC&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;ia6ew2&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#BlockOfLymphS&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;qlggwo&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInstru&gt;&nbsp;&nbsp; ""stripped"" <br> 
+&lt;5fywjn&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#ByPass&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;4y18vf&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfLymphC&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;kcihhq&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lac. central"" <br> 
+&lt;jrzqgp&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lac. margin"" <br> 
+&lt;11z1wl&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""round"" <br> 
+&lt;xql5ex&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""oval"" <br> 
+&lt;oonz35&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInstru&gt;&nbsp;&nbsp; ""drop-like"" <br> 
+&lt;d4p9zi&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#lymphatics&gt;&nbsp;&nbsp; ""deformed"" <br> 
+&lt;37nsjk&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;oonz35&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#regenerationOF&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;5siybx&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#lymphatics&gt;&nbsp;&nbsp; ""arched"" <br> 
+&lt;o637cl&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lacunar"" <br> ",||cluster-2,"&lt;kcihhq&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""round"" <br> 
+&lt;d7utst&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#BlockOfLymphS&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;zwlxct&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;q4ah74&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;0msdqp&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#specialForms&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;o7iat6&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;b6qdr5&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;2e25rv&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""round"" <br> 
+&lt;tqcv33&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;r5dbcf&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lacunar"" <br> 
+&lt;2l4a3q&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;yacde1&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;eyvn8r&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#lymphatics&gt;&nbsp;&nbsp; ""deformed"" <br> 
+&lt;e9r86z&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfAffere&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;zwlxct&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#lymphatics&gt;&nbsp;&nbsp; ""deformed"" <br> 
+&lt;nle04f&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;4p3e6e&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> ",||cluster-3,"&lt;9vtwzy&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;0se3oh&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lac. marginal"" <br> 
+&lt;zwlxct&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lac. margin"" <br> 
+&lt;oxq31e&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;k0k17m&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;p5ewis&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;jlzu80&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#regenerationOF&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;ldtxrt&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;zv68br&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lac. marginal"" <br> 
+&lt;ia6ew2&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#regenerationOF&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;jk8lbd&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#BlockOfLymphS&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;yacde1&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lac. marginal"" <br> 
+&lt;pwl2l8&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;e9r86z&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#BlockOfLymphS&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;fi0t5v&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInstru&gt;&nbsp;&nbsp; ""coarse"" <br> 
+&lt;zj2mdb&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#specialForms&gt;&nbsp;&nbsp; ""chalices"" <br> 
+&lt;qqup1e&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;0se3oh&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfLymphC&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;x87wkc&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#ByPass&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;2szhp9&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;tczzfv&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#specialForms&gt;&nbsp;&nbsp; ""chalices"" <br> ",||cluster-4,"&lt;x7d6sl&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;o637cl&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;apepur&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""round"" <br> 
+&lt;2e25rv&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#defectInNode&gt;&nbsp;&nbsp; ""lac. marginal"" <br> 
+&lt;r6nxpl&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lacunar"" <br> 
+&lt;oaqw82&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;4hutyt&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInNode&gt;&nbsp;&nbsp; ""lacunar"" <br> 
+&lt;vqhgpr&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#exclusionOfNo&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;7z4zzq&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#ByPass&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;niafva&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInLym&gt;&nbsp;&nbsp; ""bean"" <br> 
+&lt;t67n6u&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#lymphatics&gt;&nbsp;&nbsp; ""deformed"" <br> 
+&lt;431kz1&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#specialForms&gt;&nbsp;&nbsp; ""chalices"" <br> 
+&lt;yacde1&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#ByPass&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;r7bpy8&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#changesInstru&gt;&nbsp;&nbsp; ""faint"" <br> 
+&lt;cada59&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfAffere&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;c7vuk5&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#earlyUptakeIn&gt;&nbsp;&nbsp; ""yes"" <br> 
+&lt;5siybx&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#dislocationOf&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;r0srju&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#extravasates&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;z9cqob&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfAffere&gt;&nbsp;&nbsp; ""no"" <br> 
+&lt;8ef3fk&gt;&nbsp;&nbsp; &lt;http://www.daikiri.cc/lymphography#blockOfLymphC&gt;&nbsp;&nbsp; ""no"" <br> ",||
