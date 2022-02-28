@@ -1,5 +1,5 @@
 python3 Lymphography/preprocessing/preprocessing.py
-mv Lymphography/preprocessing/annotationData.csv labENT-docker/mysql-dump/annotationData.csv
+mv Lymphography/preprocessing/annotationData.csv LabENT-docker/mysql-dump/annotationData.csv
 
 # send data to LabENT demo
 cd LabENT-docker/mysql-dump
