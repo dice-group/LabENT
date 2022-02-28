@@ -3,4 +3,5 @@ mv Lymphography/preprocessing/annotationData.csv LabENT-docker/mysql-dump/annota
 
 # send data to LabENT demo
 cd LabENT-docker/mysql-dump
-cat datadump.sql | docker exec -i labent-docker-db-1 mysql --host 0.0.0.0 --port 3306 -uroot -pwordpress wordpress
+cat datadump.sql | docker exec -i labent-docker_db_1 mysql --host 0.0.0.0 --port 3306 -uroot -pwordpress wordpress
+
