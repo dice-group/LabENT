@@ -9,10 +9,17 @@ This project employs a web application (dubb LabENT) for labelling entities in k
 <p align="center">A Screenshoot of LabENT v.1</p>
 
 ---
+## Additional Steps for Linux OS: 
+First,`git clone https://github.com/dice-group/LabENT.git ` , then you need to change read/write permission of wordpress direction as follows: 
+
+ `cd LabeENT/LabENT-docker`
+`chown -R www-data:www-data wp-content/`
+
+
 ## Docker:
 > ### Build from docker-compose (recommended)
 Probably the easiest way to get started is by using the provided Docker image. From the project's root directory, the image can be built like so:
-* `cd labENT-docker`
+* `cd LabeENT/LabENT-docker`
 
 Now the docker compose to build the LabENT project. This might takes few minutes to install and configure components: wordpress, PHP, and MySQL.
 * `docker-compose up -d --build` 
