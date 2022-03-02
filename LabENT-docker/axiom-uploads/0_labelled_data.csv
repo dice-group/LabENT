@@ -1,0 +1,5 @@
+ClusterID,Types
+cluster-0,Normal
+cluster-1,Fibrosis
+cluster-2,Metastases
+cluster-3,Malign-Lymph

@@ -10,6 +10,7 @@ services:
       - './axiom-uploads:/axiom-generator/uploads'
       
   db:
+    container_name: labent-docker_db_1
     image: 'mysql:5.7'
     platform: linux/amd64
     volumes:

@@ -27,7 +27,7 @@ class RDFConverter:
 
             
         #write attempt
-        g.serialize('Lymphography/preprocessing/lymphograph-triples.nt', format='nt')
+        g.serialize('Lymphography/preprocessing/lymphograph-triples.nt', format='ntriples')
         g.serialize('Lymphography/preprocessing/lymphograph-triples.xml', format='xml')
 
 
