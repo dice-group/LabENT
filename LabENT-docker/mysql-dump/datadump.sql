@@ -3,6 +3,8 @@ CREATE TABLE IF NOT EXISTS wordpress.dummy (
 `Triples` TEXT NOT NULL, 
 `Types` VARCHAR(50)) ENGINE=myISAM;
 
+DROP TABLE IF EXISTS wordpress.annotationData;
+
 RENAME TABLE wordpress.dummy TO wordpress.annotationData;
 
 DELETE FROM wordpress.annotationData;
